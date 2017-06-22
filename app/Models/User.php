@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'first_name', 'last_name', 'email', 'password', 'user_role_id',
     ];
 
     /**
@@ -26,4 +26,19 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function role()
+    {
+        return $this->belongsTo('App\Models\UserRole', 'user_role_id');
+    }
+
+    public function runningLogs()
+    {
+        return $this->hasMany('App\Models\RunningLog');
+    }
+
+    public function log(RunningLog $runningLog)
+    {
+        $this->runningLogs()->save($runningLog);
+    }
 }
