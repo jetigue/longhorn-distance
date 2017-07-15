@@ -2,7 +2,7 @@
   <div class="container is-fluid level">
     <div class="level-left">
 
-    <div class="level-item" id="logo-container"><a href="{{url('/')}}</a></div>
+    <div class="level-item" id="logo-container"><a href="{{url('/')}}"></a></div>
 
     <p class="level-item">
       <a class="link">Lambert River Run</a>

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Auth;
 use DB;
 use carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -57,9 +58,15 @@ class RunningLog extends Model
 		return $this->belongsTo('App\Models\User', 'user_id');
 	}
 
-
+	// *
+	// * A RunningLog is owned by a user.
+	// *
+	// * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
 	
-
+	// public function owner()
+	// {
+	// 	return $this->belongsTo('App\Models\User', 'user_id');
+	// }
 
 /************************************************** 
 DEFINE ACCESSORS AND MUTATORS
@@ -122,5 +129,48 @@ DEFINE ACCESSORS AND MUTATORS
 		return($seconds);
 	}
 
+/**************************************************
+DEFINE SCOPES
+**************************************************/
+
+    /**
+     * Scope a query to only include cuurent user.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeCurrentUser($query)
+    {
+        return $query->where('user_id', Auth::user()->id);
+    }
+
+
+
+    /**
+     * Scope a query to only include summer mileage.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeSummerMileage($query)
+    {
+        return $query->where('run_date', '>=', '2017-05-14');
+    }
+
+    /**
+     * Scope a query to only include mileage this week.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeThisWeek($query)
+    {
+    	$start = Carbon::now()->startOfWeek()->subDay();
+		$end = Carbon::now()->endOfWeek()->subDay();
+
+        return $query
+        	->where('run_date', '>=', $start)
+        	->where('run_date', '<=', $end);
+    }
 
 }

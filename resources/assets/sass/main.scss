@@ -9,6 +9,7 @@ $red: #ff0000;
 
 $primary: $crimson;
 $primary-invert: $crimson-invert;
+$light: #fafafa;
 
 @import "node_modules/bulma/bulma";
 
@@ -42,6 +43,37 @@ body {
 	background: #fafafa;
 }
 
+/*
+|--------------------------------------------------------------------------
+| navbar
+|--------------------------------------------------------------------------
+*/
+
+#navbar {
+	background: #fafafa;
+	height: 60px;
+	padding: 0 10px;
+}
+
+.navbar-item {
+	color: #999;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.nav-heading a:hover {
+	color: #fff;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| page header
+|--------------------------------------------------------------------------
+*/
+
+
 .hero {
 	background: #73000A;
 }
@@ -60,9 +92,25 @@ body {
 .menu-container {
 	padding: 0;
 	margin-top: 10px;
-
-
 }
+
+.announcements h2 {
+	color: #444;
+}
+
+.announcements h4 {
+	font-weight: 500;
+	color: #73000A;
+	padding: 0;
+	margin: 0;
+}
+
+.announcements p {
+	padding-left: 10px;
+	font-weight: 400;
+	color: #000;
+}
+
 
 .user-box {
 	margin-top: 10px;
@@ -98,6 +146,28 @@ body {
     background: -moz-linear-gradient(right, #73000A, white); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #73000A , white); /* Standard syntax */
 }
+
+
+.event-title {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.event-detail-row *{
+	padding: 2px 5px;
+	margin: 0;
+}
+
+.event-detail-label {
+	font-weight: 500;
+	color: #73000a;
+
+}
+
+.event-detail-output {
+	font-weight: 500;
+	color: #000;
+}
+
 
 #running-log-card{
 	border: solid thin #73000A;
@@ -150,22 +220,12 @@ input[type="checkbox"] {
 	color: #b3b3ff;
 }
 
-#guest-navbar {
-	background: black;
-	height: 60px;
-	padding: 0 10px;
-}
 
-#user-navbar {
-	background: black;
-	height: 60px;
-	padding: 0 10px;
-}
 
 #logo-container {
 	height: 60px;
 	width: 280px;
-	background: url('/images/logo.svg');
+	background: url('/images/logo_on_white.svg');
 	background-position: center center;
 	background-repeat: no-repeat;
     background-size: contain;
@@ -181,15 +241,4 @@ input[type="checkbox"] {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.nav a {
-	color: #999999;
-	margin: 0 10px;
-	font-size: 1.1em;
-}
-
-#dropdown-navbar {
-	background: gray;
-	height: 60px;
 }

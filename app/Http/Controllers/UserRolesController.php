@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class UserRolesController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -100,8 +106,13 @@ class UserRolesController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(UserRole $userRole)
-    {
+    { 
+
         $userRole->delete();
+
+        session()->flash(
+            'message', 'The User Role Has Been Deleted'
+        );
 
         return redirect('/admin/users/user_roles');
     }

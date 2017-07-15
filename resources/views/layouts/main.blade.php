@@ -1,7 +1,7 @@
 @include('layouts.header')
 
 
-@include('layouts.navbar')
+@include('layouts.navbars.test')
 
 @if ($flash = session('message'))
 	<div role="alert" id="flash-message">

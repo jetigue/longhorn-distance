@@ -19,5 +19,8 @@ class DatabaseSeeder extends Seeder
         $this->call(RunTypesTableSeeder::class);
         $this->call(TerrainTypesTableSeeder::class);
         $this->call(RunningLogsTableSeeder::class);
+        $this->call(TeamAnnouncementsTableSeeder::class);
+        $this->call(TeamEventsTableSeeder::class);
+        
     }
 }

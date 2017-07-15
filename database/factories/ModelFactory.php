@@ -101,3 +101,24 @@ $factory->define(App\Models\RunningLog::class, function (Faker\Generator $faker)
         'notes'            => $faker->paragraph($nbSentences = 3, $variableNbSentences = true),
     ];
 });
+
+$factory->define(App\Models\TeamAnnouncement::class, function (Faker\Generator $faker) {
+    
+    return [
+        'begin_date' => $faker->date,
+        'end_date' => $faker->date,
+        'title' => $faker->sentence($nbWords = 4, $variableNbWords = true),
+        'body'  => $faker->paragraph($nbSentences = 3, $variableNbSentences = true),
+    ];
+});
+
+$factory->define(App\Models\TeamEvent::class, function (Faker\Generator $faker) {
+    
+    return [
+        'event'         => $faker->sentence($nbWords = 3, $variableNbWords = true),
+        'event_date'    => $faker->date($format = 'Y-m-d', $min = 'now'),
+        'event_time'    => $faker->randomDigitNotNull . ' ' . 'am',
+        'location'      => 'Lambert High School',
+        'details'       => $faker->sentence($nbWords = 5, $variableNbWords = true),
+    ];
+});

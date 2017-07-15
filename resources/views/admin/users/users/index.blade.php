@@ -42,6 +42,7 @@
 		  </td>
 		  <td>
 		  	<button-delete
+		  		@click.prevent="confirm"
 		  		action="/admin/users/users/{{$user->id}}"
 		  		token="{{csrf_token()}}">
 		  	</button-delete>
