@@ -1,7 +1,7 @@
 @include('layouts.header')
 
 
-@include('layouts.navbars.test')
+@include('layouts.navbar')
 
 @if ($flash = session('message'))
 	<div role="alert" id="flash-message">
@@ -11,7 +11,7 @@
 
 @include('layouts.hero')
 
-<div class="container">
+<div class="container site-content">
     <section class="section page-content">
         @yield('content')
     </section>

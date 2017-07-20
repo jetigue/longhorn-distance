@@ -1,17 +1,29 @@
 
-<footer class="footer fix-footer">
-  <div class="container is-fluid">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/jgthms/bulma">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="content">
+
+    <div class="columns has-text-centered">
+
+      <div class="column">
+        <a href="mailto:coachtigue@gmail.com">James Tigue</a>
+        <p class="is-marginless">Lambert High School</p>
+      </div>
+
+      <div class="column">
+        <p class="is-marginless">Last Updated: {{date ("F j, Y", getlastmod())}}</p>
+      </div>
+
+      <div class="column">
+        <a href="https://www.forsyth.k12.ga.us/lhs">Lambert High School</a>
+        <p class="is-marginless">805 Nichols Road</p>
+        <p class="is-marginless">Suwanee, GA 30024</p>
+        <p class="is-marginless">(678) 965-5050</p>
+      </div>
+
+
+    </div>
+
     </div>
   </div>
 </footer>

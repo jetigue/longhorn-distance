@@ -8,7 +8,7 @@
 	</div>
 @endif
        
-<div class="container">
+<div class="container site-content">
 
 	<div class="header">
 		@include('layouts.page_header')

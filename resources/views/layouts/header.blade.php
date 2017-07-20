@@ -29,4 +29,4 @@ Emojis
     <link rel="stylesheet" href="/css/main.css">
 
 </head>
-<body>
+<body class="site">

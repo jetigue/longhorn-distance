@@ -3,7 +3,6 @@
 @section('content')
 
 
-
 <div class="tile is-ancestor tile-container">
 
   <div class="tile is-vertical is-9">
@@ -28,16 +27,9 @@
         <div class="tile">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">Quicklinks</p>
-              <ul>
-                <li><a href="{{url('/forms_handouts')}}">Forms and Handouts</a></li>
-                <li><a href="{{url('/longhorn_5k')}}">Longhorn 5k</a></li>
-                <li><a href="{{url('/river_run')}}">Lambert River Run</a></li>
-                <li><a href="{{url('/boys_roster')}}">Boys' Roster</a></li>
-                <li><a href="{{url('/girls_roster')}}">Girls' Roster</a></li>
-                <li><a href="{{url('/coaches')}}">Coaches</a></li>
-                <li><a href="{{url('/sponsors')}}">Our Sponsors</a></li>
-              </ul>
+              <p class="title">Join the Team</p>
+              <p>If you are interested in joining our program, please "sign-up" by completing the form found here: <strong><a href="https://goo.gl/forms/p5D9J2RusN9aYCNz1">2017 Sign-up Form</a></strong></p>
+              <p>You will also need an up-to-date physical on file with the school. More information about physicals can be found here: <strong><a href="https://www.forsyth.k12.ga.us/page/24881">Lambert Sports Forms</a></strong></p>
             </article>
           </div>
         </div>
@@ -47,8 +39,7 @@
     <div class="tile">
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title">Nine</p>
-          <p class="subtitle">Subtitle</p>
+          <p class="title">Spirit Wear</p>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           </div>

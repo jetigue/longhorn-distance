@@ -1,8 +1,8 @@
 <aside class="menu" id="coach-menu">
-  <div class="has-text-centered notification is-primary user-box">
+<!--   <div class="has-text-centered notification is-primary user-box">
     <p>{{Auth::user()->first_name}} {{Auth::user()->last_name}}</p>
     <p>{{Auth::user()->role->name}}</p>
-  </div>
+  </div> -->
 
   <ul class="menu-list">
     <li><a href="{{url('coach/dashboard')}}">Dashboard</a></li>

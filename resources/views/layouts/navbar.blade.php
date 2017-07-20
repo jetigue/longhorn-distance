@@ -1,98 +1,85 @@
-<nav class="nav" id="guest-navbar">
-  <div class="container is-fluid level">
-    <div class="level-left">
+<nav class="navbar is-transparent" id="navbar">
 
-      <a href="{{url('/')}}">
-        <div class="level-item" id="logo-container"></div>
-      </a>
+<div class="navbar-brand">
+	<a href="{{url('/')}}">
+	 	<div class="navbar-item" id="logo-container"></div>      
+	</a>
 
-    <p class="level-item">
-      <a class="link">Lambert River Run</a>
-    </p>
+<div class="navbar-burger burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
-    <p class="level-item">
-      <a class="link">Longhorn 5k</a>
-    </p>
+</div>
 
-    <p class="level-item">
-      <a class="link">Our Team</a>
-    </p>
+<div class="navbar-menu">
 
-    <p class="level-item">
-      <a class="link">Forms and Handouts</a>
-    </p>
+	<div class="navbar-start">
+		<div class="navbar-item has-dropdown is-hoverable">
+		  <a class="nav-heading navbar-item"> 
+		    Our Team
+		  </a>
 
-  </div>
+		  <div class="navbar-dropdown is-boxed">
+		    <a class="navbar-item" href="{{url('/boys_roster')}}">Boys' Roster</a>
+		    <a class="navbar-item" href="{{url('/girls_roster')}}">Girls' Roster</a>
+		    <a class="navbar-item" href="{{url('/coaches')}}">Coaches</a>
+		    <hr class="navbar-divider">
+		    <a class="navbar-item" href="{{url('/booster_club')}}">Booster Club</a>
+		  </div>
+		</div>
+
+		<div class="navbar-item has-dropdown is-hoverable">
+		  <a class="nav-heading navbar-item">
+		    Our Events
+		  </a>
+
+		  <div class="navbar-dropdown is-boxed">
+		    <a class="navbar-item" href="{{url('/longhorn_5k')}}">Longhorn 5k</a>
+		    <a class="navbar-item" href="{{url('/river_run')}}">Lambert River run</a>
+		    <hr class="navbar-divider">
+		    <a class="navbar-item" href="{{url('/team_camp')}}">Team Camp</a>
+		  </div>
+		</div>
+
+		<a class="nav-heading navbar-item" href="{{url('/sponsors')}}">Our Sponsors</a>
+
+		<a class="nav-heading navbar-item" href="{{url('/forms_handouts')}}">Forms & Handouts</a>
 
 
+
+	</div>
+
+	<div class="navbar-end">
 @if (Auth::guest())
-  <div class="level-right">
-      <p class="level-item">
-        <a href="{{ url('/login') }}">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a>
-      </p>
-      <p class="level-item">
-        <a href="{{ url('/register') }}">Register <i class="fa fa-user" aria-hidden="true"></i></a>
-      </p>
-  </div>
+
+    <a class="navbar-item" href="{{ url('/login') }}">Login &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a>
+
+    <a class="navbar-item" href="{{ url('/register') }}">Register &nbsp;<i class="fa fa-user" aria-hidden="true"></i></a>
 
 @else
-  <div class="level-right">
 
-      <p class="level-item">
-        <a href="{{ url('/logout') }}"
-        onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">
-            Logout <i class="fa fa-sign-out is-small" aria-hidden="true"></i></a>
-      </p>
+	<div class="navbar-item has-dropdown is-hoverable">
+		<a class="navbar-item">
+		    {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}
+		</a>
+
+		<div class="navbar-dropdown is-boxed">
+        	<a class="navbar-item submenu-item" href="{{ url('/logout') }}"
+        		onclick="event.preventDefault();
+            	document.getElementById('logout-form').submit();">
+            	Logout &nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i>
+        	</a>
+
       <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
       {{ csrf_field() }}
       </form>
-  </div>
+  	</div>
+  	</div>
 @endif
   </div>
+
+</div>
+
 </nav>
-<!-- <nav class="nav has-shadow">
-  <div class="container is-fluid">
-
-
-      <a class="nav-item" href="{{url('/')}}">
-        <img src="images/small_logo_transparent.png" id="navbar-logo">
-      </a>
-
-      <a class="nav-item is-hidden-mobile" href="{{url('river_run')}}">Lambert River Run</a>
-      <a class="nav-item is-hidden-mobile" href="{{url('longhorn_5k')}}">Longhorn 5k</a>
-      <a class="nav-item is-hidden-mobile" href="{{url('')}}">Our Team</a>
-
-      <a class="nav-item is-hidden-mobile" href="{{url('admin/dashboard')}}">Admin Dashboard</a>
-
-      <a class="nav-item is-hidden-mobile" href="{{url('coach/dashboard')}}">Coach Dashboard</a>
-
-      <a class="nav-item is-hidden-mobile" href="{{url('athlete/dashboard')}}">Athlete Dashboard</a>
-
-
-    <div class="nav-right nav-menu"> -->
-          <!-- Authentication Links -->
- <!--    @if (Auth::guest())
-        <a class="nav-item" href="{{ url('/login') }}">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a>
-        <a class="nav-item" href="{{ url('/register') }}">Register <i class="fa fa-user" aria-hidden="true"></i></a>
-
-    @else
-      <li class="nav-item dropdown">
-        <a class="nav-item dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="{{url('/logout')}}"
-            onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">
-              Logout
-          </a>
-            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
-                  {{ csrf_field() }}
-            </form>
-        </div>
-      </li>
-      @endif
-    </div>
-  </div>
-</nav> -->
