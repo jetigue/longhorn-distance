@@ -1,6 +1,5 @@
 @include('layouts.header')
 
-
 @include('layouts.navbar')
 
 @if ($flash = session('message'))

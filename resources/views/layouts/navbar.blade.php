@@ -52,7 +52,7 @@
 	</div>
 
 	<div class="navbar-end">
-<!-- @if (Auth::guest())
+@if (Auth::guest())
 
     <a class="navbar-item" href="{{ url('/login') }}">Login &nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></a>
 
@@ -78,7 +78,7 @@
   	</div>
   	</div>
 @endif
-  </div> -->
+  </div>
 
 </div>
 

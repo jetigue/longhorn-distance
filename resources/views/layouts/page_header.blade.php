@@ -2,7 +2,6 @@
 	<div class="columns is-paddingless">
 		<div class="column is-2">
 
-
 		</div>
 
 		<div class="column page-header is-paddingless">
