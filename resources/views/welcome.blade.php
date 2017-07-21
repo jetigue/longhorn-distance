@@ -11,14 +11,22 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-            <h4>Summer Practice this W</h4>
-            <p>Practice will be at Chattahoochee Pointe Park this week. Practice will begin at 6:30am and finish up at 8:00 am.</p>
+            <h4>Last week of Summer Practice!</h4>
+            <p>July 25th through the 27th will be the last week of summer practice! Tuesday and Wednesday (July 25th and 26th) we will practice at Chattahoochee Pointe Park.</p>
+
+            <p><strong>SPIKE DAY</strong> - Thursday, July 27th, morning practice will be held on the Big Creek Greenway, meeting at the Bethelview Trailhead. After running, athletes will finish next to the Trailhead at <strong><a href="http://www.northgarunningco.com/">North Georgia Running Company</a></strong> (5456 Bethelview Road) where shoes and spikes will be available at 25% off! Alex and his crew will be opening his store at 7:30 am just for us. We will also have our Thursday morning breakfast there, while we take turns being fitted for new shoes and running spikes.</p>
 
             <h4>Sponsors</h4>
-            <p>Please work on getting sponsors</p>
+            <p>Please continue to ask companies to support our program. Sponsor forms are due on Thursday, July 27th.</p>
+            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
 
             <h4>Spirit Wear</h4>
-            <p>Get your spirit wear</p>
+            <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
+            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
+
+            <h4>Official Practice Begins!</h4>
+            <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (Auguest 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
+            <p>Beginning Friday, August 4th, we will practice at 6:15 am every day we have school until after labor Day when we will switch to 4:00 pm afternoon practices.</p>
           </div>
         </article>
       </div>
@@ -27,12 +35,31 @@
         <div class="tile">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">Join the Team</p>
-              <p>If you are interested in joining our program, please "sign-up" by completing the form found here: <strong><a href="https://goo.gl/forms/p5D9J2RusN9aYCNz1">2017 Sign-up Form</a></strong></p>
-              <p>You will also need an up-to-date physical on file with the school. More information about physicals can be found here: <strong><a href="https://www.forsyth.k12.ga.us/page/24881">Lambert Sports Forms</a></strong></p>
+              
+              <p class="title">Longhorn 5k</p>
+              <p class="subtitle">Saturday, August 12th</p>
+              <div class="content">
+              <p>All proceeds benefit the Longhorn Cross County Team. Register Today!</p>
+              <p class="has-text-centered"><strong><a href="{{asset('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></p>
+              <p class="has-text-centered"><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
+              </div>
             </article>
           </div>
         </div>
+
+        <div class="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Lambert River Run</p>
+              <p class="subtitle">Saturday, August 26th</p>
+              <div class="content">
+                <p>More Information Coming Soon</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -41,28 +68,29 @@
         <article class="tile is-child box">
           <p class="title">Spirit Wear</p>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p>The 2017 Spirit Wear is now available for previewing. Orders can be taken during SPIKE DAY (on July 27th) and during the Longhorn 5k (on August 12th)</p>
+            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
           </div>
         </article>
       </div>
 
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title">Nine</p>
-          <p class="subtitle">Subtitle</p>
+          <p class="title">Sponsors</p>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p>We appreciate our sponsors! Please consider supporting our program. Sponsorship forms are due on Thursday, July 2th.</p>
+            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
           </div>
         </article>
       </div>
 
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title">Ten</p>
-          <p class="subtitle">Subtitle</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-          </div>
+          <p class="title">Meet Schedule</p>
+            <div class="content">
+              <p class="has-text-centered"><strong><a href="{{asset('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></strong></p>
+              <p>More details about each race will be published once that information is made available by the meet hosts.</p>
+            </div>
         </article>
       </div>
     </div>
@@ -71,10 +99,44 @@
     <article class="tile is-child box">
       <div class="content">
         <p class="title">Upcoming Events</p>
-        <p class="subtitle">Subtitle</p>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-          <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+        <div class="content events">
+    
+        <h4>Spike Day</h4>
+        <h6>July 27th</h6>
+        <h6><span style="color:#73000a">@ </span>North GA Running Co</h6>
+        <h6><span style="color:#73000a">Time: </span>7:30 am</h6>
+        <h6>Get 25% off of training shoes and running spikes!</h6>
+<hr>
+        <h4>Sponsor Forms Due</h4>
+        <h6>July 27th</h6>
+        <h6 class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></h6>
+<hr>
+        <h4>Official Practice Begins!</h4>
+        <h6>Tuesday, August 1st</h6>
+        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+        <h6><span style="color:#73000a">Time: </span>6:30 am</h6>
+        <h6>Be sure your physical is up to date!</h6>
+<hr>
+
+        <h4>Longhorn 5k</h4>
+        <h6>Saturday, August 12th</h6>
+        <h6><span style="color:#73000a">@ </span>Lambert High School Stadium</h6>
+        <h6><span style="color:#73000a">Time: </span>8:00 am</h6>
+        <h6><strong><a href="{{asset('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></h6>
+<hr>
+
+        <h4>Team Time Trial</h4>
+        <h6>Saturday, August 19th</h6>
+        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+        <h6><span style="color:#73000a">Time: </span>7:00 am</h6>
+        
+<hr>
+
+        <h4>Lambert River Run</h4>
+        <h6>Saturday, August 26th</h6>
+        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+
+
         </div>
       </div>
     </article>
@@ -84,28 +146,29 @@
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child box">
-      <p class="title">Twelve</p>
-      <p class="subtitle">Subtitle</p>
+      <p class="title"></p>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+        <p></p>
       </div>
     </article>
   </div>
   <div class="tile is-parent is-6">
     <article class="tile is-child box">
-      <p class="title">Thirteen</p>
-      <p class="subtitle">Subtitle</p>
+      <p class="title"></p>
+      <p class="subtitle"></p>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+        <p></p>
       </div>
     </article>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child box">
-      <p class="title">Fourteen</p>
-      <p class="subtitle">Subtitle</p>
+      <p class="title">Forms & Handouts</p>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+        <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and Information</a></p>
+        <p><a href="{{asset('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></p>
+        <p><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></p>
+        <p><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></p>
       </div>
     </article>
   </div>

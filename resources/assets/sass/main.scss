@@ -160,6 +160,10 @@ body {
 }
 
 
+
+
+
+
 .user-box {
 	margin-top: 10px;
 }
@@ -187,6 +191,18 @@ body {
     background: linear-gradient(to right, #73000A , white); /* Standard syntax */
 }
 
+.events h4 {
+	color: #000;
+	font-weight: 600;
+	margin: 20px 0 0 5px;
+}
+
+.events h6 {
+	color: #333;
+	font-weight: 500;
+	margin: 7px 10px;
+	font-size: 14px;
+}
 
 .event-title {
 	margin-bottom: 0px;
