@@ -77,15 +77,15 @@ class DashboardsController extends Controller
 
 
             
-    	return view('athlete.dashboard', compact(
-            'monthlySummerMileage', 
-            'weeklySummerMileage', 
-            'percentRunType',
-            'percentTerrainType',
-            'percentRunEffort',
-            'percentRunFeeling',
-            'lastWeek'
-            ));
+    	// return view('athlete.dashboard', compact(
+     //        'monthlySummerMileage', 
+     //        'weeklySummerMileage', 
+     //        'percentRunType',
+     //        'percentTerrainType',
+     //        'percentRunEffort',
+     //        'percentRunFeeling',
+     //        'lastWeek'
+     //        ));
     }
 
     public function coach()
