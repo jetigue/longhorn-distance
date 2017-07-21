@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class RunTypesController extends Controller
 {
+    
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -52,7 +58,7 @@ class RunTypesController extends Controller
             'message', 'Run Type Created!'
         );
 
-        return redirect('/admin/running_log/runTypes');
+        return redirect('/admin/running_log/run_types');
     }
 
     /**
