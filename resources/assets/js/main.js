@@ -1,6 +1,5 @@
 import BarGraph from './components/BarGraph';
 import PieChart from './components/PieChart';
-const swal = require('sweetalert2');
 import Vue from 'vue';
 
 
@@ -10,26 +9,6 @@ function totalSeconds() {
 
     document.getElementById('total_seconds').value = (minutes * 60) + seconds;
 }
-
-// Vue.component('navbar-link', {
-
-// 	props: ['href'],
-
-// 	template: `<a class="navbar-item" :href="href"><slot></slot></a>`
-
-// });
-
-// Vue.component('navbar-dropdown', {
-
-// 	props: ['href'],
-
-// 	template: `<div class="navbar-item has-dropdown"><a class="navbar-link" :href="href"><slot></slot></a></div>`
-	
-// });
-
-// new Vue({
-// 	el: '#navbar'
-// });
 
 // Vue.component('modal', {
 
@@ -84,7 +63,7 @@ Vue.component('stat-card', {
 });
 
 new Vue({
-	el: '#dashboard',
+	el: '.dashboard',
 
 	components: { BarGraph, PieChart}
 });

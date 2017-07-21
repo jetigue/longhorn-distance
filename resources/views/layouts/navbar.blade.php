@@ -66,6 +66,8 @@
 		</a>
 
 		<div class="navbar-dropdown is-boxed">
+
+			<a class="navbar-item submenu-item" href="/user/dashboard">Dashboard</a>
         	<a class="navbar-item submenu-item" href="{{ url('/logout') }}"
         		onclick="event.preventDefault();
             	document.getElementById('logout-form').submit();">

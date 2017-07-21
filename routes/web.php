@@ -33,6 +33,7 @@ Auth::routes();
 Route::get('admin/dashboard', 'DashboardsController@admin');
 Route::get('athlete/dashboard', 'DashboardsController@athlete');
 Route::get('coach/dashboard', 'DashboardsController@coach');
+Route::get('user/dashboard', 'DashboardsController@user');
 
 Route::resource('coach/team_announcements', 'TeamAnnouncementsController');
 Route::resource('coach/team_events', 'TeamEventsController');

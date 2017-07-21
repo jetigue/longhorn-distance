@@ -17,6 +17,12 @@
 
 @section('content')
 <div class="column">
+@if (count($runningLogs) === 0)
+<div class="content has-text-centered">
+<h1 class="title">Log your first Run!</h1>
+<a class="button is-outlined is-primary" href="running_log/create">Log a Run</a>
+</div>
+@else
 <table class="table">
   	<thead class="table-header">
     	<tr>
@@ -61,6 +67,7 @@
 	@endforeach
 	</tbody>
 </table>
+@endif
 </div>
 
 @stop

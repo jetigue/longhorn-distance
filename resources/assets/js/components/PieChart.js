@@ -22,7 +22,7 @@ export default {
 
 			legend: {
 				display: true,
-				position: 'right',
+				position: 'bottom',
 			},
 			title: {
 				display: true,
@@ -35,7 +35,7 @@ export default {
 		let pieChart = new Chart(
 			this.$el.getContext('2d'), 
 				{ 
-					type: "doughnut", 
+					type: "pie", 
 					data: data,
 					options: options
 				});

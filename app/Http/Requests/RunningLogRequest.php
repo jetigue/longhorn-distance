@@ -24,7 +24,7 @@ class RunningLogRequest extends FormRequest
     public function rules()
     {
         return [
-            'run_date'          => 'required|date',
+            'run_date'          => 'required|date|before:tomorrow',
             'day_time_id'       => 'required|integer',
             'distance'          => 'required',
             'minutes'           => 'required|integer',

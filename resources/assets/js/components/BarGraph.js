@@ -26,7 +26,7 @@ export default {
 				display: true,
 				text: this.title,
 				fontSize: 16,
-				fontColor: '#292B2C',
+				fontColor: this.color,
 	    	},
 			scales: {
 	    		yAxes: [{

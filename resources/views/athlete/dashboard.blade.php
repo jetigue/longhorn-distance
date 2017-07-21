@@ -6,7 +6,7 @@
 
 
 @section('content')
-<div id="dashboard">
+<div class="dashboard">
 
 
 <div class="columns">

@@ -34,7 +34,7 @@
 				role="form">
 				
 				{{ csrf_field() }}
-
+				@include('layouts.errors')
 				<div class="field is-horizontal">
   					<div class="field-label is-normal">
     					<label class="label">Date</label>
@@ -45,7 +45,7 @@
 	      				<p class="control is-expanded">
 					      <input
 					    	name="run_date"
-					    	class="input is-medium" 
+					    	class="input" 
 					    	type="date"
 					    	value="{{old('run_date', $runningLog->run_date)}}"
 					    	required>
@@ -62,7 +62,7 @@
 				  	<div class="field-body">
 						<div class="field">
 				  			<div class="control">
-				    			<div class="select is-medium is-fullwidth">
+				    			<div class="select is-fullwidth">
 						      	<select 
 						        	name="day_time_id" required>
 							        <option value="">Select a time of day...</option>
@@ -89,7 +89,7 @@
 				      		<p class="control is-expanded">
 					    		<input
 							      name="distance"
-							      class="input is-medium" 
+							      class="input" 
 							      type="number"
 							      min="1"
 							      max="100"
@@ -98,7 +98,7 @@
 							      required>
 					  		</p>
 					  		<p class="control">
-    							<a class="button is-static is-medium">
+    							<a class="button is-static">
       								in miles
     							</a>
   							</p>
@@ -119,7 +119,7 @@
 				          id="minutes_input"
 				          oninput="totalSeconds()"
 					      name="minutes"
-					      class="input is-medium " 
+					      class="input" 
 					      type="number"
 					      min="1"
 					      max="240"
@@ -128,7 +128,7 @@
 					      required>
 				      </p>
 				        <p class="control">
-    						<a class="button is-static is-medium ">
+    						<a class="button is-static">
       							:
     						</a>
   						</p>
@@ -138,7 +138,7 @@
 				          id="seconds_input"
 				          oninput="totalSeconds()"
 				          name="seconds"
-					      class="input is-medium" 
+					      class="input" 
 					      type="number"
 					      min="1"
 					      max="59"
@@ -169,7 +169,7 @@
 				  	<div class="field-body">
 						<div class="field">
 				  			<div class="control">
-				    			<div class="select is-medium is-fullwidth">
+				    			<div class="select is-fullwidth">
 						      	<select 
 						        	name="run_type_id" required>
 							        <option value="">Select a run type...</option>
@@ -191,7 +191,7 @@
 				  	<div class="field-body">
 						<div class="field">
 				  			<div class="control">
-				    			<div class="select is-medium is-fullwidth">
+				    			<div class="select is-fullwidth">
 						      	<select 
 						        	name="terrain_type_id" required>
 							        <option value="">Select a terrain type...</option>
@@ -213,7 +213,7 @@
 				  	<div class="field-body">
 						<div class="field">
 				  			<div class="control">
-				    			<div class="select is-medium is-fullwidth">
+				    			<div class="select is-fullwidth">
 						      	<select 
 						        	name="run_effort_id" required>
 							        <option value="">Select a run effort...</option>
@@ -235,7 +235,7 @@
 				  	<div class="field-body">
 						<div class="field">
 				  			<div class="control">
-				    			<div class="select is-medium is-fullwidth">
+				    			<div class="select is-fullwidth">
 						      	<select 
 						        	name="run_feeling_id" required>
 							        <option value="">Select how you felt...</option>
@@ -249,6 +249,22 @@
 					</div>
 				</div>
 
+				<hr>
+
+				<div class="field is-horizontal">
+				  <div class="field-label is-normal">
+				    <label class="label">Notes (optional)</label>
+				  </div>
+				  <div class="field-body">
+				    <div class="field">
+				      <div class="control">
+				        <textarea class="textarea" name="notes" placeholder="Add more details about your run."></textarea>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
 				<div class="field">
 					<p class="control ">
 						<button type="submit" class="button  is-primary form-button">
@@ -256,8 +272,6 @@
 						</button>
 					</p>
 				</div>
-
-				@include('layouts.errors')
 				
 			</form>
 		</div>
