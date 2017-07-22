@@ -1,7 +1,7 @@
 @extends('layouts.user')
 
 @section('menu')
-	@include('layouts.menus.athlete_menu')
+	@include('layouts.menus.user_menu')
 @endsection
 
 @section('title')
