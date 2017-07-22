@@ -5,15 +5,15 @@
 	 	<div class="navbar-item" id="logo-container"></div>      
 	</a>
 
-<div class="navbar-burger burger">
+<!-- <div class="navbar-burger burger" target="navMenu">
   <span></span>
   <span></span>
   <span></span>
-</div>
+</div> -->
 
 </div>
 
-<div class="navbar-menu">
+<div class="navbar-menu is-hidden-mobile" id="navMenu">
 
 	<div class="navbar-start">
 		<div class="navbar-item has-dropdown is-hoverable">

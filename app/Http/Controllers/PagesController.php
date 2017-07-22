@@ -61,4 +61,9 @@ class PagesController extends Controller
     {
     	return view('main.sponsors');
     }
+
+    public function our_team()
+    {
+        return view('main.our_team');
+    }
 }

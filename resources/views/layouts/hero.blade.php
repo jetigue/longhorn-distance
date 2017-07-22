@@ -1,4 +1,4 @@
-<section class="hero is-primary">
+<section class="hero is-primary is-hidden-mobile">
 	<div class="hero-body">
     	<div class="container">
 		<div class="columns">
@@ -37,7 +37,7 @@
 
 				<!-- if user -->
 				@else(Auth::user()->user_role_id === 1)
-				<a class="button hero-button is-black" href="/running_log">Go to My Running Log</a>
+				<a class="button hero-button is-black" href="/user/dashboard">Go to My Dashboard</a>
 				@endif
 				@endif
 				</div>

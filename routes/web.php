@@ -25,6 +25,7 @@ Route::get('longhorn_5k', 'PagesController@longhorn_5k');
 Route::get('river_run', 'PagesController@river_run');
 Route::get('team_camp', 'PagesController@team_camp');
 Route::get('sponsors', 'PagesController@sponsors');
+Route::get('our_team', 'PagesController@our_team');
 
 
 
