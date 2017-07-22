@@ -9,7 +9,7 @@ use App\Models\RunFeeling;
 use App\Models\RunningLog;
 use App\Models\RunType;
 use App\Models\TerrainType;
-use App\HTTP\Requests\RunningLogRequest;
+use App\Http\Requests\RunningLogRequest;
 use Illuminate\Http\Request;
 
 class RunningLogsController extends Controller
@@ -55,7 +55,7 @@ class RunningLogsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\RunningLogRequest  $request
+     * @param  \Illuminate\Http\RunningLogRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(RunningLogRequest $request)

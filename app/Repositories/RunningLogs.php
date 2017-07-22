@@ -7,7 +7,7 @@ use App\Models\RunningLog;
 use Auth;
 use Carbon\Carbon;
 use DB;
-use App\HTTP\Requests\RunningLogRequest;
+
 
 
 class RunningLogs
