@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Auth;
+use App\HTTP\Requests\RunningLogRequest;
 use App\Models\Calendar;
 use App\Models\RunningLog;
 use App\Repositories\RunningLogs;
+use Auth;
 use Carbon\Carbon;
 use DB;
 use Illuminate\Http\Request;
