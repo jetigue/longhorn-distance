@@ -28,20 +28,6 @@ class DashboardsController extends Controller
     public function athlete()
     {
 
-        // $weeklySummerMileage = RunningLog::summerMileage()
-        //     ->select(DB::raw('calendar.week as week, ifnull(sum(distance), 0) as distance'))
-        //     ->leftJoin('calendar', 'run_date', '=', 'calendar.calendar_date')
-        //     ->orderBy('run_date')
-        //     ->groupBy('week')
-        //     ->pluck('distance');
-
-        // $lastWeek = RunningLog::select(DB::raw('calendar.day as day, ifnull(sum(distance), 0) as distance'))
-        //     ->groupBy('day', 'user_id')
-        //     ->rightJoin('calendar', 'run_date', '=', 'calendar.calendar_date')
-        //     ->orderBy('calendar.calendar_date')
-        //     ->whereBetween('calendar.calendar_date', ['2017-05-14', '2017-08-01'])
-        //     ->where('user_id', Auth::user()->id)
-        //     ->pluck('distance', 'day');
 
 
         // $lastWeek = RunningLog::select(DB::raw('DATE_FORMAT(calendar.calendar_date, "%b%e") as day, ifnull(sum(distance), 0) as distance'))
