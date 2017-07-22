@@ -18,11 +18,11 @@
 
             <h4>Sponsors</h4>
             <p>Please continue to ask companies to support our program. Sponsor forms are due on Thursday, July 27th.</p>
-            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
+            <p class="has-text-centered"><strong><a href="{{url('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
 
             <h4>Spirit Wear</h4>
             <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
-            <p class="has-text-centered"><strong><a href="{{asset('/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
+            <p class="has-text-centered"><strong><a href="{{url('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
 
             <h4>Official Practice Begins!</h4>
             <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (Auguest 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
@@ -40,7 +40,7 @@
               <p class="subtitle">Saturday, August 12th</p>
               <div class="content">
               <p>All proceeds benefit the Longhorn Cross County Team. Register Today!</p>
-              <p class="has-text-centered"><strong><a href="{{asset('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></p>
+              <p class="has-text-centered"><strong><a href="{{url('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></p>
               <p class="has-text-centered"><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
               </div>
             </article>
@@ -69,7 +69,7 @@
           <p class="title">Spirit Wear</p>
           <div class="content">
             <p>The 2017 Spirit Wear is now available for previewing. Orders can be taken during SPIKE DAY (on July 27th) and during the Longhorn 5k (on August 12th)</p>
-            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
+            <p class="has-text-centered"><strong><a href="{{url('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
           </div>
         </article>
       </div>
@@ -79,7 +79,7 @@
           <p class="title">Sponsors</p>
           <div class="content">
             <p>We appreciate our sponsors! Please consider supporting our program. Sponsorship forms are due on Thursday, July 2th.</p>
-            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
+            <p class="has-text-centered"><strong><a href="{{url('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></p>
           </div>
         </article>
       </div>
@@ -88,7 +88,7 @@
         <article class="tile is-child box">
           <p class="title">Meet Schedule</p>
             <div class="content">
-              <p class="has-text-centered"><strong><a href="{{asset('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></strong></p>
+              <p class="has-text-centered"><strong><a href="{{url('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></strong></p>
               <p>More details about each race will be published once that information is made available by the meet hosts.</p>
             </div>
         </article>
@@ -109,7 +109,7 @@
 <hr>
         <h4>Sponsor Forms Due</h4>
         <h6>July 27th</h6>
-        <h6 class="has-text-centered"><strong><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></h6>
+        <h6 class="has-text-centered"><strong><a href="{{url('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></strong></h6>
 <hr>
         <h4>Official Practice Begins!</h4>
         <h6>Tuesday, August 1st</h6>
@@ -122,7 +122,7 @@
         <h6>Saturday, August 12th</h6>
         <h6><span style="color:#73000a">@ </span>Lambert High School Stadium</h6>
         <h6><span style="color:#73000a">Time: </span>8:00 am</h6>
-        <h6><strong><a href="{{asset('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></h6>
+        <h6><strong><a href="{{url('storage/docs/longhorn_5k/9thAnnualLonghorn5k.pdf')}}">Registration Form</a></strong></h6>
 <hr>
 
         <h4>Team Time Trial</h4>
@@ -166,9 +166,9 @@
       <p class="title">Forms & Handouts</p>
       <div class="content">
         <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and Information</a></p>
-        <p><a href="{{asset('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></p>
-        <p><a href="{{asset('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></p>
-        <p><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></p>
+        <p><a href="{{url('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></p>
+        <p><a href="{{url('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></p>
+        <p><a href="{{url('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></p>
       </div>
     </article>
   </div>
