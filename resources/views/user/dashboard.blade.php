@@ -52,22 +52,22 @@
     <div class="tile">
       <div class="tile is-parent is-vertical">
         <div class="tile is-child box">
-			<bar-graph
+<!-- 			<bar-graph
 				:labels="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
 				:values="{{$weeklySummerMileage->values()}}"
 				:color="'#333'"
 				:title="'Summer Mileage per Week'">
-			</bar-graph>
+			</bar-graph> -->
         </div>
       </div>
       <div class="tile is-parent">
         <div class="tile is-child box">
-			<bar-graph
+<!-- 			<bar-graph
 				:labels="{{$mileageLastWeek->keys()}}"
 				:values="{{$mileageLastWeek->values()}}"
 				:color="'#73000A'"
 				:title="'Mileage the Last 7 Days'">
-			</bar-graph>
+			</bar-graph> -->
 		</div>
       </div>
     </div>

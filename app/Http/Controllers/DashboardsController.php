@@ -82,9 +82,9 @@ class DashboardsController extends Controller
 
     public function user(RunningLogs $runningLogs)
     {
-        $weeklySummerMileage = $runningLogs->weeklySummerMileage();
+        // $weeklySummerMileage = $runningLogs->weeklySummerMileage();
 
-        $mileageLastWeek = $runningLogs->mileageLastWeek();
+        // $mileageLastWeek = $runningLogs->mileageLastWeek();
 
         $totalMileage = $runningLogs->totalMileage();
         $totalSummerMileage = $runningLogs->totalSummerMileage();
@@ -98,8 +98,8 @@ class DashboardsController extends Controller
 
 
         return view('user.dashboard', compact(
-            'weeklySummerMileage',
-            'mileageLastWeek',
+            // 'weeklySummerMileage',
+            // 'mileageLastWeek',
             'percentRunType',
             'percentTerrainType',
             'percentRunEffort',
