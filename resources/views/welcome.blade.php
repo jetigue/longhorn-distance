@@ -22,7 +22,7 @@
 
             <h4>Spirit Wear</h4>
             <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
-            <p class="has-text-centered"><strong><a href="{{asset('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
+            <p class="has-text-centered"><strong><a href="{{asset('/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></strong></p>
 
             <h4>Official Practice Begins!</h4>
             <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (Auguest 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
