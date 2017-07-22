@@ -68,36 +68,36 @@ class RunningLogs
 		return $totalMileageThisYear;
 	}
 
-	public function weeklySummerMileage()
-	{
-		$weeklySummerMileage = RunningLog::select(DB::raw('calendar.week as week, ifnull(sum(distance), 0) as distance'))
-            ->groupBy('week', 'user_id')
-            ->rightJoin('calendar', function ($join) {
-                $join->on('run_date', '=', 'calendar.calendar_date')
-                ->where('user_id', Auth::user()->id);
-                })
-            ->orderBy('calendar.calendar_date')
-            ->whereBetween('calendar.calendar_date', ['2017-05-14', '2017-08-01'])
-            ->pluck('distance', 'week');
+	// public function weeklySummerMileage()
+	// {
+	// 	$weeklySummerMileage = RunningLog::select(DB::raw('calendar.week as week, ifnull(sum(distance), 0) as distance'))
+ //            ->groupBy('week', 'user_id')
+ //            ->rightJoin('calendar', function ($join) {
+ //                $join->on('run_date', '=', 'calendar.calendar_date')
+ //                ->where('user_id', Auth::user()->id);
+ //                })
+ //            ->orderBy('calendar.calendar_date')
+ //            ->whereBetween('calendar.calendar_date', ['2017-05-14', '2017-08-01'])
+ //            ->pluck('distance', 'week');
 
-        return $weeklySummerMileage;
+ //        return $weeklySummerMileage;
 
-	}
+	// }
 
-	public function mileageLastWeek()
-	{
-		$mileageLastWeek = RunningLog::select(DB::raw('DATE_FORMAT(calendar.calendar_date, "%b%e") as day, ifnull(sum(distance), 0) as distance'))
-            ->groupBy('calendar_date', 'user_id')
-            ->rightJoin('calendar', function ($join) {
-                $join->on('run_date', '=', 'calendar.calendar_date')
-                ->where('user_id', Auth::user()->id);
-                })
-            ->orderBy('calendar.calendar_date')
-             ->whereBetween('calendar.calendar_date', [Carbon::now()->subWeek(), Carbon::now()])
-            ->pluck('distance', 'day');
+	// public function mileageLastWeek()
+	// {
+	// 	$mileageLastWeek = RunningLog::select(DB::raw('DATE_FORMAT(calendar.calendar_date, "%b%e") as day, ifnull(sum(distance), 0) as distance'))
+ //            ->groupBy('calendar_date', 'user_id')
+ //            ->rightJoin('calendar', function ($join) {
+ //                $join->on('run_date', '=', 'calendar.calendar_date')
+ //                ->where('user_id', Auth::user()->id);
+ //                })
+ //            ->orderBy('calendar.calendar_date')
+ //             ->whereBetween('calendar.calendar_date', [Carbon::now()->subWeek(), Carbon::now()])
+ //            ->pluck('distance', 'day');
 
-        return $mileageLastWeek;
-	}
+ //        return $mileageLastWeek;
+	// }
 
 	public function percentRunType()
 	{
