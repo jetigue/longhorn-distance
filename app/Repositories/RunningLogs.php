@@ -76,7 +76,8 @@ class RunningLogs
                 $join->on('run_date', '=', 'calendar.calendar_date')
                 ->where('user_id', Auth::user()->id);
                 })
-            ->orderBy('calendar.calendar_date')
+            // ->orderBy('calendar.calendar_date')
+            // ->orderBy('week')
             ->whereBetween('calendar.calendar_date', ['2017-05-14', '2017-08-01'])
             ->pluck('distance', 'week');
 
@@ -92,7 +93,7 @@ class RunningLogs
                 $join->on('run_date', '=', 'calendar.calendar_date')
                 ->where('user_id', Auth::user()->id);
                 })
-            ->orderBy('calendar.calendar_date')
+            // ->orderBy('calendar.calendar_date')
              ->whereBetween('calendar.calendar_date', [Carbon::now()->subWeek(), Carbon::now()])
             ->pluck('distance', 'day');
 
