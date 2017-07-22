@@ -99,7 +99,6 @@ class DashboardsController extends Controller
 
         $mileageLastWeek = $runningLogs->mileageLastWeek();
 
-        // $totalMileage = $runningLogs->all()->where('user_id', Auth::user()->id)->sum('distance');
         $totalMileage = $runningLogs->totalMileage();
         $totalSummerMileage = $runningLogs->totalSummerMileage();
         $totalMileageThisWeek = $runningLogs->totalMileageThisWeek();

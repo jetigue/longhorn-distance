@@ -37,7 +37,7 @@
 
 				<!-- if user -->
 				@else(Auth::user()->user_role_id === 1)
-				<a class="button hero-button is-black" href="/user/dashboard">Go to My Dashboard</a>
+				<a class="button hero-button is-black" href="/running_log">Go to My Running Log</a>
 				@endif
 				@endif
 				</div>
