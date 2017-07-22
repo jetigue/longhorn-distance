@@ -31,7 +31,7 @@ class RunningLogsController extends Controller
             ->orderBy('run_date', 'desc')
             ->get();
 
-        return view('user/running_log.index', compact('runningLogs'));
+        return view('user.running_log.index', compact('runningLogs'));
         
     }
 
@@ -48,7 +48,7 @@ class RunningLogsController extends Controller
         $runEfforts = RunEffort::all();
         $runFeelings = RunFeeling::all();
 
-        return view('user/running_log.create', compact (
+        return view('user.running_log.create', compact (
             'runningLog', 'runTypes', 'terrainTypes', 'runEfforts', 'runFeelings', 'dayTimes' ));
     }
 
