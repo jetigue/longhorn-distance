@@ -166,7 +166,7 @@
       <p class="title">Forms & Handouts</p>
       <div class="content">
         <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and Information</a></p>
-        <p><a href="{{url('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></p>
+        <p><a href="{{asset('storage/docs/meet_schedules/meet_schedule2017.pdf')}}">2017 Meet Schedule</a></p>
         <p><a href="{{url('storage/docs/sponsors/2017SponsorshipForm.pdf')}}">2017 Sponsor Information</a></p>
         <p><a href="{{url('storage/docs/spirit_wear/AcapellaFlyerLambertLonghorns2017.pdf')}}">2017 Spirit Wear Flyer</a></p>
       </div>
