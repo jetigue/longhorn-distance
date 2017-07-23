@@ -38,6 +38,7 @@ Route::get('user/dashboard', 'DashboardsController@user');
 
 Route::resource('coach/team_announcements', 'TeamAnnouncementsController');
 Route::resource('coach/team_events', 'TeamEventsController');
+Route::resource('coach/team_logs', 'TeamLogsController');
 
 Route::resource('admin/running_log/day_times', 'DayTimesController');
 Route::resource('admin/running_log/run_efforts', 'RunEffortsController');

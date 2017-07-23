@@ -15,7 +15,9 @@ class RunningLogs
 
 	public function all()
 	{
-		return RunningLog::all();
+		$all = RunningLog::orderBy('run_date', 'desc')->get();
+
+		return $all;
 	}
 
 	public function totalMileage()

@@ -6,6 +6,7 @@ use App\HTTP\Requests\RunningLogRequest;
 use App\Models\Calendar;
 use App\Models\RunningLog;
 use App\Repositories\RunningLogs;
+use App\Repositories\TeamLogs;
 use Auth;
 use Carbon\Carbon;
 use DB;
@@ -75,9 +76,11 @@ class DashboardsController extends Controller
      //        ));
     }
 
-    public function coach()
+    public function coach(TeamLogs $teamLogs)
     {
-    	return view('coach.dashboard');
+        $teamLogs = $teamLogs->all();
+
+    	return view('coach.dashboard', compact('teamLogs'));
     }
 
     public function user(RunningLogs $runningLogs)
