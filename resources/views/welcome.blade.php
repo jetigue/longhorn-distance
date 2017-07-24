@@ -46,7 +46,7 @@
               <p>All proceeds benefit the Longhorn Cross County Team. Register Today!</p>
               <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></p>
               <p class="has-text-centered"><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
-              <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">2017 Spirit Wear Flyer</a></strong></p>
+              <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">Volunteer Sign-Up</a></strong></p>
               </div>
             </article>
           </div>
