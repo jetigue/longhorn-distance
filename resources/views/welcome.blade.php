@@ -20,6 +20,10 @@
             <p>Please continue to ask companies to support our program. Sponsor forms are due on Thursday, July 27th.</p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></strong></p>
 
+            <h4>Longhorn 5k Volunteers</h4>
+            <p>The Longhorn 5k and Fun Run, on August 12th is fast approaching. All parents and non-running athletes are requested to check out the signupgenius and volunteer for a slot.
+            <p class="has-text-centered"><strong><a href=" www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">Volunteer Sign-up Form</a></strong></p>
+
             <h4>Spirit Wear</h4>
             <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
@@ -42,6 +46,7 @@
               <p>All proceeds benefit the Longhorn Cross County Team. Register Today!</p>
               <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></p>
               <p class="has-text-centered"><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
+              <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
               </div>
             </article>
           </div>
