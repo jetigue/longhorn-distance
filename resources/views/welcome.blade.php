@@ -22,7 +22,7 @@
 
             <h4>Spirit Wear</h4>
             <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit
+            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></strong></p>
 
             <h4>Official Practice Begins!</h4>
