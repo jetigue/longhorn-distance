@@ -9,7 +9,6 @@
 @endif
 
 @include('layouts.hero')
-@include('layouts.menus.mobile_menu')
 <div class="container site-content">
     <section class="section page-content">
         @yield('content')

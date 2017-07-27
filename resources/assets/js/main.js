@@ -10,6 +10,32 @@ function totalSeconds() {
     document.getElementById('total_seconds').value = (minutes * 60) + seconds;
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any nav burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
 // Vue.component('modal', {
 
 // 	template: `
@@ -41,6 +67,25 @@ function totalSeconds() {
 // 	}
 // });
 
+Vue.component('menu-item', {
+	template: '<li><slot></slot></li>'
+});
+
+new Vue({
+	el: '.menu',
+
+	data: {
+		show: true
+	},
+
+	methods: {
+		toggleClass() {
+			this.isPlus = false;
+		}
+	}
+
+});
+
 
 Vue.component('stat-card', {
 
@@ -68,6 +113,25 @@ new Vue({
 	components: { BarGraph, PieChart}
 });
 
+
+new Vue({
+	el: '#navbar',
+
+	data: {
+
+		isActive: false
+
+	},
+
+	methods: {
+
+		toggleClass() {
+
+			this.isActive = true;
+		}
+	},
+
+})
 // new Vue ({
 // 	el: '#menu',
 

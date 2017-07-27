@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 173);
+/******/ 	return __webpack_require__(__webpack_require__.s = 172);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -4534,7 +4534,7 @@ return hooks;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(172)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(171)(module)))
 
 /***/ }),
 /* 1 */
@@ -16185,7 +16185,7 @@ return zhTw;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_BarGraph__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_PieChart__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue__ = __webpack_require__(169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue__);
 
 
@@ -16197,6 +16197,30 @@ function totalSeconds() {
 
 	document.getElementById('total_seconds').value = minutes * 60 + seconds;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+
+	// Get all "navbar-burger" elements
+	var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+	// Check if there are any nav burgers
+	if ($navbarBurgers.length > 0) {
+
+		// Add a click event on each of them
+		$navbarBurgers.forEach(function ($el) {
+			$el.addEventListener('click', function () {
+
+				// Get the target from the "data-target" attribute
+				var target = $el.dataset.target;
+				var $target = document.getElementById(target);
+
+				// Toggle the class on both the "navbar-burger" and the "navbar-menu"
+				$el.classList.toggle('is-active');
+				$target.classList.toggle('is-active');
+			});
+		});
+	}
+});
 
 // Vue.component('modal', {
 
@@ -16229,6 +16253,24 @@ function totalSeconds() {
 // 	}
 // });
 
+__WEBPACK_IMPORTED_MODULE_2_vue___default.a.component('menu-item', {
+	template: '<li><slot></slot></li>'
+});
+
+new __WEBPACK_IMPORTED_MODULE_2_vue___default.a({
+	el: '.menu',
+
+	data: {
+		show: true
+	},
+
+	methods: {
+		toggleClass: function toggleClass() {
+			this.isPlus = false;
+		}
+	}
+
+});
 
 __WEBPACK_IMPORTED_MODULE_2_vue___default.a.component('stat-card', {
 
@@ -16243,6 +16285,23 @@ new __WEBPACK_IMPORTED_MODULE_2_vue___default.a({
 	components: { BarGraph: __WEBPACK_IMPORTED_MODULE_0__components_BarGraph__["a" /* default */], PieChart: __WEBPACK_IMPORTED_MODULE_1__components_PieChart__["a" /* default */] }
 });
 
+new __WEBPACK_IMPORTED_MODULE_2_vue___default.a({
+	el: '#navbar',
+
+	data: {
+
+		isActive: false
+
+	},
+
+	methods: {
+		toggleClass: function toggleClass() {
+
+			this.isActive = true;
+		}
+	}
+
+});
 // new Vue ({
 // 	el: '#menu',
 
@@ -29096,8 +29155,7 @@ module.exports = webpackContext;
 webpackContext.id = 168;
 
 /***/ }),
-/* 169 */,
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38793,10 +38851,10 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(171)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(170)))
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports) {
 
 var g;
@@ -38823,7 +38881,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -38851,7 +38909,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(118);

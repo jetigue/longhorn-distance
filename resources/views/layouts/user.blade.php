@@ -15,7 +15,7 @@
 	</div>
 
 	<div class="columns">
-  		<div class="column is-2 is-paddingless menu-container">
+  		<div class="column is-2 menu-container">
 
       		<section class="menu">
 				<!-- if administator -->

@@ -19,8 +19,8 @@
     <li>
       <div v-on:click="show = !show" class="dropdown-label">
         <a>Users</a> 
-          <i v-if="!show" class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
-          <i v-else="show" class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>
+          <i class="fa" :class="{ fa-plus: isPlus, fa-minus: isMinus}" style="font-size:12px;" aria-hidden="true" @click="toggleClass"></i>
+          <!-- <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i> -->
       </div>
    
       <ul v-if="show">
