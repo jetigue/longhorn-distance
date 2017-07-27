@@ -11,10 +11,6 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-            <h4>Last week of Summer Practice!</h4>
-            <p>July 25th through the 27th will be the last week of summer practice! Tuesday and Wednesday (July 25th and 26th) we will practice at Chattahoochee Pointe Park.</p>
-
-            <p><strong>SPIKE DAY</strong> - Thursday, July 27th, morning practice will be held on the Big Creek Greenway, meeting at the Bethelview Trailhead. After running, athletes will finish next to the Trailhead at <strong><a href="http://www.northgarunningco.com/">North Georgia Running Company</a></strong> (5456 Bethelview Road) where shoes and spikes will be available at 25% off! Alex and his crew will be opening his store at 7:30 am just for us. We will also have our Thursday morning breakfast there, while we take turns being fitted for new shoes and running spikes.</p>
 
             <h4>Sponsors</h4>
             <p>Please continue to ask companies to support our program. Sponsor forms are due on Thursday, July 27th.</p>
@@ -26,7 +22,8 @@
 
             <h4>Spirit Wear</h4>
             <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
+            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit
+            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></strong></p>
 
             <h4>Official Practice Begins!</h4>
             <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (Auguest 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
@@ -75,6 +72,7 @@
           <div class="content">
             <p>The 2017 Spirit Wear is now available for previewing. Orders can be taken during SPIKE DAY (on July 27th) and during the Longhorn 5k (on August 12th)</p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
+            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></strong></p>
           </div>
         </article>
       </div>
@@ -174,6 +172,7 @@
         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMUJtSzFVd0Myb2c">2017 Meet Schedule</a></p>
         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></p>
         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></p>
+        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></p>
       </div>
     </article>
   </div>
