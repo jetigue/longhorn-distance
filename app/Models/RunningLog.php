@@ -93,7 +93,13 @@ DEFINE ACCESSORS AND MUTATORS
 
 		$total_duration = $this->total_seconds;
 
-		$duration = ltrim(gmdate('i:s', $total_duration), 0);
+		if ($total_duration >= 3600) {
+			$duration = ltrim(gmdate('g:i:s', $total_duration), 0);
+		}
+
+		else {
+			$duration = ltrim(gmdate('i:s', $total_duration), 0);
+		}
 
 		return($duration);
 
