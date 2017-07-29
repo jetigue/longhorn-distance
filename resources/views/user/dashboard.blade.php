@@ -126,8 +126,8 @@
 			<hr>
 			@foreach($totalSummerMileagePerRunner as $totalSummer)
 			<div class="flex">
-				<p><strong>{{$totalSummer->user->first_name}} {{$totalSummer->user->last_name}}</strong></p>
-				<p>{{$totalSummer->distance}}</p>
+				<p class="is-paddingless"><strong>{{$totalSummer->user->first_name}} {{$totalSummer->user->last_name}}</strong></p>
+				<p class="is-paddingless">{{$totalSummer->distance}}</p>
 			</div>
 			@endforeach
 		</div>
