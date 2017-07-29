@@ -88,7 +88,7 @@ class DashboardsController extends Controller
         $weeklySummerMileage = $runningLogs->weeklySummerMileage();
 
         $mileageLastWeek = $runningLogs->mileageLastWeek();
-
+        $totalSummerMileagePerRunner = $runningLogs->totalSummerMileagePerRunner();
         $totalMileage = $runningLogs->totalMileage();
         $totalSummerMileage = $runningLogs->totalSummerMileage();
         $totalMileageThisWeek = $runningLogs->totalMileageThisWeek();
@@ -111,7 +111,8 @@ class DashboardsController extends Controller
             'totalSummerMileage',
             'totalMileageThisWeek',
             'totalMileageThisMonth',
-            'totalMileageThisYear'
+            'totalMileageThisYear',
+            'totalSummerMileagePerRunner'
             ));
     }
 }

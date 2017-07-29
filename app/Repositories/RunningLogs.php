@@ -40,6 +40,21 @@ class RunningLogs
 		return $totalSummerMileage;
 	}
 
+
+	public function totalSummerMileagePerRunner()
+	{
+
+		$totalSummerMileagePerRunner = RunningLog::select(DB::raw('user_id, sum(distance) as distance'))
+			->groupBy('user_id')
+			->where('run_date', '>', '2017-05-14')
+			->where('run_date', '<', '2017-08-01')
+			->orderBy('distance', 'desc')
+			->limit(25)
+			->get();
+
+		return $totalSummerMileagePerRunner;
+	}
+
 	public function totalMileageThisWeek()
 	{
 		$totalMileageThisWeek = RunningLog::all()
