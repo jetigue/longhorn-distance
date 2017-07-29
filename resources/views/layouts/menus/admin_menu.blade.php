@@ -24,8 +24,8 @@
       </div>
    
       <ul>
-        <li><a href="{{ url('/admin/users/user_roles') }}">User Roles</a></li>
-        <li><a href="{{ url('/admin/users/users') }}">Users</a></li>
+        <li><a href="{{ url('/admin/user_roles') }}">User Roles</a></li>
+        <li><a href="{{ url('/admin/users') }}">Users</a></li>
       </ul>
     </li>
 

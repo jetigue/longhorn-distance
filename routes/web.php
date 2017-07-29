@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\Admin;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,25 +28,32 @@ Route::get('team_camp', 'PagesController@team_camp');
 Route::get('sponsors', 'PagesController@sponsors');
 Route::get('our_team', 'PagesController@our_team');
 
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
+{
+	Route::resource('running_log/day_times', 'DayTimesController');
+	Route::resource('running_log/run_efforts', 'RunEffortsController');
+	Route::resource('running_log/run_feelings', 'RunFeelingsController');
+	Route::resource('running_log/run_types', 'RunTypesController');
+	Route::resource('running_log/terrain_types', 'TerrainTypesController');
+	Route::resource('user_roles', 'UserRolesController');
+	Route::resource('users', 'UsersController');
+	Route::get('dashboard', 'DashboardsController@admin');
+});
 
+Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
+{
+	Route::get('dashboard', 'DashboardsController@coach');
+	Route::resource('team_announcements', 'TeamAnnouncementsController');
+	Route::resource('team_events', 'TeamEventsController');
+	Route::resource('team_logs', 'TeamLogsController');
+});
 
 Auth::routes();
 
-Route::get('admin/dashboard', 'DashboardsController@admin');
+
 Route::get('athlete/dashboard', 'DashboardsController@athlete');
-Route::get('coach/dashboard', 'DashboardsController@coach');
+
 Route::get('user/dashboard', 'DashboardsController@user');
 
-Route::resource('coach/team_announcements', 'TeamAnnouncementsController');
-Route::resource('coach/team_events', 'TeamEventsController');
-Route::resource('coach/team_logs', 'TeamLogsController');
-
-Route::resource('admin/running_log/day_times', 'DayTimesController');
-Route::resource('admin/running_log/run_efforts', 'RunEffortsController');
-Route::resource('admin/running_log/run_feelings', 'RunFeelingsController');
-Route::resource('admin/running_log/run_types', 'RunTypesController');
-Route::resource('admin/running_log/terrain_types', 'TerrainTypesController');
-Route::resource('admin/users/user_roles', 'UserRolesController');
-Route::resource('admin/users/users', 'UsersController');
 
 Route::resource('/running_log', 'RunningLogsController');
