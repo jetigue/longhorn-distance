@@ -1,12 +1,13 @@
 <?php
 
-use App\Models\UserRole;
-use App\Models\User;
+use App\Models\Athlete;
+use App\Models\DayTime;
 use App\Models\RunEffort;
 use App\Models\RunFeeling;
 use App\Models\RunType;
 use App\Models\TerrainType;
-use App\Models\DayTime;
+use App\Models\User;
+use App\Models\UserRole;
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -113,12 +114,21 @@ $factory->define(App\Models\TeamAnnouncement::class, function (Faker\Generator $
 });
 
 $factory->define(App\Models\TeamEvent::class, function (Faker\Generator $faker) {
-    
     return [
         'event'         => $faker->sentence($nbWords = 3, $variableNbWords = true),
         'event_date'    => $faker->date($format = 'Y-m-d', $min = 'now'),
         'event_time'    => $faker->randomDigitNotNull . ' ' . 'am',
         'location'      => 'Lambert High School',
         'details'       => $faker->sentence($nbWords = 5, $variableNbWords = true),
+    ];
+});
+
+$factory->define(App\Models\Athlete::class, function (Faker\Generator $faker) {
+    return [
+        'first_name'      => $faker->firstName,
+        'last_name'       => $faker->lastName,
+        'sex'             => $faker->randomElement($array = array ('m', 'f')),
+        'grad_year'       => $faker->randomElement($array = array (2016, 2017, 2018, 2019, 2020, 2021)),
+        'status'          => $faker->boolean,
     ];
 });

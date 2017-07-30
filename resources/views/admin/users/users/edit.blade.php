@@ -11,7 +11,7 @@
 @section('button')
 	<button-return 
 		label="Return to Users"
-		href="/admin/users/users">
+		href="/admin/users">
 	</button-return>
 @endsection
 
@@ -29,7 +29,7 @@
 
 			<form 
 				class="form" 
-				action="/admin/users/users/{{$user->id}}" 
+				action="/admin/users/{{$user->id}}" 
 				method="POST" 
 				role="form">
 				{{ method_field ('PATCH') }}

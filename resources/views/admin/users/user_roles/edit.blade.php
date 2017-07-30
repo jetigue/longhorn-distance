@@ -11,7 +11,7 @@
 @section('button')
 	<button-return 
 		label="Return to User Roles"
-		href="/admin/users/user_roles">
+		href="/admin/user_roles">
 	</button-return>
 @endsection
 
@@ -29,7 +29,7 @@
 
 			<form 
 				class="form" 
-				action="/admin/users/user_roles/{{$userRole->id}}" 
+				action="/admin/user_roles/{{$userRole->id}}" 
 				method="POST" 
 				role="form">
 				{{ method_field ('PATCH') }}

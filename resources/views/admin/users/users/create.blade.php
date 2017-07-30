@@ -11,7 +11,7 @@
 @section('button')
 	<button-return 
 		label="Return to Users"
-		href="/admin/users/users">
+		href="/users">
 	</button-return>
 @endsection
 
@@ -29,7 +29,7 @@
 
 			<form 
 				class="form" 
-				action="/admin/users/users" 
+				action="/admin/users" 
 				method="POST" 
 				role="form">
 				

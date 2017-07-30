@@ -11,7 +11,7 @@
 @section('button')
 	<button-return 
 		label="Return to User Roles"
-		href="/admin/users/user_roles">
+		href="/admin/user_roles">
 	</button-return>
 @endsection
 
@@ -29,7 +29,7 @@
 
 			<form 
 				class="form" 
-				action="/admin/users/user_roles" 
+				action="/admin/user_roles" 
 				method="POST" 
 				role="form">
 				@include('admin.users.user_roles.form')

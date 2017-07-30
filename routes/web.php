@@ -42,6 +42,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 
 Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
 {
+	Route::resource('athletes', 'AthletesController');
 	Route::get('dashboard', 'DashboardsController@coach');
 	Route::resource('team_announcements', 'TeamAnnouncementsController');
 	Route::resource('team_events', 'TeamEventsController');

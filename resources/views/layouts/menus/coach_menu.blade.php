@@ -8,9 +8,15 @@
   </ul>
 
   <p class="menu-label">
+    Team
+  </p>
+  <ul class="menu-list">
+    <li ><a href="{{ url('coach/athletes') }}">Athletes</a></li>
+  </ul>
+
+  <p class="menu-label">
     Running Log
   </p>
-  
   <ul class="menu-list">
     <li ><a href="{{ url('coach/team_logs') }}">Team Logs</a></li>
     <li ><a href="{{ url('/running_log/create') }}">Log a Run</a></li>

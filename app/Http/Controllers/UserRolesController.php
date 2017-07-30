@@ -56,7 +56,7 @@ class UserRolesController extends Controller
             'message', 'User Role Created!'
         );
 
-        return redirect('/admin/users/user_roles');
+        return redirect('/admin/user_roles');
     }
 
     /**
@@ -96,7 +96,7 @@ class UserRolesController extends Controller
             'message', 'User Role Updated!'
         );
 
-        return redirect('/admin/users/user_roles');
+        return redirect('/admin/user_roles');
     }
 
     /**
@@ -114,6 +114,6 @@ class UserRolesController extends Controller
             'message', 'The User Role Has Been Deleted'
         );
 
-        return redirect('/admin/users/user_roles');
+        return redirect('/admin/user_roles');
     }
 }

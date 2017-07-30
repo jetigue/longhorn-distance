@@ -61,7 +61,7 @@ class UsersController extends Controller
             'message', 'User Sucessfully Created!'
         );
 
-        return redirect('/admin/users/users');
+        return redirect('/admin/users');
     }
 
     /**
@@ -103,7 +103,7 @@ class UsersController extends Controller
             'message', 'User Sucessfully Updated!'
         );
 
-        return redirect('/admin/users/users');
+        return redirect('/admin/users');
     }
 
     /**
@@ -116,6 +116,6 @@ class UsersController extends Controller
     {
         $user->delete();
 
-        return redirect('/admin/users/users');
+        return redirect('/admin/users');
     }
 }

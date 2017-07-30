@@ -11,7 +11,7 @@
 @section('button')
 	<button-create 
 		label="Add a Role"
-		href="/admin/users/user_roles/create">
+		href="/admin/user_roles/create">
 	</button-create>
 @endsection
 
