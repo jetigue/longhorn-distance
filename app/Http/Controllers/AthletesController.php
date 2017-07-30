@@ -42,7 +42,7 @@ class AthletesController extends Controller
             'last_name'     => 'required',
             'sex'           => 'required',
             'grad_year'     => 'required|numeric',
-            'status'        => 'required|boolean'
+            'status'        => 'required'
         ]);
 
         Athlete::create(request([
@@ -50,14 +50,15 @@ class AthletesController extends Controller
             'last_name',
             'sex',
             'grad_year',
-            'status'
+            'status',
+            'user_id'
         ]));
 
         session()->flash(
             'message', 'Athlete successfully created!'
         );
 
-        return redirect('athletes');
+        return redirect('coach/athletes');
     }
 
     /**
@@ -95,7 +96,7 @@ class AthletesController extends Controller
 
         session()->flash('message', 'Athlete Updated!');  
 
-        return redirect('athletes');      
+        return redirect('coach/athletes');      
     }
 
     /**

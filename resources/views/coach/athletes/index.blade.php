@@ -10,7 +10,7 @@
 
 @section('button')
 	<button-create 
-		label="Create an Athlete"
+		label="Add an Athlete"
 		href="/coach/athletes/create">
 	</button-create>
 @endsection
@@ -32,10 +32,10 @@
   	<tbody>
 @foreach($athletes as $athlete)
   		<tr class="table-body">
-	      <td width="5%">{{$athlete->id}}</td>
-	      <th width="25%">{{$athlete->last_name}}, {{$athlete->first_name}}</th>
-	      <td width="10%">{{$athlete->sex}}</td>
-	      <td width="15%">{{$athlete->grad_year}}</td>
+	      <td width="10%">{{$athlete->id}}</td>
+	      <th width="30%"><a href="">{{$athlete->last_name}}, {{$athlete->first_name}}</a></th>
+	      <td width="15%">{{$athlete->sex}}</td>
+	      <td width="20%">{{$athlete->grad_year}}</td>
 	      <td width="15%">{{$athlete->status}}</td>
 	      <td>
 	      	<button-edit
@@ -43,11 +43,11 @@
 	      	</button-edit>
 		  </td>
 		  <td>
-		  	<button-delete
+<!-- 		  	<button-delete
 		  		@click.prevent="confirm"
 		  		action="/athletes/{{$athlete->id}}"
 		  		token="{{csrf_token()}}">
-		  	</button-delete>
+		  	</button-delete> -->
     	  </td>
 		</tr>
 	@endforeach
