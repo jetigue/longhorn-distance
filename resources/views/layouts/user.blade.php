@@ -40,7 +40,7 @@
 
   		<div class="column">
 
-			<div class="main-content">
+			<div class="user-content">
 				@yield('content')
 			</div>
 

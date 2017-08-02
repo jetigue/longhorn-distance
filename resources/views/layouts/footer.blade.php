@@ -11,10 +11,6 @@
       </div>
 
       <div class="column">
-        <p class="is-marginless">Last Updated: {{date ("F j, Y", getlastmod())}}</p>
-      </div>
-
-      <div class="column">
         <a href="https://www.forsyth.k12.ga.us/lhs">Lambert High School</a>
         <p class="is-marginless">805 Nichols Road</p>
         <p class="is-marginless">Suwanee, GA 30024</p>

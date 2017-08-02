@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Athlete;
+use App\Repositories\Athletes;
 use Illuminate\Http\Request;
 
 class AthletesController extends Controller
@@ -12,9 +13,9 @@ class AthletesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Athletes $athletes)
     {
-        $athletes = Athlete::all();
+        $athletes = $athletes->freshmen();
 
         return view('coach.athletes.index', compact('athletes'));
     }

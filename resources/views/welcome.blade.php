@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <div class="tile is-ancestor tile-container">
 
   <div class="tile is-vertical is-9">
@@ -109,37 +108,31 @@
         <h6><span style="color:#73000a">@ </span>North GA Running Co</h6>
         <h6><span style="color:#73000a">Time: </span>7:30 am</h6>
         <h6>Get 25% off of training shoes and running spikes!</h6>
-<hr>
+        <hr>
         <h4>Sponsor Forms Due</h4>
         <h6>July 27th</h6>
         <h6 class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></strong></h6>
-<hr>
+        <hr>
         <h4>Official Practice Begins!</h4>
         <h6>Tuesday, August 1st</h6>
         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
         <h6><span style="color:#73000a">Time: </span>6:30 am</h6>
         <h6>Be sure your physical is up to date!</h6>
-<hr>
-
+        <hr>
         <h4>Longhorn 5k</h4>
         <h6>Saturday, August 12th</h6>
         <h6><span style="color:#73000a">@ </span>Lambert High School Stadium</h6>
         <h6><span style="color:#73000a">Time: </span>8:00 am</h6>
         <h6><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></h6>
-<hr>
-
+        <hr>
         <h4>Team Time Trial</h4>
         <h6>Saturday, August 19th</h6>
         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
-        <h6><span style="color:#73000a">Time: </span>7:00 am</h6>
-        
-<hr>
-
+        <h6><span style="color:#73000a">Time: </span>7:00 am</h6>      
+        <hr>
         <h4>Lambert River Run</h4>
         <h6>Saturday, August 26th</h6>
         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
-
-
         </div>
       </div>
     </article>

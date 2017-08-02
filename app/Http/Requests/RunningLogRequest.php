@@ -26,9 +26,9 @@ class RunningLogRequest extends FormRequest
         return [
             'run_date'          => 'required|date|before:tomorrow',
             'day_time_id'       => 'required|integer',
-            'distance'          => 'required',
+            'distance'          => 'required|numeric|min:1',
             'minutes'           => 'required|integer',
-            'seconds'           => 'required|integer',
+            'seconds'           => 'required|integer|max:59',
             'run_type_id'       => 'required|integer',
             'terrain_type_id'   => 'required|integer',
             'run_effort_id'     => 'required|integer',

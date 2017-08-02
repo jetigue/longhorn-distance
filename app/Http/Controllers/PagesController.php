@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Athlete;
 use App\Models\TeamAnnouncement;
 use App\Models\TeamEvent;
+use App\Repositories\Athletes;
 
 class PagesController extends Controller
 {
@@ -17,14 +19,24 @@ class PagesController extends Controller
         return view('welcome', compact('announcements', 'events'));
     }
 
-    public function boys_roster()
+    public function boys_roster(Athletes $athletes)
     {
-    	return view('main.boys_roster');
+        $seniors = $athletes->activeSeniorBoys()->sortBy('last_name');
+        $juniors = $athletes->activeJuniorBoys()->sortBy('last_name');
+        $sophomores = $athletes->activeSophomoreBoys()->sortBy('last_name');
+        $freshmen = $athletes->activeFreshmenBoys()->sortBy('last_name');
+
+    	return view('main.boys_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
     }
 
-    public function girls_roster()
+    public function girls_roster(Athletes $athletes)
     {
-    	return view('main.girls_roster');
+        $seniors = $athletes->activeSeniorGirls()->sortBy('last_name');
+        $juniors = $athletes->activeJuniorGirls()->sortBy('last_name');
+        $sophomores = $athletes->activeSophomoreGirls()->sortBy('last_name');
+        $freshmen = $athletes->activeFreshmenGirls()->sortBy('last_name');
+
+    	return view('main.girls_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
     }    
 
     public function coaches()
