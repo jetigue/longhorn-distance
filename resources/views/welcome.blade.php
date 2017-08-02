@@ -11,9 +11,9 @@
         <article class="tile is-child box">
           <div class="content announcements">
 
-            <h4>Sponsors</h4>
-            <p>Please continue to ask companies to support our program. Sponsor forms are due on Thursday, July 27th.</p>
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></strong></p>
+            <h4>Official Practice Has begun!</h4>
+            <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (August 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
+            <p>Beginning Friday, August 4th, practice will begin at 6:15 am each day before school. We will meet in the Lambert gym. Morning practices will continue until Labor Day weekend. After that, we will switch to 4:00 pm afternoon practices.</p>
 
             <h4>Longhorn 5k Volunteers</h4>
             <p>The Longhorn 5k and Fun Run, on August 12th is fast approaching. All parents and non-running athletes are requested to check out the signupgenius and volunteer for a slot.
@@ -24,9 +24,6 @@
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></strong></p>
 
-            <h4>Official Practice Begins!</h4>
-            <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (Auguest 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
-            <p>Beginning Friday, August 4th, we will practice at 6:15 am every day we have school until after labor Day when we will switch to 4:00 pm afternoon practices.</p>
           </div>
         </article>
       </div>
@@ -80,7 +77,7 @@
         <article class="tile is-child box">
           <p class="title">Sponsors</p>
           <div class="content">
-            <p>We appreciate our sponsors! Please consider supporting our program. Sponsorship forms are due on Thursday, July 2th.</p>
+            <p>We appreciate our sponsors! Please consider supporting our program.</p>
             <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></strong></p>
           </div>
         </article>
@@ -103,16 +100,6 @@
         <p class="title">Upcoming Events</p>
         <div class="content events">
     
-        <h4>Spike Day</h4>
-        <h6>July 27th</h6>
-        <h6><span style="color:#73000a">@ </span>North GA Running Co</h6>
-        <h6><span style="color:#73000a">Time: </span>7:30 am</h6>
-        <h6>Get 25% off of training shoes and running spikes!</h6>
-        <hr>
-        <h4>Sponsor Forms Due</h4>
-        <h6>July 27th</h6>
-        <h6 class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></strong></h6>
-        <hr>
         <h4>Official Practice Begins!</h4>
         <h6>Tuesday, August 1st</h6>
         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
