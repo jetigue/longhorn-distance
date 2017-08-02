@@ -15,7 +15,7 @@ class AthletesController extends Controller
      */
     public function index(Athletes $athletes)
     {
-        $athletes = $athletes->freshmen();
+        $athletes = $athletes->all()->sortBy('last_name');
 
         return view('coach.athletes.index', compact('athletes'));
     }
