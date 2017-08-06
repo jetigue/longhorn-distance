@@ -12,6 +12,7 @@
   </p>
   <ul class="menu-list">
     <li ><a href="{{ url('coach/athletes') }}">Athletes</a></li>
+    <li ><a href="{{ url('coach/time_trials') }}">Time Trials</a></li>
   </ul>
 
   <p class="menu-label">

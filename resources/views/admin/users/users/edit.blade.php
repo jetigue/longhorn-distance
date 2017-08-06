@@ -77,11 +77,10 @@
 				    <span class="select is-medium is-fullwidth">
 				      <select 
 				        name="user_role_id"
+						value="{{ old('user_role_id', $user->user_role_id)}}"
 				        required>
 
-				        @if(count($userRoles) > 0)
-
-				        <option value="{{ old('user_role_id', $user->user_role_id) ? 'selected="selected"' : ""}}">
+				        <option value="{{ old('user_role_id', $user->user_role_id)}}">
 				        	{{ $user->role->name }}
 				        </option>
 
@@ -89,17 +88,6 @@
 				        <option value="{{$userRole->id}}">{{ $userRole->name }}</option>
 				        @endforeach
 
-				        @else
-
-				        <option value=""><--Select one--></option>
-
-				        @foreach ($userRoles as $userRole)
-
-				        <option value="{{$userRole->id}}">{{ $userRole->name }}</option>
-
-				        @endforeach
-
-				        @endif
 				      </select>
 				    </span>
 				  </p>

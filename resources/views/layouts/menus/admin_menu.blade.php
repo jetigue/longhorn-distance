@@ -1,9 +1,3 @@
-<div class="content has-text-centered">
-<div>
-<h3>{{Auth()->user()->first_name}} {{Auth()->user()->last_name}}</h3>
-<h5>{{Auth()->user()->role->name}}</h5>
-</div>
-</div>
 
 <aside class="menu" id="admin-menu">
   <p class="menu-label">
@@ -42,6 +36,18 @@
         <li><a href="{{ url('/admin/running_log/run_feelings') }}">Run Feeling</a></li>
         <li><a href="{{ url('/admin/running_log/run_types') }}">Run Types</a></li>
         <li><a href="{{ url('/admin/running_log/terrain_types') }}">Terrain Types</a></li>
+      </ul>
+    </li>
+
+        <li>
+      <div class="dropdown-label">
+        <a>Results</a> 
+          <i class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
+          <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>     
+      </div>
+
+      <ul>
+        <li><a href="{{ url('/admin/seasons') }}">Seasons</a></li>
       </ul>
     </li>
 

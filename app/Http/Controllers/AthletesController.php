@@ -15,9 +15,35 @@ class AthletesController extends Controller
      */
     public function index(Athletes $athletes)
     {
-        $athletes = $athletes->all()->sortBy('last_name');
+        // $athletes = $athletes->all()->sortBy('last_name');
+        $athletes = Athlete::query();
+
+        if (request()->has('sex')) {
+            $athetes = $athletes->where('sex', request('sex'));
+        }
+
+        if (request()->has('status')) {
+            $athetes = $athletes->where('status', request('status'));
+        }
+
+        if (request()->has('grad_year')) {
+            $athetes = $athletes->where('grad_year', request('grad_year'));
+        }
+
+        if (request()->has('sort')) {
+            $athletes = $athletes->orderBy('last_name', request('sort'));
+        }
+
+        $athletes = $athletes->orderBy('last_name')->paginate(500)->appends([
+            'grad_year' => request('grad_year'),
+            'sex'       => request('sex'),
+            'sort'      => request('sort'),
+            'status'    => request('status')
+            ]);
 
         return view('coach.athletes.index', compact('athletes'));
+
+        // return view('coach.athletes.index', compact('athletes'));
     }
 
     /**

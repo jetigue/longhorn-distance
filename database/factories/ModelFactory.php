@@ -132,3 +132,42 @@ $factory->define(App\Models\Athlete::class, function (Faker\Generator $faker) {
         'status'          => $faker->randomElement($array = array ('a', 'i')),
     ];
 });
+
+$factory->define(App\Models\Season::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->randomElement($array = array ('Cross Country', 'Outdoor Track', 'Indoor Track', 'Summer', 'Winter'))
+    ];
+});
+
+$factory->define(App\Models\Gender::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->randomElement($array = array ('Boys', 'Girls', 'Mixed'))
+    ];
+});
+
+$factory->define(App\Models\TimingMethod::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->randomElement($array = array ('Hand Held', 'FAT'))
+    ];
+});
+
+$factory->define(App\Models\Distance::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->randomElement($array = array ('1600m', '1 Mile', '2 Mile', '5k', '3200m'))
+    ];
+});
+
+$factory->define(App\Models\TimeTrial::class, function (Faker\Generator $faker) {
+    
+    return [
+        'gender_id'        => App\Models\Gender::all()->random()->id,
+        'trial_date'       => $faker->dateTimeBetween(
+                              $startDate = '-1 year', $endDate = 'now', $timezone = date_default_timezone_get()
+                              ),
+        'season_id'        => App\Models\Season::all()->random()->id,
+        'distance_id'      => App\Models\Distance::all()->random()->id,
+        'terrain_type_id'  => App\Models\TerrainType::all()->random()->id,
+        'timing_method_id' => App\Models\TimingMethod::all()->random()->id,
+        'notes'            => $faker->paragraph($nbSentences = 3, $variableNbSentences = true),
+    ];
+});

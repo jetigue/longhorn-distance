@@ -1,17 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-use Auth;
-use App\Models\RunningLog;
+
+use App\Models\TimeTrial;
 use Illuminate\Http\Request;
 
-class TeamLogsController extends Controller
+class TimeTrialsController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -19,10 +14,9 @@ class TeamLogsController extends Controller
      */
     public function index()
     {
-        $teamLogs = RunningLog::all()->sortByDesc('run_date');
+        $timeTrials = TimeTrial::all();
 
-
-        return view('coach.team_logs.index', compact('teamLogs'));
+        return view('coach.time_trials.index', compact('timeTrials'));
     }
 
     /**
@@ -49,10 +43,10 @@ class TeamLogsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\RunningLog  $runningLog
+     * @param  \App\Models\TimeTrial  $timeTrial
      * @return \Illuminate\Http\Response
      */
-    public function show(RunningLog $runningLog)
+    public function show(TimeTrial $timeTrial)
     {
         //
     }
@@ -60,22 +54,22 @@ class TeamLogsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\RunningLog  $runningLog
+     * @param  \App\Models\TimeTrial  $timeTrial
      * @return \Illuminate\Http\Response
      */
-    public function edit(RunningLog $runningLog)
+    public function edit(TimeTrial $timeTrial)
     {
-        //
+        return view('time_trials.edit', compact('timeTrial'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\RunningLog  $runningLog
+     * @param  \App\Models\TimeTrial  $timeTrial
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, RunningLog $runningLog)
+    public function update(Request $request, TimeTrial $timeTrial)
     {
         //
     }
@@ -83,10 +77,10 @@ class TeamLogsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\RunningLog  $runningLog
+     * @param  \App\Models\TimeTrial  $timeTrial
      * @return \Illuminate\Http\Response
      */
-    public function destroy(RunningLog $runningLog)
+    public function destroy(TimeTrial $timeTrial)
     {
         //
     }

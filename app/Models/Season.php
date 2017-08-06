@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TerrainType extends Model
+class Season extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,15 +12,15 @@ class TerrainType extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'description'
+        'name'
     ];
 
-    /**
+        /**
     * Define the relationships
     *
     */
-    public function runningLogs()
+    public function timeTrials()
     {
-        $this->hasMany('App\Models\RunningLog');
+        $this->hasMany('App\Models\TimeTrial');
     }
 }

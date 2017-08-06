@@ -37,6 +37,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 	Route::resource('running_log/terrain_types', 'TerrainTypesController');
 	Route::resource('user_roles', 'UserRolesController');
 	Route::resource('users', 'UsersController');
+	Route::resource('seasons', 'SeasonsController');
+	Route::resource('genders', 'GendersController');
+	Route::resource('timing_methods', 'TimingMethodsController');
+	Route::resource('distances', 'DistancesController');
 	Route::get('dashboard', 'DashboardsController@admin');
 });
 
@@ -47,6 +51,7 @@ Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
 	Route::resource('team_announcements', 'TeamAnnouncementsController');
 	Route::resource('team_events', 'TeamEventsController');
 	Route::resource('team_logs', 'TeamLogsController');
+	Route::resource('time_trials', 'TimeTrialsController');
 });
 
 Auth::routes();
