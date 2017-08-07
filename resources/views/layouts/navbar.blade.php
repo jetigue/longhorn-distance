@@ -69,7 +69,7 @@
 
 		  <div class="navbar-dropdown is-boxed">
 		    <a class="navbar-item" href="{{url('/longhorn_5k')}}">Longhorn 5k</a>
-		    <a class="navbar-item" href="{{url('/river_run')}}">Lambert River run</a>
+		    <a class="navbar-item" href="{{url('/river_run')}}">Lambert River Run</a>
 		    <hr class="navbar-divider">
 		    <a class="navbar-item" href="{{url('/team_camp')}}">Team Camp</a>
 		  </div>

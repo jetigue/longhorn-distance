@@ -52,7 +52,7 @@
               <p class="title">Lambert River Run</p>
               <p class="subtitle">Saturday, August 26th</p>
               <div class="content">
-                <p>More Information Coming Soon</p>
+                <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HRi10NDltU1ZveXc">Lambert River Run</a></strong></p>
               </div>
             </article>
           </div>
