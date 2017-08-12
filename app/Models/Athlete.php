@@ -20,6 +20,11 @@ class Athlete extends Model
 	    'status'
 	    ];
 
+	public function trialResults()
+	{
+		
+	}
+
     public function getStatusAttribute($value)
 	{
 		if ($value == "a") { return "Active"; }

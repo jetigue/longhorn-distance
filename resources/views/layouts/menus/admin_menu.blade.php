@@ -26,8 +26,8 @@
     <li>
       <div class="dropdown-label">
         <a>Running Log</a> 
-          <i class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
-          <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>     
+<!--           <i class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
+          <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>  -->    
       </div>
 
       <ul>
@@ -42,12 +42,15 @@
         <li>
       <div class="dropdown-label">
         <a>Results</a> 
-          <i class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
-          <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>     
+<!--           <i class="fa fa-plus" style="font-size:12px;" aria-hidden="true"></i>
+          <i class="fa fa-minus" style="font-size:12px;" aria-hidden="true"></i>    -->  
       </div>
 
       <ul>
+        <li><a href="{{ url('/admin/distances') }}">Distances</a></li>
+        <li><a href="{{ url('/admin/genders') }}">Genders</a></li>
         <li><a href="{{ url('/admin/seasons') }}">Seasons</a></li>
+        <li><a href="{{ url('/admin/timing_methods') }}">Timing Methods</a></li>
       </ul>
     </li>
 

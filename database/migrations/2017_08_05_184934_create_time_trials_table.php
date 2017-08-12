@@ -15,6 +15,7 @@ class CreateTimeTrialsTable extends Migration
     {
         Schema::create('time_trials', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
             $table->unsignedSmallInteger('gender_id');
             $table->date('trial_date');
             $table->unsignedSmallInteger('season_id');

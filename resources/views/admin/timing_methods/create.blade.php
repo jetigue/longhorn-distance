@@ -5,13 +5,13 @@
 @endsection
 
 @section('title')
-	Seasons
+	Timing Methods
 @endsection
 
 @section('button')
 	<button-return 
-		label="Return to Seasons"
-		href="/admin/seasons">
+		label="Return to Timing Methods"
+		href="/admin/timing_methods">
 	</button-return>
 @endsection
 
@@ -21,7 +21,7 @@
 	<div class="card">
 	  	<header class="card-header form-header">
     		<p class="card-header-title">
-      			Add a Season
+      			Add a Timing Method
     		</p>
   		</header>
 
@@ -29,10 +29,10 @@
 
 			<form 
 				class="form" 
-				action="/admin/seasons" 
+				action="/admin/timing_methods" 
 				method="POST" 
 				role="form">
-				@include('admin.seasons.form')
+				@include('admin.timing_methods.form')
 			</form>
 		</div>
 	</div>

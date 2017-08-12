@@ -19,6 +19,7 @@
 		<table class="table">
 		  	<thead class="table-header">
 		    	<tr>
+		    	  <th style="color: #fff;">Name</th>
 			      <th style="color: #fff;">Date</th>
 			      <th style="color: #fff;">Gender</th>
 			      <th style="color: #fff;">Distance</th>
@@ -32,23 +33,24 @@
 		  	<tbody>
 		@foreach($timeTrials as $trial)
 		  		<tr class="table-body">
-			      <th width="15%">{{date('n/j/Y', strtotime($trial->trial_date))}}</a></td>
-			      <td width="15%">{{$trial->gender->name}}</td>
-			      <td width="15%">{{$trial->distance->name}}</td>
-			      <td width="15%">{{$trial->timing->name}}</td>
-			      <td width="15%">{{$trial->terrain->name}}</td>
-			      <td width="15%">{{$trial->season->name}}</td>
+				  <td width="25%"><a href="/coach/time_trials/{{$trial->id}}">{{$trial->name}}</a></td>
+			      <td width="12%">{{date('n.j.y', strtotime($trial->trial_date))}}</td>
+			      <td width="12%">{{$trial->gender->name}}</td>
+			      <td width="12%">{{$trial->distance->name}}</td>
+			      <td width="12%">{{$trial->timing->name}}</td>
+			      <td width="12%">{{$trial->terrain->name}}</td>
+			      <td width="12%">{{$trial->season->name}}</td>
 			      <td>
 			      	<button-edit
 			      		href="{{ route('time_trials.edit', $trial->id) }}">
 			      	</button-edit>
 				  </td>
 				  <td>
-				  	<button-delete
+<!-- 				  	<button-delete
 				  		@click.prevent="confirm"
 				  		action="/time_trials/{{$trial->id}}"
 				  		token="{{csrf_token()}}">
-				  	</button-delete>
+				  	</button-delete> -->
 		    	  </td>
 				</tr>
 			@endforeach

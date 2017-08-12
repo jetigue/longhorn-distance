@@ -5,13 +5,13 @@
 @endsection
 
 @section('title')
-	Seasons
+	Distances
 @endsection
 
 @section('button')
 	<button-return 
-		label="Return to Seasons"
-		href="/admin/seasons">
+		label="Return to Run Types"
+		href="/admin/distances">
 	</button-return>
 @endsection
 
@@ -29,10 +29,10 @@
 
 			<form 
 				class="form" 
-				action="/admin/seasons" 
+				action="/admin/distances" 
 				method="POST" 
 				role="form">
-				@include('admin.seasons.form')
+				@include('admin.distances.form')
 			</form>
 		</div>
 	</div>

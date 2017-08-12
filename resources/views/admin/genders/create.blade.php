@@ -5,13 +5,13 @@
 @endsection
 
 @section('title')
-	Seasons
+	Genders
 @endsection
 
 @section('button')
 	<button-return 
-		label="Return to Seasons"
-		href="/admin/seasons">
+		label="Return to Run Types"
+		href="/admin/genders">
 	</button-return>
 @endsection
 
@@ -21,7 +21,7 @@
 	<div class="card">
 	  	<header class="card-header form-header">
     		<p class="card-header-title">
-      			Add a Season
+      			Add a Gender
     		</p>
   		</header>
 
@@ -29,10 +29,10 @@
 
 			<form 
 				class="form" 
-				action="/admin/seasons" 
+				action="/admin/genders" 
 				method="POST" 
 				role="form">
-				@include('admin.seasons.form')
+				@include('admin.genders.form')
 			</form>
 		</div>
 	</div>

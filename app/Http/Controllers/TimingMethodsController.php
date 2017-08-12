@@ -14,28 +14,44 @@ class TimingMethodsController extends Controller
      */
     public function index()
     {
-        //
+        $timingMethods = TimingMethod::all();
+
+        return view('admin.timing_methods.index', compact('timingMethods'));
     }
 
     /**
      * Show the form for creating a new resource.
      *
+     * @param  \App\Models\TimingMethod  $timingMethod
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(TimingMethod $timingMethod)
     {
-        //
+        return view('admin.timing_methods.create', compact('timingMethod'));
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\TimingMethod  $timingMethod
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, TimingMethod $timingMethod)
     {
-        //
+        $this->validate(request(), [
+            'name'        => 'required',
+            ]);
+
+        TimingMethod::create(request([
+            'name', 
+            ]));
+
+        session()->flash(
+            'message', 'Timing Method Created!'
+        );
+
+        return redirect('/admin/timing_methods');
     }
 
     /**
@@ -57,7 +73,7 @@ class TimingMethodsController extends Controller
      */
     public function edit(TimingMethod $timingMethod)
     {
-        //
+      return view('admin.timing_methods.edit', compact('timingMethod'));
     }
 
     /**
@@ -69,7 +85,13 @@ class TimingMethodsController extends Controller
      */
     public function update(Request $request, TimingMethod $timingMethod)
     {
-        //
+        $timingMethod->update($request->all());
+
+        session()->flash(
+            'message', 'Timing Method Updated!'
+        );
+
+        return redirect('/admin/timing_methods');
     }
 
     /**

@@ -10,12 +10,11 @@ Longhorn 5k
   <div class="column is-6 content">
 	<h3 class="has-text-centered">Saturday, August 12th @ Lambert High School Stadium</h3>
 	<hr>
-	<p>The <strong>5k begins at 8:00am</strong> and the <strong>1 Mile Fun Run begins at 9:15am</strong>. Race day registration begins at 7:00am. All proceeds contribute to the success of the Lambert Cross Country Team!</p>
+	<p>Thank you to everyone that made the 9th Annual Longhorn 5k a success!</p>
 	<hr>
 	<div class="flex content">
-	    <p><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></p>
-	    <p><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
-	    <p><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMHZmYWQwRGRjZVE">Course Maps</a></strong></p>
+                
+                <p class="has-text-centered"><strong><a href="http://www.coolrunning.com/results/17/ga/Aug12_9thAnn_set1.shtml">2017 Longhorn 5k Results</a></strong></p>
     </div>
     <hr>
   </div>

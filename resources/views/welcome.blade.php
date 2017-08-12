@@ -11,19 +11,21 @@
         <article class="tile is-child box">
           <div class="content announcements">
 
-            <h4>Official Practice Has begun!</h4>
-            <p>Official practice begins Tuesday, August 1st. We will practice at Chattahoochee Point Park on Tuesday and Wednesday (August 1st and 2nd) at 6:30 am. <strong>We will not practice on August 3rd, the first day of school.</strong></p>
-            <p>Beginning Friday, August 4th, practice will begin at 6:15 am each day before school. We will meet in the Lambert gym. Morning practices will continue until Labor Day weekend. After that, we will switch to 4:00 pm afternoon practices.</p>
+            <h4>Thank You!</h4>
+            <p>On behalf of the Lambert Cross Country coaching staff and booster club, "THANK YOU!" to all of the volunteers, athletes, sponsors, and parents that made the Longhorn 5k a success.
 
-            <h4>Longhorn 5k Volunteers</h4>
-            <p>The Longhorn 5k and Fun Run, on August 12th is fast approaching. All parents and non-running athletes are requested to check out the signupgenius and volunteer for a slot.
+            <h4>Team Time Trial and Breakfast</h4>
+            <p>The team time trial and breakfast will be held this Saturday, August 19th, at Chattahoochee Pointe Park. This year's time trial will be a 2-mile race.
+            <p><strong>6:15 am: </strong>Athlete drop-off</p>
+            <p><strong>7:00 am: </strong>Boys Time Trial</p>
+            <p><strong>7:20 am: </strong>Girls Time Trial</p>
+            <p><strong>7:45 am: </strong>Team Breakfast</p>
+            <p>The time trial and breakfast is the last opportunity to pay registration fees and uniforms. There will be a table available for atheletes to try on uniforms (sizes may be different from your t-shirt size).
+            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMkF0RW1ubXlVUDRsb2hHNXp6d0hMRmIxUzlr">Registration Form</a></strong></p>
+        
+            <h4>Lambert River Run</h4>
+            <p>Saturday, August 26th, we are hosting the Lambert River Run at Chattahoochee Pointe Park. We will have about 15 high schools and 15 middles school participating. <strong>We are still in need of volunteers.</strong> Please click on the link below to sign up to volunteer. Thank you!</p>     
             <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">Volunteer Sign-up Form</a></strong></p>
-
-            <h4>Spirit Wear</h4>
-            <p>Don't forget to order your spirit wear! Spirit wear orders are due by August 12th.</p>
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></strong></p>
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></strong></p>
-
           </div>
         </article>
       </div>
@@ -36,11 +38,8 @@
               <p class="title">Longhorn 5k</p>
               <p class="subtitle">Saturday, August 12th</p>
               <div class="content">
-              <p>All proceeds benefit the Longhorn Cross County Team. Register Today!</p>
-              <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></p>
-              <p class="has-text-centered"><strong><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration</a></strong></p>
-              <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMHZmYWQwRGRjZVE">Course Maps</a></strong></p>
-              <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">Volunteer Sign-Up</a></strong></p>
+                <p>Thank you to everyone that made the 9th Annual Longhorn 5k a success!</p>
+                <p class="has-text-centered"><strong><a href="http://www.coolrunning.com/results/17/ga/Aug12_9thAnn_set1.shtml">Longhorn 5k Results</a></strong></p>
               </div>
             </article>
           </div>

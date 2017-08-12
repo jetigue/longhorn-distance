@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\TimeTrial;
+use App\Models\AthleteTrialResult;
 use Illuminate\Http\Request;
 
-class TimeTrialsController extends Controller
+class AthleteTrialResultsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +14,9 @@ class TimeTrialsController extends Controller
      */
     public function index()
     {
-        $timeTrials = TimeTrial::all();
+        $results = AthleteTrialResult::all();
 
-        return view('coach.time_trials.index', compact('timeTrials'));
+        return view('athlete.trial_results.index', compact('results'));
     }
 
     /**
@@ -43,10 +43,10 @@ class TimeTrialsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\TimeTrial  $timeTrial
+     * @param  \App\Models\AthleteTrialResult  $athleteTrialResult
      * @return \Illuminate\Http\Response
      */
-    public function show(TimeTrial $timeTrial)
+    public function show(AthleteTrialResult $athleteTrialResult)
     {
         //
     }
@@ -54,22 +54,22 @@ class TimeTrialsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\TimeTrial  $timeTrial
+     * @param  \App\Models\AthleteTrialResult  $athleteTrialResult
      * @return \Illuminate\Http\Response
      */
-    public function edit(TimeTrial $timeTrial)
+    public function edit(AthleteTrialResult $athleteTrialResult)
     {
-        return view('time_trials.edit', compact('timeTrial'));
+        //
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\TimeTrial  $timeTrial
+     * @param  \App\Models\AthleteTrialResult  $athleteTrialResult
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, TimeTrial $timeTrial)
+    public function update(Request $request, AthleteTrialResult $athleteTrialResult)
     {
         //
     }
@@ -77,10 +77,10 @@ class TimeTrialsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\TimeTrial  $timeTrial
+     * @param  \App\Models\AthleteTrialResult  $athleteTrialResult
      * @return \Illuminate\Http\Response
      */
-    public function destroy(TimeTrial $timeTrial)
+    public function destroy(AthleteTrialResult $athleteTrialResult)
     {
         //
     }

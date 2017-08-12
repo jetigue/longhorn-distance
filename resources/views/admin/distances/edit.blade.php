@@ -5,13 +5,13 @@
 @endsection
 
 @section('title')
-	Seasons
+	Distances
 @endsection
 
 @section('button')
 	<button-return 
-		label="Return to Seasons"
-		href="/admin/seasons">
+		label="Return to Distances"
+		href="/admin/distances">
 	</button-return>
 @endsection
 
@@ -21,7 +21,7 @@
 	<div class="card">
 	  	<header class="card-header form-header">
     		<p class="card-header-title">
-      			Add a Season
+      			Edit Distance
     		</p>
   		</header>
 
@@ -29,10 +29,13 @@
 
 			<form 
 				class="form" 
-				action="/admin/seasons" 
+				action="/admin/distances/{{$distance->id}}" 
 				method="POST" 
 				role="form">
-				@include('admin.seasons.form')
+				{{ method_field ('PATCH') }}
+				@include('admin.distances.form', [
+					'submitButtonText' => 'Update Distance'
+				])
 			</form>
 		</div>
 	</div>

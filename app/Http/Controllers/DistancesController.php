@@ -14,28 +14,44 @@ class DistancesController extends Controller
      */
     public function index()
     {
-        //
+        $distances = Distance::all();
+
+        return view('admin.distances.index', compact('distances'));
     }
 
     /**
      * Show the form for creating a new resource.
      *
+     * @param  \App\Models\Distance  $distance
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Distance $distance)
     {
-        //
+        return view('admin.distances.create', compact('distance'));
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Distance  $distance
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, Distance $distance)
     {
-        //
+        $this->validate(request(), [
+            'name'        => 'required',
+            ]);
+
+        Distance::create(request([
+            'name', 
+            ]));
+
+        session()->flash(
+            'message', 'Distance Created!'
+        );
+
+        return redirect('/admin/distances');
     }
 
     /**
@@ -57,7 +73,7 @@ class DistancesController extends Controller
      */
     public function edit(Distance $distance)
     {
-        //
+        return view('admin.distances.edit', compact('distance'));
     }
 
     /**
@@ -69,7 +85,13 @@ class DistancesController extends Controller
      */
     public function update(Request $request, Distance $distance)
     {
-        //
+        $distance->update($request->all());
+
+        session()->flash(
+            'message', 'Distance Updated!'
+        );
+
+        return redirect('/admin/distances');
     }
 
     /**
@@ -80,6 +102,13 @@ class DistancesController extends Controller
      */
     public function destroy(Distance $distance)
     {
-        //
+        $distance->delete();
+
+        session()->flash(
+            'message', 'Distance Deleted!'
+        );
+
+        return redirect('admin/distances');
     }
 }
+

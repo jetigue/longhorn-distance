@@ -160,6 +160,7 @@ $factory->define(App\Models\Distance::class, function (Faker\Generator $faker) {
 $factory->define(App\Models\TimeTrial::class, function (Faker\Generator $faker) {
     
     return [
+        'name'             => $faker->sentence($nbWords = 4, $variableNbWords = true),
         'gender_id'        => App\Models\Gender::all()->random()->id,
         'trial_date'       => $faker->dateTimeBetween(
                               $startDate = '-1 year', $endDate = 'now', $timezone = date_default_timezone_get()
@@ -169,5 +170,16 @@ $factory->define(App\Models\TimeTrial::class, function (Faker\Generator $faker) 
         'terrain_type_id'  => App\Models\TerrainType::all()->random()->id,
         'timing_method_id' => App\Models\TimingMethod::all()->random()->id,
         'notes'            => $faker->paragraph($nbSentences = 3, $variableNbSentences = true),
+    ];
+});
+
+$factory->define(App\Models\AthleteTrialResult::class, function (Faker\Generator $faker) {
+    
+    return [
+        'time_trial_id'    => App\Models\TimeTrial::all()->random()->id,
+        'athlete_id'       => App\Models\Athlete::all()->random()->id,
+        'place'            => $faker->numberBetween($min = 1, $max = 50),
+        'total_seconds'    => $faker->numberBetween($min = 300, $max = 1800),
+        'milliseconds'     => $faker->numberBetween($min = 1, $max = 99),
     ];
 });
