@@ -49,6 +49,7 @@ class RunningLogs
 			->where('run_date', '>', '2017-05-14')
 			->where('run_date', '<', '2017-08-01')
 			->orderBy('distance', 'desc')
+			->limit(50)
 			->get();
 
 		return $totalSummerMileagePerRunner;
