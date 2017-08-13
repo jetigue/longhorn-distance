@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Athlete;
-use App\Models\TeamAnnouncement;
-use App\Models\TeamEvent;
+use App\Models\Coach\Athlete;
+use App\Models\Coach\TeamAnnouncement;
+use App\Models\Coach\TeamEvent;
 use App\Repositories\Athletes;
 
 class PagesController extends Controller

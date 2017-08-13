@@ -51,8 +51,8 @@ Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
 	Route::resource('team_announcements', 'TeamAnnouncementsController');
 	Route::resource('team_events', 'TeamEventsController');
 	Route::resource('team_logs', 'TeamLogsController');
-	Route::resource('time_trials', 'TimeTrialsController');
-	Route::resource('trial_results', 'AthleteTrialResultsController');
+	Route::resource('time_trials', 'Coach\Trials\TimeTrialsController');
+	Route::resource('trial_results', 'Coach\Trials\IndividualResultsController');
 });
 
 Auth::routes();

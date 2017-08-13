@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\HTTP\Requests\RunningLogRequest;
-use App\Models\Calendar;
-use App\Models\RunningLog;
+use App\Models\Admin\Calendar;
+use App\Models\User\RunningLog;
 use App\Repositories\RunningLogs;
 use App\Repositories\TeamLogs;
 use Auth;
@@ -76,11 +76,12 @@ class DashboardsController extends Controller
      //        ));
     }
 
-    public function coach(TeamLogs $teamLogs)
+    public function coach(RunningLogs $runningLogs)
     {
-        $teamLogs = $teamLogs->all();
+        // $teamLogs = $teamLogs->all();
+        $totalSummerMileagePerRunner = $runningLogs->totalSummerMileagePerRunner();
 
-    	return view('coach.dashboard', compact('teamLogs'));
+    	return view('coach.dashboard', compact('teamLogs', 'totalSummerMileagePerRunner'));
     }
 
     public function user(RunningLogs $runningLogs)

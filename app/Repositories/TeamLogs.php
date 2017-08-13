@@ -2,8 +2,8 @@
 
 namespace App\Repositories;
 
-use App\Models\Calendar;
-use App\Models\RunningLog;
+use App\Models\Admin\Calendar;
+use App\Models\User\RunningLog;
 use Auth;
 use Carbon\Carbon;
 use DB;

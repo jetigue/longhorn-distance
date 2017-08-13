@@ -2,8 +2,8 @@
 
 namespace App\Repositories;
 
-use App\Models\Calendar;
-use App\Models\RunningLog;
+use App\Models\Admin\Calendar;
+use App\Models\User\RunningLog;
 use Auth;
 use Carbon\Carbon;
 use DB;
@@ -49,7 +49,7 @@ class RunningLogs
 			->where('run_date', '>', '2017-05-14')
 			->where('run_date', '<', '2017-08-01')
 			->orderBy('distance', 'desc')
-			->limit(10)
+			->limit(100)
 			->get();
 
 		return $totalSummerMileagePerRunner;

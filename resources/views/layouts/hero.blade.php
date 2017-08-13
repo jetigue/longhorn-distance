@@ -17,7 +17,7 @@
 					2016 AAAAAAA State Champions
 				</h1>
 
-				<h3>Join the Team! Click here to sign up: <strong><a href="https://goo.gl/forms/p5D9J2RusN9aYCNz1">2017 Sign-up Form</a></strong></h3>
+				<!-- <h3>Join the Team! Click here to sign up: <strong><a href="https://goo.gl/forms/p5D9J2RusN9aYCNz1">2017 Sign-up Form</a></strong></h3> -->
 				@else
 
 				<h1 class="title is-4 is-marginless">

@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\Models\Athlete;
+use App\Models\Coach\Athlete;
 use Auth;
 use Carbon\Carbon;
 use DB;
