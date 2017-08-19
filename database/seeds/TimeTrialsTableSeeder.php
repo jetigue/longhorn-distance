@@ -11,6 +11,6 @@ class TimeTrialsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\TimeTrial', 20)->create();
+        factory('App\Models\Coach\TimeTrial', 20)->create();
     }
 }

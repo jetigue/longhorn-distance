@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Coach\Trials;
 
 use App\Models\Coach\Results\Individual\TimeTrialResult;
+use App\Models\Coach\TimeTrial;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -36,9 +37,17 @@ class IndividualResultsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, TimeTrial $timeTrial)
     {
-        //
+        IndividualResult::create([
+            'athlete_id' => request('athlete_id'),
+            'place' => request('place'),
+            'total_seconds' => request('total_seconds'),
+            'milliseconds' => request('milliseconds'),
+            'time_trial_id' => $timeTrial->id
+            ]);
+
+        return redirect();
     }
 
     /**

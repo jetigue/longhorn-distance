@@ -173,7 +173,7 @@ $factory->define(App\Models\Coach\TimeTrial::class, function (Faker\Generator $f
     ];
 });
 
-$factory->define(App\Models\AthleteTrialResult::class, function (Faker\Generator $faker) {
+$factory->define(App\Models\Results\Individual\TimeTrialResult::class, function (Faker\Generator $faker) {
     
     return [
         'time_trial_id'    => App\Models\Coach\TimeTrial::all()->random()->id,

@@ -25,6 +25,7 @@
 			      <th style="color: #fff;">Sex</th>
 			      <th style="color: #fff;">Grad Year</th>
 			      <th style="color: #fff;">Status</th>
+			      <th style="color: #fff;">User ID</th>
 			      <th></th>
 			      <th></th>
 		    	</tr>
@@ -36,6 +37,7 @@
 			      <td width="17%">{{$athlete->sex}}</td>
 			      <td width="17%">{{$athlete->grad_year}}</td>
 			      <td width="17%">{{$athlete->status}}</td>
+			      <td width="17%">{{$athlete->user_id}}</td>
 			      <td>
 			      	<button-edit
 			      		href="{{ route('athletes.edit', $athlete->id) }}">

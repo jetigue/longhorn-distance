@@ -94,7 +94,7 @@
 
 			<form 
 				class="form" 
-				action="coach/time_trials/{{$timeTrial->id}}/results" 
+				action="/coach/time_trials/{{$timeTrial->id}}/results" 
 				method="POST" 
 				role="form">
 				{{ csrf_field() }}

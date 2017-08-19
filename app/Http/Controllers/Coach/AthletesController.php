@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Coach;
 
 use App\Models\Coach\Athlete;
 use App\Repositories\Athletes;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class AthletesController extends Controller

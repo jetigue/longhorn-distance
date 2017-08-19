@@ -1,11 +1,19 @@
 <?php
 
-namespace App\Models\Coach\Results\Individual;
+namespace App\Models\Results\Individual;
 
 use Illuminate\Database\Eloquent\Model;
 
-class AthleteTrialResult extends Model
+class TimeTrialResult extends Model
 {
+    
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'time_trial_results';
+
     /**
      * The attributes that are mass assignable.
      *

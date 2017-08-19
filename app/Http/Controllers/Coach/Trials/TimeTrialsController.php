@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Coach\Trials;
 
 use App\Models\Coach\Athlete;
-use App\Models\Coach\Results\Individual\TimeTrialResult;
+use App\Models\Results\Individual\TimeTrialResult;
 use App\Models\Coach\TimeTrial;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

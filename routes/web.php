@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\Admin;
+use App\Http\Middleware\Coach;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,7 +12,7 @@ use App\Http\Middleware\Admin;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::post('coach/time_trials/{{$timeTrial->id}}/results', 'Coach\Trials\IndividualResultsController@store');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -46,7 +47,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 
 Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
 {
-	Route::resource('athletes', 'AthletesController');
+	Route::resource('athletes', 'Coach\AthletesController');
 	Route::get('dashboard', 'DashboardsController@coach');
 	Route::resource('team_announcements', 'TeamAnnouncementsController');
 	Route::resource('team_events', 'TeamEventsController');
@@ -64,3 +65,5 @@ Route::get('user/dashboard', 'DashboardsController@user');
 
 
 Route::resource('/running_log', 'RunningLogsController');
+
+

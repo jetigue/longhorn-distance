@@ -10,22 +10,14 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-
-            <h4>Thank You!</h4>
-            <p>On behalf of the Lambert Cross Country coaching staff and booster club, "THANK YOU!" to all of the volunteers, athletes, sponsors, and parents that made the Longhorn 5k a success.
-
-            <h4>Team Time Trial and Breakfast</h4>
-            <p>The team time trial and breakfast will be held this Saturday, August 19th, at Chattahoochee Pointe Park. This year's time trial will be a 2-mile race.
-            <p><strong>6:15 am: </strong>Athlete drop-off</p>
-            <p><strong>7:00 am: </strong>Boys Time Trial</p>
-            <p><strong>7:20 am: </strong>Girls Time Trial</p>
-            <p><strong>7:45 am: </strong>Team Breakfast</p>
-            <p>The time trial and breakfast is the last opportunity to pay registration fees and uniforms. There will be a table available for atheletes to try on uniforms (sizes may be different from your t-shirt size).
-            <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMkF0RW1ubXlVUDRsb2hHNXp6d0hMRmIxUzlr">Registration Form</a></strong></p>
         
             <h4>Lambert River Run</h4>
             <p>Saturday, August 26th, we are hosting the Lambert River Run at Chattahoochee Pointe Park. We will have about 15 high schools and 15 middles school participating. <strong>We are still in need of volunteers.</strong> Please click on the link below to sign up to volunteer. Thank you!</p>     
-            <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-longhorn2">Volunteer Sign-up Form</a></strong></p>
+            <p class="has-text-centered"><strong><a href="https://www.SignUpGenius.com/go/10C0548AAA92AA2FC1-2017">Volunteer Sign-up Form</a></strong></p>
+
+            <h4>Pasta Dinner</h4>
+            <p>The evening prior to the River Run, Friday 8/25, the booster club will be hosting a pasta dinner for all runners and parents at Chattahoochee Pointe Park at 6pm.  Please come, load up on carbs and get instructions on your volunteer position prior to race day.  We hope to see you all there!</p>
+
           </div>
         </article>
       </div>
@@ -100,26 +92,31 @@
         <p class="title">Upcoming Events</p>
         <div class="content events">
     
-        <h4>Official Practice Begins!</h4>
-        <h6>Tuesday, August 1st</h6>
-        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
-        <h6><span style="color:#73000a">Time: </span>6:30 am</h6>
-        <h6>Be sure your physical is up to date!</h6>
-        <hr>
-        <h4>Longhorn 5k</h4>
-        <h6>Saturday, August 12th</h6>
-        <h6><span style="color:#73000a">@ </span>Lambert High School Stadium</h6>
-        <h6><span style="color:#73000a">Time: </span>8:00 am</h6>
-        <h6><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HTjJqOG9janQwalk">Registration Form</a></strong></h6>
-        <hr>
-        <h4>Team Time Trial</h4>
-        <h6>Saturday, August 19th</h6>
-        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
-        <h6><span style="color:#73000a">Time: </span>7:00 am</h6>      
-        <hr>
         <h4>Lambert River Run</h4>
         <h6>Saturday, August 26th</h6>
         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+        <hr>
+        <h4>Berry College Invitational</h4>
+        <h6>Saturday, September 2nd</h6>
+        <h6><span style="color:#73000a">@ </span>Berry College</h6>
+        <h6><span style="color:#73000a">Who Races? </span>Everyone</h6>
+        <hr>
+        <h4>Afternoon Practices Betgin</h4>
+        <h6>Tuesday, September 5th</h6>
+        <h6><span style="color:#73000a">Time: </span>3:55pm to 5:30pm</h6>
+        <h6><span style="color:#73000a">Where? </span>Lambert Track</h6>
+        <hr>
+        <h4>Furman Invitational</h4>
+        <h6>Saturday, September 9th</h6>
+        <h6><span style="color:#73000a">@ </span>Furman University</h6>
+        <h6><span style="color:#73000a">Who Races? </span>Summer Running Qualifiers</h6>
+        <hr>
+        <h4>Warpath Invitational</h4>
+        <h6>Saturday, September 16th</h6>
+        <h6><span style="color:#73000a">@ </span>Boling Park in Canton</h6>
+        <h6><span style="color:#73000a">Who Races? </span>Everyone</h6>
+
+
         </div>
       </div>
     </article>

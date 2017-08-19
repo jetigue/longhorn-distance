@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DistancesTableSeeder::class);
         $this->call(TimingMethodsTableSeeder::class);
         $this->call(TimeTrialsTableSeeder::class);
-        $this->call(AthleteTrialResultsTableSeeder::class);
+        $this->call(TimeTrialResultsTableSeeder::class);
         
     }
 }

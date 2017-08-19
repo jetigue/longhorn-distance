@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class AthleteTrialResultsTableSeeder extends Seeder
+class TimeTrialResultsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class AthleteTrialResultsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\AthleteTrialResult', 100)->create();
+        factory('App\Models\Results\Individual\TimeTrialResult', 100)->create();
     }
 }
