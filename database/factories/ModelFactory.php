@@ -153,7 +153,8 @@ $factory->define(App\Models\Admin\TimingMethod::class, function (Faker\Generator
 
 $factory->define(App\Models\Admin\Distance::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->randomElement($array = array ('1600m', '1 Mile', '2 Mile', '5k', '3200m'))
+        'name' => '2 Mile',
+        'meters' => '3218.688'
     ];
 });
 

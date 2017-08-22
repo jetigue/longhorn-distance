@@ -12,12 +12,11 @@ use App\Http\Middleware\Coach;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::post('coach/time_trials/{{$timeTrial->id}}/results', 'Coach\Trials\IndividualResultsController@store');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
-Route::get('/', 'PagesController@home');
+Route::get('/', 'PagesController@home')->name('home');
 Route::get('booster_club', 'PagesController@booster_club');
 Route::get('boys_roster', 'PagesController@boys_roster');
 Route::get('coaches', 'PagesController@coaches');
@@ -47,13 +46,16 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 
 Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
 {
-	Route::resource('athletes', 'Coach\AthletesController');
+	Route::resource('/athletes', 'Coach\AthletesController');
 	Route::get('dashboard', 'DashboardsController@coach');
 	Route::resource('team_announcements', 'TeamAnnouncementsController');
 	Route::resource('team_events', 'TeamEventsController');
 	Route::resource('team_logs', 'TeamLogsController');
+	// Route::get('time_trials/{$timeTrial}/results', 'Coach\Trials\TimeTrialsController@addResult')->name('trial_results');
 	Route::resource('time_trials', 'Coach\Trials\TimeTrialsController');
-	Route::resource('trial_results', 'Coach\Trials\IndividualResultsController');
+	// Route::get('/trial_results/{$timeTrial}/create', 'Coach\Trials\ResultsController@create')->name('trial_result.create');
+	Route::resource('trial_results', 'Coach\Trials\ResultsController');
+
 });
 
 Auth::routes();

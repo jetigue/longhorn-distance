@@ -5,7 +5,7 @@
 @endsection
 
 @section('title')
-	Time Trial
+	{{$timeTrial->name}}
 @endsection
 
 @section('button')
@@ -16,9 +16,9 @@
 @endsection
 
 @section('content')
-<div class="content">
+<!-- <div class="content">
 <h2>{{$timeTrial->name}}</h2>
-<hr>
+<hr> -->
 
 <nav class="level">
   <div class="level-item has-text-centered">
@@ -42,7 +42,7 @@
   <div class="level-item has-text-centered">
     <div>
       <p class="heading">Terrain</p>
-      <h3 class="is-marginless">{{$timeTrial->terrain->name}}</h3>
+      <h3 class="is-marginless">{{$timeTrial->terrainType->name}}</h3>
     </div>
   </div>
   <div class="level-item has-text-centered">
@@ -54,7 +54,7 @@
   <div class="level-item has-text-centered">
     <div>
       <p class="heading">Timing</p>
-      <h3 class="is-marginless">{{$timeTrial->timing->name}}</h3>
+      <h3 class="is-marginless">{{$timeTrial->timingMethod->name}}</h3>
     </div>
   </div>
 </nav>
@@ -94,7 +94,7 @@
 
 			<form 
 				class="form" 
-				action="/coach/time_trials/{{$timeTrial->id}}/results" 
+				action="{{$timeTrial->id}}/results" 
 				method="POST" 
 				role="form">
 				{{ csrf_field() }}

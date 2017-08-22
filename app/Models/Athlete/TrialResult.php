@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\Athlete;
+namespace App\Models\Coach;
 
 use Illuminate\Database\Eloquent\Model;
 

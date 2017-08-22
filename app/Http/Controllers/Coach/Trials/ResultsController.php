@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers\Coach\Trials;
 
-use App\Models\Coach\Results\Individual\TimeTrialResult;
+use App\Models\Results\Individual\TimeTrialResult;
 use App\Models\Coach\TimeTrial;
+use App\Models\Coach\Athlete;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class IndividualResultsController extends Controller
+class ResultsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +17,10 @@ class IndividualResultsController extends Controller
      */
     public function index()
     {
+
         $results = TimeTrialResult::all();
 
-        return view('athlete.trial_results.index', compact('results'));
+        return view('coach.results.time_trials.index', compact('results', 'timeTrial'));
     }
 
     /**
@@ -26,9 +28,14 @@ class IndividualResultsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(TimeTrialResult $result)
     {
-        //
+        $timeTrials = TimeTrial::all();
+
+        $athletes = Athlete::where('status', 'a')->orderBy('last_name')->get();
+
+        return view('coach.results.time_trials.create', compact('result', 'timeTrials', 'athletes'));
+
     }
 
     /**
@@ -37,9 +44,9 @@ class IndividualResultsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, TimeTrial $timeTrial)
+    public function store(TimeTrial $timeTrial)
     {
-        IndividualResult::create([
+        TimeTrialResult::create([
             'athlete_id' => request('athlete_id'),
             'place' => request('place'),
             'total_seconds' => request('total_seconds'),
@@ -47,7 +54,7 @@ class IndividualResultsController extends Controller
             'time_trial_id' => $timeTrial->id
             ]);
 
-        return redirect();
+        return back();
     }
 
     /**

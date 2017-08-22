@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers\Coach\Trials;
 
+use App\Models\Admin\Distance;
+use App\Models\Admin\Gender;
+use App\Models\Admin\Season;
+use App\Models\Admin\TerrainType;
+use App\Models\Admin\TimingMethod;
 use App\Models\Coach\Athlete;
-use App\Models\Results\Individual\TimeTrialResult;
 use App\Models\Coach\TimeTrial;
+use App\Models\Results\Individual\TimeTrialResult;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -23,7 +28,7 @@ class TimeTrialsController extends Controller
      */
     public function index()
     {
-        $timeTrials = TimeTrial::all();
+        $timeTrials = TimeTrial::all()->sortByDesc('trial_date');
 
         return view('coach.time_trials.index', compact('timeTrials'));
     }
@@ -35,7 +40,20 @@ class TimeTrialsController extends Controller
      */
     public function create(TimeTrial $timeTrial)
     {
-        return view('coach.time_trials.create', compact('timeTrial'));
+        $genders = Gender::all();
+        $seasons = Season::all();
+        $distances = Distance::all();
+        $terrainTypes = TerrainType::all();
+        $timingMethods = TimingMethod::all();
+
+        return view('coach.time_trials.create', compact(
+            'timeTrial', 
+            'genders', 
+            'seasons', 
+            'distances', 
+            'terrainTypes', 
+            'timingMethods'
+            ));
     }
 
     /**
@@ -61,6 +79,7 @@ class TimeTrialsController extends Controller
             'trial_date',
             'gender_id',
             'season_id',
+            'distance_id',
             'timing_method_id',
             'terrain_type_id',
             'notes']));
@@ -96,7 +115,20 @@ class TimeTrialsController extends Controller
      */
     public function edit(TimeTrial $timeTrial)
     {
-        return view('time_trials.edit', compact('timeTrial'));
+        $genders = Gender::all();
+        $seasons = Season::all();
+        $distances = Distance::all();
+        $terrainTypes = TerrainType::all();
+        $timingMethods = TimingMethod::all();
+
+        return view('coach.time_trials.edit', compact(
+            'timeTrial', 
+            'genders', 
+            'seasons', 
+            'distances', 
+            'terrainTypes', 
+            'timingMethods'
+            ));
     }
 
     /**
@@ -126,5 +158,18 @@ class TimeTrialsController extends Controller
     public function destroy(TimeTrial $timeTrial)
     {
         //
+    }
+
+    public function addResult(TimeTrialResult $timeTrialresult, TimeTrial $timeTrial)
+    {
+        TimeTrialResult::create([
+            'athlete_id' => request('athlete_id'),
+            'place' => request('place'),
+            'total_seconds' => request('total_seconds'),
+            'milliseconds' => request('milliseconds'),
+            'time_trial_id' => $timeTrial->id
+            ]);
+
+        return redirect();
     }
 }

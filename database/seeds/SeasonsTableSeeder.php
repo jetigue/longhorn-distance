@@ -11,6 +11,6 @@ class SeasonsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\Season', 4)->create();
+        factory('App\Models\Admin\Season', 4)->create();
     }
 }

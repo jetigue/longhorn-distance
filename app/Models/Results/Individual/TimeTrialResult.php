@@ -20,7 +20,11 @@ class TimeTrialResult extends Model
      * @var array
      */
     protected $fillable = [
-        
+        'time_trial_id',
+        'athlete_id',
+        'total_seconds',
+        'milliseconds',
+        'place'
     ];
 
     public function timeTrial()
@@ -64,9 +68,17 @@ class TimeTrialResult extends Model
 
 	}
 
-    public function getVDOT($vdot)
+    public function getVdotAttribute($vdot)
     {
-     
+     $time = $this->total_seconds;
+     $minutes = $time / 60;
+     $distance = $this->timeTrial->distance->meters;
+     $velocity = $distance / $minutes; // meters per minute
+     $v2 = $velocity * $velocity;
+     $percentVO2max = (.8 + .189439 * exp(-.01278 * $minutes)) + (.2989558 * exp(-.1932605 * $minutes));
+     $vdot = round((-4.6 + .182258 * $velocity + .000104 * $v2)/$percentVO2max, 1);
+
+     return ($vdot);
 
     }
 }

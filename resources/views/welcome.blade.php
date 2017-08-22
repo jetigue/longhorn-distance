@@ -23,10 +23,24 @@
       </div>
 
       <div class="tile is-4 is-vertical">
+
         <div class="tile">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              
+              <p class="title">Lambert River Run</p>
+              <p class="subtitle">Saturday, August 26th</p>
+              <div class="content">
+                <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HRi10NDltU1ZveXc">Lambert River Run</a></strong></p>
+                <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Ha1dvRHkwekFFYTA">5k Course Map</a></strong></p>
+                <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeXp1UlhMdUNwTTQ">2 Mile Course Map</a></strong></p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child box">     
               <p class="title">Longhorn 5k</p>
               <p class="subtitle">Saturday, August 12th</p>
               <div class="content">
@@ -36,19 +50,6 @@
             </article>
           </div>
         </div>
-
-        <div class="tile">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Lambert River Run</p>
-              <p class="subtitle">Saturday, August 26th</p>
-              <div class="content">
-                <p class="has-text-centered"><strong><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HRi10NDltU1ZveXc">Lambert River Run</a></strong></p>
-              </div>
-            </article>
-          </div>
-        </div>
-
 
       </div>
     </div>
@@ -101,7 +102,7 @@
         <h6><span style="color:#73000a">@ </span>Berry College</h6>
         <h6><span style="color:#73000a">Who Races? </span>Everyone</h6>
         <hr>
-        <h4>Afternoon Practices Betgin</h4>
+        <h4>Afternoon Practices Begin</h4>
         <h6>Tuesday, September 5th</h6>
         <h6><span style="color:#73000a">Time: </span>3:55pm to 5:30pm</h6>
         <h6><span style="color:#73000a">Where? </span>Lambert Track</h6>
