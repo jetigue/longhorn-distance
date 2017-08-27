@@ -100,7 +100,6 @@ class DashboardsController extends Controller
         $percentRunFeeling = $runningLogs->percentRunFeeling();
         $percentRunEffort = $runningLogs->percentRunEffort();
 
-
         return view('user.dashboard', compact(
             'weeklySummerMileage',
             'mileageLastWeek',
