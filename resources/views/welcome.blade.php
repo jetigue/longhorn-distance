@@ -15,7 +15,7 @@
             <p><strong><a href="https://www.atlantatrackclub.org/2017-wingfoot-xc-classic">
               Atlanta Track Club Wingfoot XC Classic Meet Page</a></strong></p>
             <p><strong>We will be departing from the stadium parking lot at 5:00 am!</strong></p>
-            <h6>JV Championsip Boys: 7:45 am</h6>
+            <h6>JV Championship Boys: 7:45 am</h6>
             <h6>JV Championship Girls: 8:00 am</h6>
             <h6>Varsity Championship Boys: 8:30 am</h6>
             <h6>Varsity Championship Girls: 8:50 am</h6>
