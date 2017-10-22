@@ -10,15 +10,17 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-          <h4>Coach Wood invitational</h4>
-          <p>Saturday, October 14th, all runners will be participating in the Coach Wood Invitational held in Gainesville</p>
-          <p>Each runner is encouraged to bring a canned food item for the <strong>Cans for a Can</strong> food drive that day.</p>
-          <p><a href="http://cache.milesplit.com/user_files/11171/217613/coach_wood_invitational_2017_(1).pdf">Coach Wood Meet Information</a></p>
-          <h4>GaMilesplit ROW</h4>
-          <p>Congratulations to <strong>Ty Fox</strong> for being named GaMilesplit AAAAAAA Runner of the Week! Ty ran 15:47 at Great American and was the top GHSA runner that day.</p>
-          <h4>Area 3 Championship</h4>
-          <p>Saturday, October 21st, all runners will be participating in the Area 3 Championhsip at Boling Park in Canton.</p>
-          <p><a href="http://ga.milesplit.com/meets/289728/info#.WeAJl2hSyUk">Area 3 Meet Page</a></p>
+          <h4>Congratulations State Qualifiers!</h4>
+          <p>Congratulations to the boys and girls varsity runners for qualifiying for STATE! The girls finished 4th at the Area 3 Championships and the boys finished 3rd. The State Meet will be held Friday, November 3rd in Carrollton. Most of our junior varsity, varsity and open runners ran either season or personal bests! Great job Longhorns!</p>
+          
+
+          <h4>Picture Day</h4>
+          <p>Our team picture will take place on Tuesday, October 24th at 4:00 pm in the stadium. Please wear your team shirt!</p>
+
+          <h4>Team Awards</h4>
+          <p>Please take a moment to vote for your team awards. The awards banquet will be held on Thursday, November 16th at Lanier Tech.</p>
+          <p><a href="https://goo.gl/forms/9HUQeLNcNf7yZPOr1">Boys Awards Ballot</a></p>
+          <p><a href="https://goo.gl/forms/ZjnXtnTZe7EwD1OQ2">Girls Arads Ballot</a></p>
           </div>
         </article>
       </div>
@@ -30,8 +32,23 @@
             <article class="tile is-child box">
               <p class="title">Latest Results</p>
               <div class="content events">
-                
-                <h4>Great American XC Festival</h4>
+              <h4>Area 3 Championship</h4>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554798/raw#.Wey9GWhSzcs">Varsity Boys: 3rd</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554797/raw#.Wey9KWhSzcs">Varsity Girls: 4th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554795/raw#.Wey9OWhSzcs">JV Boys: 5th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554792/raw#.Wey9UWhSzcs">JV Girls: 5th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554830/raw#.Wey9aGhSzcs">Open Boys: 5th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/289728/results/554814/raw#.Wey9iGhSzcs">Open Girls: 4th</a></h6>
+
+              <h4>Coach Wood Invite</h4>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552387/formatted#.Wey8TWhSzcs">Varsity Boys: 2nd</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552173/raw#.Wey8Z2hSzcs">Varsity Girls: 12th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552175/raw#.Wey8fWhSzcs">JV Boys: 8th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552179/raw#.Wey8qGhSzcs">JV Girls: 6th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552191/raw#.Wey832hSzcs">Open Boys: 7th</a></h6>
+              <h6><a href="http://ga.milesplit.com/meets/278846/results/552192/raw#.Wey8wmhSzcs">Open Girls: 7th</a></h6>
+
+<!--                 <h4>Great American XC Festival</h4>
                 <h6><a href="http://nc.milesplit.com/meets/286134/results/548976/formatted#.WeAMJmhSyUk">Championship Boys: 6th</a></h6>
                 <h6><a href="http://nc.milesplit.com/meets/286134/results/548977/formatted#.WeAMQmhSyUk">Varsity Girls: 9th</a></h6>
                 <h6><a href="http://nc.milesplit.com/meets/286134/results/548977/formatted#.WeAMQmhSyUk">Varsity Boys: 21st</a></h6>
@@ -44,7 +61,7 @@
                 <h6><a href="http://ga.milesplit.com/meets/272824/results/543370/raw#.WdQsG2hSyUk">Varsity Girls: 19th</a></h6>
                 <h6><a href="http://ga.milesplit.com/meets/272824/results/543363/raw#.WdQr-GhSyUk">JV Boys: 9th</a></h6>
                 <h6><a href="http://ga.milesplit.com/meets/272824/results/543364/raw#.WdQsO2hSyUk">JV Girls: 15th</a></h6>
-                <h6><a href="http://ga.milesplit.com/meets/272824/results/543373/raw#.WdQsnmhSyUk">Open Boys: 8th</a></h6>
+                <h6><a href="http://ga.milesplit.com/meets/272824/results/543373/raw#.WdQsnmhSyUk">Open Boys: 8th</a></h6> -->
 
                 <!-- <h4>Warpath Invitational</h4>
                 <h6><a href="http://ga.milesplit.com/meets/272092/results/540279/raw#.WcG9KMh96Uk">Varsity Boys: 2nd</a></h6>
@@ -82,7 +99,7 @@
         <article class="tile is-child box">
           <p class="title">Girls Varsity ROW</p>
           <div class="content">
-            <p><strong>Reilly Stevens</strong>, sophomore, finished 3rd for the Longhorns with a time of 21:23!</p>
+            <!-- <p><strong>Reilly Stevens</strong>, sophomore, finished 3rd for the Longhorns with a time of 21:23!</p> -->
            <!--  <p><strong>Hannah Lee</strong>, sophomore, finished 2nd for the Longhorns with a time of 20:57!</p> -->
            <!--  <p><strong>Julia Levielle</strong>, senior, finsihed 4th for the Longhorns with a career best time of 20:42!</p> -->
             <!-- <p><strong>Brianna O'Neal</strong>, junior, another top ten finish for Brianna, finishing in a time of 21:01.</p> -->
@@ -93,7 +110,7 @@
         <article class="tile is-child box">
           <p class="title">Girls JV ROW</p>
           <div class="content">
-            <p><strong>Elly Sherman</strong>, senior, finished 2nd for the Longhorns with a time of 22:23!</p>
+            <!-- <p><strong>Elly Sherman</strong>, senior, finished 2nd for the Longhorns with a time of 22:23!</p> -->
              <!-- <p><strong>Caroline Harrell</strong>, junior, finished 2nd for the Longhorns with a time of 22:57!</p> -->
            <!--  <p><strong>Courtney Taing</strong>, sophomore, finsihed 2nd for the Longhorns and ran a personal best of 21:16!</p> -->
             <!-- <p><strong>Charlotte Lawson</strong>, freshman, runner-up in the girls' JV division, running a PR of 23:43!</p> -->
@@ -106,7 +123,7 @@
       <article class="tile is-child box">
           <p class="title">Boys Varsity ROW</p>
           <div class="content">
-            <p><strong>Michael Tardella</strong>, senior, finished 4tth for the longhorns with a new PR of 16:28!</p>
+            <!-- <p><strong>Michael Tardella</strong>, senior, finished 4tth for the longhorns with a new PR of 16:28!</p> -->
            <!--  <p><strong>Cooper Bocko</strong>, freshman, finished 6th for the longhorns with an impressive time of 16:59!</p> -->
             <!-- <p><strong>Tanner Baker</strong>, senior, another top 20 overall finish for Tanner and a career best time of 16:32!</p> -->
 <!--              <p><strong>Lee Keil</strong>, senior, finished 3rd overall after not being able to run for a week with a time of 17:08.</p> -->
@@ -117,7 +134,7 @@
         <article class="tile is-child box">
           <p class="title">Boys JV ROW</p>
           <div class="content">
-          <p><strong>Alex Kleckley</strong>, sophomore, finished 1st for the Longhorns with a new PR of time of 18:40!
+          <!-- <p><strong>Alex Kleckley</strong>, sophomore, finished 1st for the Longhorns with a new PR of time of 18:40!</p> -->
           <!-- <p><strong>Nick White</strong>, sophomore, finished 2nd for the Longhorns with a time of 17:41! -->
           <!-- <p><strong>Colin Chapman</strong>, freshman, led the Longhorns to a 3rd place, placing 6th overall with a time of 16:32!</p> -->
           <!-- <p><strong>Lucas Bekele</strong>, freshman, 3rd place in the JV boys' race with a time of 18:56.</p> -->
@@ -147,17 +164,6 @@
         <div class="content events">
         <hr>
 
-
-        <h4>Coach Wood Invitational</h4>
-        <h6>Saturday, October 14th</h6>
-        <h6><span style="color:#73000a">@ </span>UNG-Gainesville Campus, Gainesville, GA</h6>
-        <h6><span style="color:#73000a">Who Races? </span>Everyone</h6>
-        <hr>
-        <h4>Area 3 Championship</h4>
-        <h6>Saturday, October 21st</h6>
-        <h6><span style="color:#73000a">@ </span>Boling Park, Canton</h6>
-        <h6><span style="color:#73000a">Who Races? </span>Everyone</h6>
-        <hr>
         <h4>Team Pictures</h4>
         <h6>Team pictures will take place on Tuesday, October 24th, at 4:00 pm in the stadium.</h6>
         <hr>
