@@ -10,18 +10,19 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-          <h4>Congratulations State Qualifiers!</h4>
-          <p>Congratulations to the boys and girls varsity runners for qualifiying for STATE! The girls finished 4th at the Area 3 Championships and the boys finished 3rd. The State Meet will be held Friday, November 3rd in Carrollton. Most of our junior varsity, varsity and open runners ran either season or personal bests! Great job Longhorns!</p>
-          
-
-          <h4>Picture Day</h4>
-          <p>Our team picture will take place on Tuesday, October 24th at 4:00 pm in the stadium. Please wear your team shirt!</p>
-
-          <h4>Team Awards</h4>
-          <p>Please take a moment to vote for your team awards. The awards banquet will be held on Thursday, November 16th at Lanier Tech.</p>
-          <p><a href="https://goo.gl/forms/9HUQeLNcNf7yZPOr1">Boys Awards Ballot</a></p>
-          <p><a href="https://goo.gl/forms/ZjnXtnTZe7EwD1OQ2">Girls Arads Ballot</a></p>
-          </div>
+          <h4>Winter Running Plan</h4>
+          <p>Hope everyone is enjoying their holiday break as we head towards the 2018 track season! Because everyone's schedule is going to be a bit different, the plan below is relatively generic. Feel free to mix around the days as your schedule allows.</p>
+          <ul>
+            <li><strong>Sunday</strong>: Long Run of 60 to 90 minutes. Preferably on soft surfaces.</li>
+            <li><strong>Monday</strong>: Hill Repeats or 200m fast efforts on the track. <strong>Full Recovery!</strong></li>
+            <li><strong>Tuesday</strong>: 35 to 45 Minutes Easy</li>
+            <li><strong>Wednesday</strong>: 60 minute Fartlek</li>
+            <li><strong>Thursday</strong>: 35 to 45 Minutes Easy</li>
+            <li><strong>Friday</strong>: 20 Minute Tempo or 4 x Mile at Tempo Effort</li>
+            <li><strong>Saturday</strong>: 35 to 45 Minutes Easy</li>
+          </ul>
+          <p>The hill or 200m efforts should be fast but not hard! Feel free to vary the distance of the hill but make sure you give yourself plenty of <strong>active</strong> recovery between each attempt.</p>
+          <p>The fartek run is probably the most important run of the week. The first ten minutes should be your warmup and then start your hard efforts followed by easy efforts. Your hard efforts should last between 1 to 4 minutes at mile pace. Your easy efforts should be as long or longer than your the previous hard effort. The last ten minutes is your cool down.</p>
         </article>
       </div>
 
