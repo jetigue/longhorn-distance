@@ -21,6 +21,6 @@ class Season extends Model
     */
     public function timeTrials()
     {
-        $this->hasMany('App\Models\Coach\TimeTrial');
+        $this->hasMany(\App\Models\Coach\TimeTrial::class);
     }
 }

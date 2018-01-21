@@ -11,6 +11,6 @@ class GendersTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\Admin\Gender', 3)->create();
+        factory(\App\Models\Admin\Gender::class, 3)->create();
     }
 }

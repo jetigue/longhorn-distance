@@ -11,6 +11,6 @@ class DistancesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\Admin\Distance', 1)->create();
+        factory(\App\Models\Admin\Distance::class, 1)->create();
     }
 }

@@ -24,26 +24,26 @@ class TimeTrial extends Model
 
     public function distance()
     {
-        return $this->belongsTo('App\Models\Admin\Distance', 'distance_id');
+        return $this->belongsTo(\App\Models\Admin\Distance::class, 'distance_id');
     }
 
     public function gender()
     {
-        return $this->belongsTo('App\Models\Admin\Gender', 'gender_id');
+        return $this->belongsTo(\App\Models\Admin\Gender::class, 'gender_id');
     }
 
     public function season()
     {
-        return $this->belongsTo('App\Models\Admin\Season', 'season_id');
+        return $this->belongsTo(\App\Models\Admin\Season::class, 'season_id');
     }
 
     public function timingMethod()
     {
-        return $this->belongsTo('App\Models\Admin\TimingMethod', 'timing_method_id');
+        return $this->belongsTo(\App\Models\Admin\TimingMethod::class, 'timing_method_id');
     }
 
     public function terrainType()
     {
-        return $this->belongsTo('App\Models\Admin\TerrainType', 'terrain_type_id');
+        return $this->belongsTo(\App\Models\Admin\TerrainType::class, 'terrain_type_id');
     }
 }

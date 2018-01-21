@@ -30,32 +30,32 @@ class RunningLog extends Model
 
     public function runType()
     {
-        return $this->belongsTo('App\Models\Admin\RunType', 'run_type_id');
+        return $this->belongsTo(\App\Models\Admin\RunType::class, 'run_type_id');
     }
 
     public function terrainType()
     {
-        return $this->belongsTo('App\Models\Admin\TerrainType', 'terrain_type_id');
+        return $this->belongsTo(\App\Models\Admin\TerrainType::class, 'terrain_type_id');
     }
 
     public function runEffort()
     {
-        return $this->belongsTo('App\Models\Admin\RunEffort', 'run_effort_id');
+        return $this->belongsTo(\App\Models\Admin\RunEffort::class, 'run_effort_id');
     }
 
     public function runFeeling()
     {
-        return $this->belongsTo('App\Models\Admin\RunFeeling', 'run_feeling_id');
+        return $this->belongsTo(\App\Models\Admin\RunFeeling::class, 'run_feeling_id');
     }
 
     public function dayTime()
     {
-        return $this->belongsTo('App\Models\Admin\DayTime', 'day_time_id');
+        return $this->belongsTo(\App\Models\Admin\DayTime::class, 'day_time_id');
     }
 
     public function user()
     {
-        return $this->belongsTo('App\Models\Admin\User', 'user_id');
+        return $this->belongsTo(\App\Models\Admin\User::class, 'user_id');
     }
 
     // *
@@ -65,7 +65,7 @@ class RunningLog extends Model
     
     public function owner()
     {
-        return $this->belongsTo('App\Models\Admin\User', 'user_id');
+        return $this->belongsTo(\App\Models\Admin\User::class, 'user_id');
     }
 
 /************************************************** 

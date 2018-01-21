@@ -29,17 +29,17 @@ class TimeTrialResult extends Model
 
     public function timeTrial()
     {
-        return $this->belongsTo('App\Models\Coach\TimeTrial', 'time_trial_id');
+        return $this->belongsTo(\App\Models\Coach\TimeTrial::class, 'time_trial_id');
     }
 
     public function athlete()
     {
-        return $this->belongsTo('App\Models\Coach\Athlete', 'athlete_id');
+        return $this->belongsTo(\App\Models\Coach\Athlete::class, 'athlete_id');
     }
 
     public function distance()
     {
-        return $this->belongsTo('App\Models\Admin\Distance', 'distance_id');
+        return $this->belongsTo(\App\Models\Admin\Distance::class, 'distance_id');
     }
 
     public function getDurationAttribute($duration)

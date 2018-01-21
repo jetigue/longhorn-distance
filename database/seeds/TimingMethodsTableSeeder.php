@@ -11,6 +11,6 @@ class TimingMethodsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\Admin\TimingMethod', 2)->create();
+        factory(\App\Models\Admin\TimingMethod::class, 2)->create();
     }
 }
