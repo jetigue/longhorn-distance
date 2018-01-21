@@ -47,13 +47,13 @@ class TimeTrialsController extends Controller
         $timingMethods = TimingMethod::all();
 
         return view('coach.time_trials.create', compact(
-            'timeTrial', 
-            'genders', 
-            'seasons', 
-            'distances', 
-            'terrainTypes', 
+            'timeTrial',
+            'genders',
+            'seasons',
+            'distances',
+            'terrainTypes',
             'timingMethods'
-            ));
+        ));
     }
 
     /**
@@ -85,11 +85,11 @@ class TimeTrialsController extends Controller
             'notes']));
 
         session()->flash(
-            'message', 'Time trial successfully created!'
+            'message',
+            'Time trial successfully created!'
         );
 
         return redirect('/coach/time_trials');
-
     }
 
     /**
@@ -122,13 +122,13 @@ class TimeTrialsController extends Controller
         $timingMethods = TimingMethod::all();
 
         return view('coach.time_trials.edit', compact(
-            'timeTrial', 
-            'genders', 
-            'seasons', 
-            'distances', 
-            'terrainTypes', 
+            'timeTrial',
+            'genders',
+            'seasons',
+            'distances',
+            'terrainTypes',
             'timingMethods'
-            ));
+        ));
     }
 
     /**
@@ -143,7 +143,8 @@ class TimeTrialsController extends Controller
         $timeTrial->update($request->all());
 
         session()->flash(
-            'message', 'Time Trial Updated!'
+            'message',
+            'Time Trial Updated!'
         );
 
         return redirect('/coach/time_trials');

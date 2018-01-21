@@ -44,11 +44,12 @@ class GendersController extends Controller
             ]);
 
         Gender::create(request([
-            'name', 
+            'name',
             ]));
 
         session()->flash(
-            'message', 'Gender Created!'
+            'message',
+            'Gender Created!'
         );
 
         return redirect('/admin/genders');
@@ -88,7 +89,8 @@ class GendersController extends Controller
         $gender->update($request->all());
 
         session()->flash(
-            'message', 'Gender Updated!'
+            'message',
+            'Gender Updated!'
         );
 
         return redirect('/admin/genders');
@@ -105,7 +107,8 @@ class GendersController extends Controller
         $gender->delete();
 
         session()->flash(
-            'message', 'Gender Deleted!'
+            'message',
+            'Gender Deleted!'
         );
 
         return redirect('admin/genders');

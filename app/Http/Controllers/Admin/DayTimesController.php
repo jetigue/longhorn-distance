@@ -45,12 +45,13 @@ class DayTimesController extends Controller
             ]);
 
         DayTime::create(request([
-            'name', 
+            'name',
             'description'
             ]));
 
         session()->flash(
-            'message', 'Day Time Created!'
+            'message',
+            'Day Time Created!'
         );
 
         return redirect('/admin/running_log/day_times');
@@ -90,7 +91,8 @@ class DayTimesController extends Controller
         $dayTime->update($request->all());
 
         session()->flash(
-            'message', 'Day Time Updated!'
+            'message',
+            'Day Time Updated!'
         );
 
         return redirect('admin/running_log/day_times');

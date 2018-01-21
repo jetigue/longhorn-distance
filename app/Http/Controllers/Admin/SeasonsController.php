@@ -44,11 +44,12 @@ class SeasonsController extends Controller
             ]);
 
         Season::create(request([
-            'name', 
+            'name',
             ]));
 
         session()->flash(
-            'message', 'Season Created!'
+            'message',
+            'Season Created!'
         );
 
         return redirect('/admin/seasons');
@@ -88,7 +89,8 @@ class SeasonsController extends Controller
         $season->update($request->all());
 
         session()->flash(
-            'message', 'Season Updated!'
+            'message',
+            'Season Updated!'
         );
 
         return redirect('/admin/seasons');
@@ -105,7 +107,8 @@ class SeasonsController extends Controller
         $season->delete();
 
         session()->flash(
-            'message', 'Season Deleted!'
+            'message',
+            'Season Deleted!'
         );
 
         return redirect('admin/seasons');

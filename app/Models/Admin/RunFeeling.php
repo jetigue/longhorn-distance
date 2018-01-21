@@ -21,6 +21,6 @@ class RunFeeling extends Model
     */
     public function runningLogs()
     {
-        $this->hasMany('App\Models\User\RunningLog');
+        $this->hasMany(\App\Models\User\RunningLog::class);
     }
 }

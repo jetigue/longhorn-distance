@@ -32,7 +32,6 @@ class RunningLogsController extends Controller
             ->get();
 
         return view('user.running_log.index', compact('runningLogs'));
-        
     }
 
     /**
@@ -48,8 +47,14 @@ class RunningLogsController extends Controller
         $runEfforts = RunEffort::all();
         $runFeelings = RunFeeling::all();
 
-        return view('user.running_log.create', compact (
-            'runningLog', 'runTypes', 'terrainTypes', 'runEfforts', 'runFeelings', 'dayTimes' ));
+        return view('user.running_log.create', compact(
+            'runningLog',
+            'runTypes',
+            'terrainTypes',
+            'runEfforts',
+            'runFeelings',
+            'dayTimes'
+        ));
     }
 
     /**
@@ -75,7 +80,8 @@ class RunningLogsController extends Controller
         );
 
         session()->flash(
-            'message', 'Run Logged!'
+            'message',
+            'Run Logged!'
         );
 
         return redirect('/running_log');
@@ -107,7 +113,13 @@ class RunningLogsController extends Controller
         $runFeelings = RunFeeling::all();
 
         return view('user.running_log.edit', compact(
-            'runningLog', 'runTypes', 'terrainTypes', 'dayTimes', 'runFeelings', 'runEfforts'));
+            'runningLog',
+            'runTypes',
+            'terrainTypes',
+            'dayTimes',
+            'runFeelings',
+            'runEfforts'
+        ));
     }
 
     /**
@@ -122,7 +134,8 @@ class RunningLogsController extends Controller
         $runningLog->update($request->all());
 
         session()->flash(
-            'message', 'Log Updated!'
+            'message',
+            'Log Updated!'
         );
 
         return redirect('/running_log');

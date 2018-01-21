@@ -16,7 +16,7 @@ class CreateRunningLogsTable extends Migration
         Schema::create('running_logs', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id');
-            $table->date('run_date');         
+            $table->date('run_date');
             $table->decimal('distance', 3, 1);
             $table->unsignedInteger('total_seconds');
             $table->unsignedSmallInteger('day_time_id');

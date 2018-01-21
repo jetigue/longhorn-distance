@@ -35,7 +35,6 @@ class ResultsController extends Controller
         $athletes = Athlete::where('status', 'a')->orderBy('last_name')->get();
 
         return view('coach.results.time_trials.create', compact('result', 'timeTrials', 'athletes'));
-
     }
 
     /**

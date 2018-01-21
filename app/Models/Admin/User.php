@@ -30,17 +30,16 @@ class User extends Authenticatable
 
     public function role()
     {
-        return $this->belongsTo('App\Models\Admin\UserRole', 'user_role_id');
+        return $this->belongsTo(\App\Models\Admin\UserRole::class, 'user_role_id');
     }
 
     public function runningLogs()
     {
-        return $this->hasMany('App\Models\User\RunningLog');
+        return $this->hasMany(\App\Models\User\RunningLog::class);
     }
 
     public function log(RunningLog $runningLog)
     {
         $this->runningLogs()->save($runningLog);
     }
-
 }

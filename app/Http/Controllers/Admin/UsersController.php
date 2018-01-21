@@ -54,11 +54,12 @@ class UsersController extends Controller
             'last_name',
             'email',
             'password',
-            'user_role_id' 
+            'user_role_id'
             ]));
 
         session()->flash(
-            'message', 'User Sucessfully Created!'
+            'message',
+            'User Sucessfully Created!'
         );
 
         return redirect('/admin/users');
@@ -100,7 +101,8 @@ class UsersController extends Controller
         $user->update($request->all());
 
         session()->flash(
-            'message', 'User Sucessfully Updated!'
+            'message',
+            'User Sucessfully Updated!'
         );
 
         return redirect('/admin/users');

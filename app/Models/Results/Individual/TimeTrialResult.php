@@ -29,56 +29,51 @@ class TimeTrialResult extends Model
 
     public function timeTrial()
     {
-    	return $this->belongsTo('App\Models\Coach\TimeTrial', 'time_trial_id');
+        return $this->belongsTo(\App\Models\Coach\TimeTrial::class, 'time_trial_id');
     }
 
     public function athlete()
     {
-    	return $this->belongsTo('App\Models\Coach\Athlete', 'athlete_id');
+        return $this->belongsTo(\App\Models\Coach\Athlete::class, 'athlete_id');
     }
 
     public function distance()
     {
-        return $this->belongsTo('App\Models\Admin\Distance', 'distance_id' );
+        return $this->belongsTo(\App\Models\Admin\Distance::class, 'distance_id');
     }
 
     public function getDurationAttribute($duration)
-	{
+    {
 
-		$total_duration = $this->total_seconds;
+        $total_duration = $this->total_seconds;
 
-		if ($total_duration >= 3600) {
-			$duration = ltrim(gmdate('g:i:s', $total_duration), 0);
-		}
+        if ($total_duration >= 3600) {
+            $duration = ltrim(gmdate('g:i:s', $total_duration), 0);
+        } else {
+            $duration = ltrim(gmdate('i:s', $total_duration), 0);
+        }
 
-		else {
-			$duration = ltrim(gmdate('i:s', $total_duration), 0);
-		}
+        return($duration);
+    }
 
-		return($duration);
+    public function getMillisecondsAttribute($milliseconds)
+    {
 
-	}
+        $milliseconds = sprintf("%02d", $milliseconds);
 
-	public function getMillisecondsAttribute($milliseconds)
-	{
-
-		$milliseconds = sprintf("%02d", $milliseconds);
-
-		return($milliseconds);
-
-	}
+        return($milliseconds);
+    }
 
     public function getVdotAttribute($vdot)
     {
-     $time = $this->total_seconds;
-     $minutes = $time / 60;
-     $distance = $this->timeTrial->distance->meters;
-     $velocity = $distance / $minutes; // meters per minute
-     $v2 = $velocity * $velocity;
-     $percentVO2max = (.8 + .189439 * exp(-.01278 * $minutes)) + (.2989558 * exp(-.1932605 * $minutes));
-     $vdot = round((-4.6 + .182258 * $velocity + .000104 * $v2)/$percentVO2max, 1);
+        $time = $this->total_seconds;
+        $minutes = $time / 60;
+        $distance = $this->timeTrial->distance->meters;
+        $velocity = $distance / $minutes; // meters per minute
+        $v2 = $velocity * $velocity;
+        $percentVO2max = (.8 + .189439 * exp(-.01278 * $minutes)) + (.2989558 * exp(-.1932605 * $minutes));
+        $vdot = round((-4.6 + .182258 * $velocity + .000104 * $v2)/$percentVO2max, 1);
 
-     return ($vdot);
-
+        return ($vdot);
     }
 }

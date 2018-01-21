@@ -2,6 +2,7 @@
 
 use App\Http\Middleware\Admin;
 use App\Http\Middleware\Coach;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,34 +29,31 @@ Route::get('team_camp', 'PagesController@team_camp');
 Route::get('sponsors', 'PagesController@sponsors');
 Route::get('our_team', 'PagesController@our_team');
 
-Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
-{
-	Route::resource('running_log/day_times', 'DayTimesController');
-	Route::resource('running_log/run_efforts', 'RunEffortsController');
-	Route::resource('running_log/run_feelings', 'RunFeelingsController');
-	Route::resource('running_log/run_types', 'RunTypesController');
-	Route::resource('running_log/terrain_types', 'TerrainTypesController');
-	Route::resource('user_roles', 'UserRolesController');
-	Route::resource('users', 'UsersController');
-	Route::resource('seasons', 'SeasonsController');
-	Route::resource('genders', 'GendersController');
-	Route::resource('timing_methods', 'TimingMethodsController');
-	Route::resource('distances', 'DistancesController');
-	Route::get('dashboard', 'DashboardsController@admin');
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
+    Route::resource('running_log/day_times', 'DayTimesController');
+    Route::resource('running_log/run_efforts', 'RunEffortsController');
+    Route::resource('running_log/run_feelings', 'RunFeelingsController');
+    Route::resource('running_log/run_types', 'RunTypesController');
+    Route::resource('running_log/terrain_types', 'TerrainTypesController');
+    Route::resource('user_roles', 'UserRolesController');
+    Route::resource('users', 'UsersController');
+    Route::resource('seasons', 'SeasonsController');
+    Route::resource('genders', 'GendersController');
+    Route::resource('timing_methods', 'TimingMethodsController');
+    Route::resource('distances', 'DistancesController');
+    Route::get('dashboard', 'DashboardsController@admin');
 });
 
-Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function()
-{
-	Route::resource('/athletes', 'Coach\AthletesController');
-	Route::get('dashboard', 'DashboardsController@coach');
-	Route::resource('team_announcements', 'TeamAnnouncementsController');
-	Route::resource('team_events', 'TeamEventsController');
-	Route::resource('team_logs', 'TeamLogsController');
-	// Route::get('time_trials/{$timeTrial}/results', 'Coach\Trials\TimeTrialsController@addResult')->name('trial_results');
-	Route::resource('time_trials', 'Coach\Trials\TimeTrialsController');
-	// Route::get('/trial_results/{$timeTrial}/create', 'Coach\Trials\ResultsController@create')->name('trial_result.create');
-	Route::resource('trial_results', 'Coach\Trials\ResultsController');
-
+Route::group(['prefix' => 'coach', 'middleware' => 'coach'], function () {
+    Route::resource('/athletes', 'Coach\AthletesController');
+    Route::get('dashboard', 'DashboardsController@coach');
+    Route::resource('team_announcements', 'TeamAnnouncementsController');
+    Route::resource('team_events', 'TeamEventsController');
+    Route::resource('team_logs', 'TeamLogsController');
+    // Route::get('time_trials/{$timeTrial}/results', 'Coach\Trials\TimeTrialsController@addResult')->name('trial_results');
+    Route::resource('time_trials', 'Coach\Trials\TimeTrialsController');
+    // Route::get('/trial_results/{$timeTrial}/create', 'Coach\Trials\ResultsController@create')->name('trial_result.create');
+    Route::resource('trial_results', 'Coach\Trials\ResultsController');
 });
 
 Auth::routes();
@@ -67,5 +65,3 @@ Route::get('user/dashboard', 'DashboardsController@user');
 
 
 Route::resource('/running_log', 'RunningLogsController');
-
-
