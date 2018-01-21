@@ -15,9 +15,8 @@ class Distance extends Model
         'name'
     ];
 
-	public function timeTrials()
-	{
-		return $this->hasMany('App\Model\Coach\TimeTrial', 'distance_id');
-	}
-
+    public function timeTrials()
+    {
+        return $this->hasMany('App\Model\Coach\TimeTrial', 'distance_id');
+    }
 }

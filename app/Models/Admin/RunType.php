@@ -23,6 +23,4 @@ class RunType extends Model
     {
         $this->hasMany('App\Models\User\RunningLog', 'run_type_id');
     }
-
-    
 }

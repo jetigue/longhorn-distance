@@ -51,7 +51,7 @@ class TeamAnnouncementsController extends Controller
             ]);
 
         TeamAnnouncement::create(request([
-            'begin_date', 
+            'begin_date',
             'end_date',
             'title',
             'body',
@@ -60,7 +60,8 @@ class TeamAnnouncementsController extends Controller
             ]));
 
         session()->flash(
-            'message', 'Announcement successfully created!'
+            'message',
+            'Announcement successfully created!'
         );
 
         return redirect('/coach/team_announcements');
@@ -100,7 +101,8 @@ class TeamAnnouncementsController extends Controller
         $teamAnnouncement->update($request->all());
 
         session()->flash(
-            'message', 'Announcement Updated!'
+            'message',
+            'Announcement Updated!'
         );
 
         return redirect('/coach/team_announcements');

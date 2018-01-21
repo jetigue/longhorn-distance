@@ -42,5 +42,4 @@ class User extends Authenticatable
     {
         $this->runningLogs()->save($runningLog);
     }
-
 }

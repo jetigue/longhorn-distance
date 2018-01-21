@@ -9,14 +9,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class RunningLog extends Model
 {
-	  /**
+      /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-    	'user_id',
-        'run_date', 
+        'user_id',
+        'run_date',
         'day_time_id',
         'distance',
         'total_seconds',
@@ -29,111 +29,105 @@ class RunningLog extends Model
 
 
     public function runType()
-	{
-		return $this->belongsTo('App\Models\Admin\RunType', 'run_type_id');
-	}
+    {
+        return $this->belongsTo('App\Models\Admin\RunType', 'run_type_id');
+    }
 
-	public function terrainType()
-	{
-		return $this->belongsTo('App\Models\Admin\TerrainType', 'terrain_type_id');
-	}
+    public function terrainType()
+    {
+        return $this->belongsTo('App\Models\Admin\TerrainType', 'terrain_type_id');
+    }
 
-	public function runEffort()
-	{
-		return $this->belongsTo('App\Models\Admin\RunEffort', 'run_effort_id');
-	}
+    public function runEffort()
+    {
+        return $this->belongsTo('App\Models\Admin\RunEffort', 'run_effort_id');
+    }
 
-	public function runFeeling()
-	{
-		return $this->belongsTo('App\Models\Admin\RunFeeling', 'run_feeling_id');
-	}
+    public function runFeeling()
+    {
+        return $this->belongsTo('App\Models\Admin\RunFeeling', 'run_feeling_id');
+    }
 
-	public function dayTime()
-	{
-		return $this->belongsTo('App\Models\Admin\DayTime', 'day_time_id');
-	}
+    public function dayTime()
+    {
+        return $this->belongsTo('App\Models\Admin\DayTime', 'day_time_id');
+    }
 
-	public function user()
-	{
-		return $this->belongsTo('App\Models\Admin\User', 'user_id');
-	}
+    public function user()
+    {
+        return $this->belongsTo('App\Models\Admin\User', 'user_id');
+    }
 
-	// *
-	// * A RunningLog is owned by a user.
-	// *
-	// * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-	
-	public function owner()
-	{
-		return $this->belongsTo('App\Models\Admin\User', 'user_id');
-	}
+    // *
+    // * A RunningLog is owned by a user.
+    // *
+    // * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+    
+    public function owner()
+    {
+        return $this->belongsTo('App\Models\Admin\User', 'user_id');
+    }
 
 /************************************************** 
 DEFINE ACCESSORS AND MUTATORS
 ***************************************************/
-	
-	public function getAveragePaceAttribute($averagePace)
-	{
+    
+    public function getAveragePaceAttribute($averagePace)
+    {
 
-		$total_seconds = $this->total_seconds;
+        $total_seconds = $this->total_seconds;
 
-		$distance = $this->distance;
+        $distance = $this->distance;
 
-		$averagePace = $total_seconds / $distance;
+        $averagePace = $total_seconds / $distance;
 
-		$averagePace = ltrim(gmdate('i:s', $averagePace), 0);
+        $averagePace = ltrim(gmdate('i:s', $averagePace), 0);
 
-		return($averagePace);
+        return($averagePace);
+    }
 
-	}
 
+    public function getDurationAttribute($duration)
+    {
 
-	public function getDurationAttribute($duration)
-	{
+        $total_duration = $this->total_seconds;
 
-		$total_duration = $this->total_seconds;
+        if ($total_duration >= 3600) {
+            $duration = ltrim(gmdate('g:i:s', $total_duration), 0);
+        } else {
+            $duration = ltrim(gmdate('i:s', $total_duration), 0);
+        }
 
-		if ($total_duration >= 3600) {
-			$duration = ltrim(gmdate('g:i:s', $total_duration), 0);
-		}
+        return($duration);
+    }
 
-		else {
-			$duration = ltrim(gmdate('i:s', $total_duration), 0);
-		}
+    public function getMillisecondsAttribute($milliseconds)
+    {
 
-		return($duration);
+        $milliseconds = sprintf("%02d", $milliseconds);
 
-	}
+        return($milliseconds);
+    }
 
-	public function getMillisecondsAttribute($milliseconds)
-	{
+    public function getMinutesAttribute($minutes)
+    {
+        $totalTime = $this->total_seconds;
 
-		$milliseconds = sprintf("%02d", $milliseconds);
+        $minutes = floor($totalTime / 60);
 
-		return($milliseconds);
+        return($minutes);
+    }
 
-	}
+    public function getSecondsAttribute($seconds)
+    {
+        $totalTime = $this->total_seconds;
 
-	public function getMinutesAttribute($minutes)
-	{
-		$totalTime = $this->total_seconds;
+        $minutes = floor($totalTime / 60);
 
-		$minutes = floor($totalTime / 60);
+        $seconds = $totalTime - $minutes * 60;
 
-		return($minutes);
-
-	}
-
-	public function getSecondsAttribute($seconds)
-	{
-		$totalTime = $this->total_seconds;
-
-		$minutes = floor($totalTime / 60);
-
-		$seconds = $totalTime - $minutes * 60;
-
-		return($seconds);
-	}
+        return($seconds);
+    }
 
 /**************************************************
 DEFINE SCOPES
@@ -171,12 +165,11 @@ DEFINE SCOPES
      */
     public function scopeThisWeek($query)
     {
-    	$start = Carbon::now()->startOfWeek()->subDay();
-		$end = Carbon::now()->endOfWeek()->subDay();
+        $start = Carbon::now()->startOfWeek()->subDay();
+        $end = Carbon::now()->endOfWeek()->subDay();
 
         return $query
-        	->where('run_date', '>=', $start)
-        	->where('run_date', '<=', $end);
+            ->where('run_date', '>=', $start)
+            ->where('run_date', '<=', $end);
     }
-
 }

@@ -45,12 +45,13 @@ class RunFeelingsController extends Controller
             ]);
 
         RunFeeling::create(request([
-            'name', 
+            'name',
             'description'
             ]));
 
         session()->flash(
-            'message', 'Run Feeling Created!'
+            'message',
+            'Run Feeling Created!'
         );
 
         return redirect('/admin/running_log/run_feelings');
@@ -79,7 +80,8 @@ class RunFeelingsController extends Controller
         $runFeeling->update($request->all());
 
         session()->flash(
-            'message', 'Run Feeling Updated!'
+            'message',
+            'Run Feeling Updated!'
         );
 
         return redirect('/admin/running_log/run_feelings');

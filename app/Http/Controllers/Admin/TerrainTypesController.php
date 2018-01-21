@@ -46,12 +46,13 @@ class TerrainTypesController extends Controller
             ]);
 
         TerrainType::create(request([
-            'name', 
+            'name',
             'description'
             ]));
 
         session()->flash(
-            'message', 'Terrain Type Created!'
+            'message',
+            'Terrain Type Created!'
         );
 
         return redirect('/admin/running_log/terrain_types');
@@ -80,7 +81,8 @@ class TerrainTypesController extends Controller
         $terrainType->update($request->all());
 
         session()->flash(
-            'message', 'Terrain Type Updated!'
+            'message',
+            'Terrain Type Updated!'
         );
 
         return redirect('/admin/running_log/terrain_types');
