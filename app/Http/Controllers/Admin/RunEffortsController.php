@@ -44,12 +44,13 @@ class RunEffortsController extends Controller
             ]);
 
         RunEffort::create(request([
-            'name', 
+            'name',
             'description'
             ]));
 
         session()->flash(
-            'message', 'Run Effort Created!'
+            'message',
+            'Run Effort Created!'
         );
 
         return redirect('/admin/running_log/run_efforts');
@@ -78,7 +79,8 @@ class RunEffortsController extends Controller
         $runEffort->update($request->all());
 
         session()->flash(
-            'message', 'Run Effort Updated!'
+            'message',
+            'Run Effort Updated!'
         );
 
         return redirect('/admin/running_log/run_efforts');

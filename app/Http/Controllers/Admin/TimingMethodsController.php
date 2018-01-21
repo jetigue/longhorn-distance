@@ -44,11 +44,12 @@ class TimingMethodsController extends Controller
             ]);
 
         TimingMethod::create(request([
-            'name', 
+            'name',
             ]));
 
         session()->flash(
-            'message', 'Timing Method Created!'
+            'message',
+            'Timing Method Created!'
         );
 
         return redirect('/admin/timing_methods');
@@ -73,7 +74,7 @@ class TimingMethodsController extends Controller
      */
     public function edit(TimingMethod $timingMethod)
     {
-      return view('admin.timing_methods.edit', compact('timingMethod'));
+        return view('admin.timing_methods.edit', compact('timingMethod'));
     }
 
     /**
@@ -88,7 +89,8 @@ class TimingMethodsController extends Controller
         $timingMethod->update($request->all());
 
         session()->flash(
-            'message', 'Timing Method Updated!'
+            'message',
+            'Timing Method Updated!'
         );
 
         return redirect('/admin/timing_methods');

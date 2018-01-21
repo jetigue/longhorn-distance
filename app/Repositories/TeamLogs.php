@@ -8,14 +8,13 @@ use Auth;
 use Carbon\Carbon;
 use DB;
 
-class TeamLogs 
+class TeamLogs
 {
 
-	public function all()
-	{
-		$allLogs = RunningLog::all()->sortByDesc('run_date');
+    public function all()
+    {
+        $allLogs = RunningLog::all()->sortByDesc('run_date');
 
-		return $allLogs;
-	}
-
+        return $allLogs;
+    }
 }

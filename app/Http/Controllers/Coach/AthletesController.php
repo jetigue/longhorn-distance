@@ -83,7 +83,8 @@ class AthletesController extends Controller
         ]));
 
         session()->flash(
-            'message', 'Athlete successfully created!'
+            'message',
+            'Athlete successfully created!'
         );
 
         return redirect('coach/athletes');
@@ -122,9 +123,9 @@ class AthletesController extends Controller
     {
         $athlete->update($request->all());
 
-        session()->flash('message', 'Athlete Updated!');  
+        session()->flash('message', 'Athlete Updated!');
 
-        return redirect('coach/athletes');      
+        return redirect('coach/athletes');
     }
 
     /**

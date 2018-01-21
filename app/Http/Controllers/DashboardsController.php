@@ -23,7 +23,7 @@ class DashboardsController extends Controller
 
     public function admin()
     {
-    	return view('admin.dashboard');
+        return view('admin.dashboard');
     }
 
     public function athlete()
@@ -65,9 +65,9 @@ class DashboardsController extends Controller
 
 
             
-    	// return view('athlete.dashboard', compact(
-     //        'monthlySummerMileage', 
-     //        'weeklySummerMileage', 
+        // return view('athlete.dashboard', compact(
+     //        'monthlySummerMileage',
+     //        'weeklySummerMileage',
      //        'percentRunType',
      //        'percentTerrainType',
      //        'percentRunEffort',
@@ -81,7 +81,7 @@ class DashboardsController extends Controller
         // $teamLogs = $teamLogs->all();
         $totalSummerMileagePerRunner = $runningLogs->totalSummerMileagePerRunner();
 
-    	return view('coach.dashboard', compact('teamLogs', 'totalSummerMileagePerRunner'));
+        return view('coach.dashboard', compact('teamLogs', 'totalSummerMileagePerRunner'));
     }
 
     public function user(RunningLogs $runningLogs)
@@ -113,6 +113,6 @@ class DashboardsController extends Controller
             'totalMileageThisMonth',
             'totalMileageThisYear',
             'totalSummerMileagePerRunner'
-            ));
+        ));
     }
 }

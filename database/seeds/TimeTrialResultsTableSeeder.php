@@ -11,6 +11,6 @@ class TimeTrialResultsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\Results\Individual\TimeTrialResult', 100)->create();
+        factory(\App\Models\Results\Individual\TimeTrialResult::class, 100)->create();
     }
 }

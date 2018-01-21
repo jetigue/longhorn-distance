@@ -49,11 +49,12 @@ class UserRolesController extends Controller
             ]);
 
         UserRole::create(request([
-            'name', 
+            'name',
             ]));
 
         session()->flash(
-            'message', 'User Role Created!'
+            'message',
+            'User Role Created!'
         );
 
         return redirect('/admin/user_roles');
@@ -93,7 +94,8 @@ class UserRolesController extends Controller
         $userRole->update($request->all());
 
         session()->flash(
-            'message', 'User Role Updated!'
+            'message',
+            'User Role Updated!'
         );
 
         return redirect('/admin/user_roles');
@@ -106,12 +108,13 @@ class UserRolesController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(UserRole $userRole)
-    { 
+    {
 
         $userRole->delete();
 
         session()->flash(
-            'message', 'The User Role Has Been Deleted'
+            'message',
+            'The User Role Has Been Deleted'
         );
 
         return redirect('/admin/user_roles');

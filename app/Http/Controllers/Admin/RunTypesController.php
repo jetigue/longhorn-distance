@@ -50,12 +50,13 @@ class RunTypesController extends Controller
             ]);
 
         RunType::create(request([
-            'name', 
+            'name',
             'description'
             ]));
 
         session()->flash(
-            'message', 'Run Type Created!'
+            'message',
+            'Run Type Created!'
         );
 
         return redirect('/admin/running_log/run_types');
@@ -84,7 +85,8 @@ class RunTypesController extends Controller
         $runType->update($request->all());
 
         session()->flash(
-            'message', 'Run Type Updated!'
+            'message',
+            'Run Type Updated!'
         );
 
         return redirect('/admin/running_log/run_types');

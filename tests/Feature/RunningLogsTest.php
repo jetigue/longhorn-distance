@@ -17,6 +17,5 @@ class RunningLogsTest extends TestCase
      */
     public function test_a_user_can_browse_logs()
     {
-
     }
 }

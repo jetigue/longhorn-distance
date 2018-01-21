@@ -26,7 +26,7 @@ class PagesController extends Controller
         $sophomores = $athletes->activeSophomoreBoys()->sortBy('last_name');
         $freshmen = $athletes->activeFreshmenBoys()->sortBy('last_name');
 
-    	return view('main.boys_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
+        return view('main.boys_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
     }
 
     public function girls_roster(Athletes $athletes)
@@ -36,42 +36,42 @@ class PagesController extends Controller
         $sophomores = $athletes->activeSophomoreGirls()->sortBy('last_name');
         $freshmen = $athletes->activeFreshmenGirls()->sortBy('last_name');
 
-    	return view('main.girls_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
-    }    
+        return view('main.girls_roster', compact('seniors', 'juniors', 'sophomores', 'freshmen'));
+    }
 
     public function coaches()
     {
-    	return view('main.coaches');
+        return view('main.coaches');
     }
 
     public function booster_club()
     {
-    	return view('main.booster_club');
+        return view('main.booster_club');
     }
 
     public function team_camp()
     {
-    	return view('main.team_camp');
+        return view('main.team_camp');
     }
 
     public function longhorn_5k()
     {
-    	return view('main.longhorn_5k');
+        return view('main.longhorn_5k');
     }
 
     public function river_run()
     {
-    	return view('main.river_run');
+        return view('main.river_run');
     }
 
     public function forms_handouts()
     {
-    	return view('main.forms_handouts');
+        return view('main.forms_handouts');
     }
 
     public function sponsors()
     {
-    	return view('main.sponsors');
+        return view('main.sponsors');
     }
 
     public function our_team()

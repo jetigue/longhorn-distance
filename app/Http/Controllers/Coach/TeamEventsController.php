@@ -62,7 +62,8 @@ class TeamEventsController extends Controller
             ]));
 
         session()->flash(
-            'message', 'Event successfully created!'
+            'message',
+            'Event successfully created!'
         );
 
         return redirect('/coach/team_events');
@@ -102,7 +103,8 @@ class TeamEventsController extends Controller
         $teamEvent->update($request->all());
 
         session()->flash(
-            'message', 'Event Updated!'
+            'message',
+            'Event Updated!'
         );
 
         return redirect('/coach/team_events');

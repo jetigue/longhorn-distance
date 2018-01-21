@@ -44,11 +44,12 @@ class DistancesController extends Controller
             ]);
 
         Distance::create(request([
-            'name', 
+            'name',
             ]));
 
         session()->flash(
-            'message', 'Distance Created!'
+            'message',
+            'Distance Created!'
         );
 
         return redirect('/admin/distances');
@@ -88,7 +89,8 @@ class DistancesController extends Controller
         $distance->update($request->all());
 
         session()->flash(
-            'message', 'Distance Updated!'
+            'message',
+            'Distance Updated!'
         );
 
         return redirect('/admin/distances');
@@ -105,10 +107,10 @@ class DistancesController extends Controller
         $distance->delete();
 
         session()->flash(
-            'message', 'Distance Deleted!'
+            'message',
+            'Distance Deleted!'
         );
 
         return redirect('admin/distances');
     }
 }
-

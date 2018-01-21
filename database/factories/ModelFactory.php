@@ -8,6 +8,7 @@ use App\Models\Admin\RunType;
 use App\Models\Admin\TerrainType;
 use App\Models\Admin\User;
 use App\Models\Admin\UserRole;
+
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -52,7 +53,7 @@ $factory->define(App\Models\Admin\DayTime::class, function (Faker\Generator $fak
 $factory->define(App\Models\Admin\RunEffort::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->unique()->randomElement($array = array (
-        	'Hard', 'Relaxed', 'All-Out', 'Reserved', 'Medium'
+            'Hard', 'Relaxed', 'All-Out', 'Reserved', 'Medium'
         )),
         'description' => $faker->sentence($nbWords = 15, $variableNbWords = true),
     ];
@@ -61,7 +62,7 @@ $factory->define(App\Models\Admin\RunEffort::class, function (Faker\Generator $f
 $factory->define(App\Models\Admin\RunFeeling::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->unique()->randomElement($array = array (
-        	'Great', 'Good', 'Okay', 'Bad', 'Awful'
+            'Great', 'Good', 'Okay', 'Bad', 'Awful'
         )),
         'description' => $faker->sentence($nbWords = 15, $variableNbWords = true),
     ];
@@ -70,7 +71,7 @@ $factory->define(App\Models\Admin\RunFeeling::class, function (Faker\Generator $
 $factory->define(App\Models\Admin\RunType::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->unique()->randomElement($array = array (
-        	'Easy Run', 'Tempo Run', 'Intervals', 'Hill Repeats', 'Fartlek'
+            'Easy Run', 'Tempo Run', 'Intervals', 'Hill Repeats', 'Fartlek'
         )),
         'description' => $faker->sentence($nbWords = 15, $variableNbWords = true),
     ];
@@ -79,7 +80,7 @@ $factory->define(App\Models\Admin\RunType::class, function (Faker\Generator $fak
 $factory->define(App\Models\Admin\TerrainType::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->unique()->randomElement($array = array (
-        	'Ashpalt', 'Concrete', 'Grass', 'Rubber Track', 'Crushed gravel'
+            'Ashpalt', 'Concrete', 'Grass', 'Rubber Track', 'Crushed gravel'
         )),
         'description' => $faker->sentence($nbWords = 15, $variableNbWords = true),
     ];
@@ -90,8 +91,10 @@ $factory->define(App\Models\User\RunningLog::class, function (Faker\Generator $f
     return [
         'user_id'           =>User::all()->random()->id,
         'run_date'         => $faker->dateTimeBetween(
-                              $startDate = '-1 year', $endDate = 'now', $timezone = date_default_timezone_get()
-                              ),
+            $startDate = '-1 year',
+            $endDate = 'now',
+            $timezone = date_default_timezone_get()
+        ),
         'day_time_id'      => DayTime::all()->random()->id,
         'distance'         => $faker->randomFloat($nbMaxDecimals = 1, $min = 2, $max = 10),
         'total_seconds'    => $faker->numberBetween($min = 1800, $max = 3600),
@@ -164,8 +167,10 @@ $factory->define(App\Models\Coach\TimeTrial::class, function (Faker\Generator $f
         'name'             => $faker->sentence($nbWords = 4, $variableNbWords = true),
         'gender_id'        => App\Models\Admin\Gender::all()->random()->id,
         'trial_date'       => $faker->dateTimeBetween(
-                              $startDate = '-1 year', $endDate = 'now', $timezone = date_default_timezone_get()
-                              ),
+            $startDate = '-1 year',
+            $endDate = 'now',
+            $timezone = date_default_timezone_get()
+        ),
         'season_id'        => App\Models\Admin\Season::all()->random()->id,
         'distance_id'      => App\Models\Admin\Distance::all()->random()->id,
         'terrain_type_id'  => App\Models\Admin\TerrainType::all()->random()->id,
