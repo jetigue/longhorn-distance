@@ -10,19 +10,9 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <div class="content announcements">
-          <h4>Winter Running Plan</h4>
-          <p>Hope everyone is enjoying their holiday break as we head towards the 2018 track season! Because everyone's schedule is going to be a bit different, the plan below is relatively generic. Feel free to mix around the days as your schedule allows.</p>
-          <ul>
-            <li><strong>Sunday</strong>: Long Run of 60 to 90 minutes. Preferably on soft surfaces.</li>
-            <li><strong>Monday</strong>: Hill Repeats or 200m fast efforts on the track. <strong>Full Recovery!</strong></li>
-            <li><strong>Tuesday</strong>: 35 to 45 Minutes Easy</li>
-            <li><strong>Wednesday</strong>: 60 minute Fartlek</li>
-            <li><strong>Thursday</strong>: 35 to 45 Minutes Easy</li>
-            <li><strong>Friday</strong>: 20 Minute Tempo or 4 x Mile at Tempo Effort</li>
-            <li><strong>Saturday</strong>: 35 to 45 Minutes Easy</li>
-          </ul>
-          <p>The hill or 200m efforts should be fast but not hard! Feel free to vary the distance of the hill but make sure you give yourself plenty of <strong>active</strong> recovery between each attempt.</p>
-          <p>The fartek run is probably the most important run of the week. The first ten minutes should be your warmup and then start your hard efforts followed by easy efforts. Your hard efforts should last between 1 to 4 minutes at mile pace. Your easy efforts should be as long or longer than your the previous hard effort. The last ten minutes is your cool down.</p>
+          <h4>Join The Team!</h4>
+          <p>We would love to have you on our team! If you are intereested in joining one of the best cross country programs in the state, please click on the link below and leave us your contact information. We will send you information about the upcoming parent meeting as well as information about the summer running program.</p>
+          <p><a href="https://goo.gl/forms/ZPV3lYHSRglbVWa13">LHS Cross Country Interest Form</a></p>
         </article>
       </div>
 
