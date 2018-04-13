@@ -28,7 +28,7 @@
   	</thead>
   	<tbody class="table-body">
   	@foreach($genders as $gender)
-  		<tr>
+  		<tr">
 	      <td width="5%">{{$gender->id}}</td>
 	      <th width="85%">{{$gender->name}}</th>
 	      <td>
