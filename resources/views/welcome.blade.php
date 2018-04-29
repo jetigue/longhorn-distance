@@ -11,8 +11,8 @@
                     <article class="tile is-child box">
                         <div class="content announcements">
                             <h4>Informational Meeting</h4>
-                            <p>Please join us for the 2018 Cross Country Informational Meeting on <strong>Thursday, April 26th, in the Lambert Cafeteria at 6:30 pm</strong>.</p>
-                            <p>Anyone interested in running for the Longhorns (new and returning runners) should plan on attending.</p>
+                            <p>Thank you fo all that attended!</p>
+                            <p>In case you didn't make it, the general information and forms can be found tot he right ->.</p>
 
                             <h4>Sign-Up for the 2018 Cross Country Season!</h4>
                             <p>All <strong>new</strong> and <strong>returning</strong> runners will need to sign up for the 2018 season by completing the registration form below. Registering will ensure that you are added to the roster and that you are added to the email distribution list.</p>
@@ -27,36 +27,43 @@
                     <div class="tile">
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title">Latest Results</p>
+                                <p class="title">Forms & Handouts</p>
                                 <div class="content events">
-                                    <h4>Area 3 Championship</h4>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554798/raw#.Wey9GWhSzcs">Varsity
-                                            Boys: 3rd</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554797/raw#.Wey9KWhSzcs">Varsity
-                                            Girls: 4th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554795/raw#.Wey9OWhSzcs">JV
-                                            Boys: 5th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554792/raw#.Wey9UWhSzcs">JV
-                                            Girls: 5th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554830/raw#.Wey9aGhSzcs">Open
-                                            Boys: 5th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/289728/results/554814/raw#.Wey9iGhSzcs">Open
-                                            Girls: 4th</a></h6>
+                                    <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and Information</a></p>
+                                    <p><a href="https://drive.google.com/open?id=1dQTYcAtR5ruuPmqStV3Fv4tKEwlEmmAn">Information Meeting Quick Sheet</a></p>
+                                    <p><a href="https://drive.google.com/open?id=1hJUE8Alc8j8YVE_4kycH9STHW1qRVkUc">2018 Information Packet</a></p>
+                                    <p><a href="https://drive.google.com/open?id=10_fwMsHXwNrAyDrgXlcCAdMuG6nADJ2H">2018 Meet Schedule (Draft)</a></p>
+                                    {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HeFZMN1UwR2FEY2s">2017 Sponsor Information</a></p>--}}
+                                    {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HYlY4bW5pSzUzSUk">2017 Spirit Wear Flyer</a></p>--}}
+                                    {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HX0RjSmR1MENMN0k">2017 Spirit Wear Order Form</a></p>--}}
+                                    {{--<h4>Area 3 Championship</h4>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554798/raw#.Wey9GWhSzcs">Varsity--}}
+                                            {{--Boys: 3rd</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554797/raw#.Wey9KWhSzcs">Varsity--}}
+                                            {{--Girls: 4th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554795/raw#.Wey9OWhSzcs">JV--}}
+                                            {{--Boys: 5th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554792/raw#.Wey9UWhSzcs">JV--}}
+                                            {{--Girls: 5th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554830/raw#.Wey9aGhSzcs">Open--}}
+                                            {{--Boys: 5th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/289728/results/554814/raw#.Wey9iGhSzcs">Open--}}
+                                            {{--Girls: 4th</a></h6>--}}
 
-                                    <h4>Coach Wood Invite</h4>
-                                    <h6>
-                                        <a href="http://ga.milesplit.com/meets/278846/results/552387/formatted#.Wey8TWhSzcs">Varsity
-                                            Boys: 2nd</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/278846/results/552173/raw#.Wey8Z2hSzcs">Varsity
-                                            Girls: 12th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/278846/results/552175/raw#.Wey8fWhSzcs">JV
-                                            Boys: 8th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/278846/results/552179/raw#.Wey8qGhSzcs">JV
-                                            Girls: 6th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/278846/results/552191/raw#.Wey832hSzcs">Open
-                                            Boys: 7th</a></h6>
-                                    <h6><a href="http://ga.milesplit.com/meets/278846/results/552192/raw#.Wey8wmhSzcs">Open
-                                            Girls: 7th</a></h6>
+                                    {{--<h4>Coach Wood Invite</h4>--}}
+                                    {{--<h6>--}}
+                                        {{--<a href="http://ga.milesplit.com/meets/278846/results/552387/formatted#.Wey8TWhSzcs">Varsity--}}
+                                            {{--Boys: 2nd</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/278846/results/552173/raw#.Wey8Z2hSzcs">Varsity--}}
+                                            {{--Girls: 12th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/278846/results/552175/raw#.Wey8fWhSzcs">JV--}}
+                                            {{--Boys: 8th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/278846/results/552179/raw#.Wey8qGhSzcs">JV--}}
+                                            {{--Girls: 6th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/278846/results/552191/raw#.Wey832hSzcs">Open--}}
+                                            {{--Boys: 7th</a></h6>--}}
+                                    {{--<h6><a href="http://ga.milesplit.com/meets/278846/results/552192/raw#.Wey8wmhSzcs">Open--}}
+                                            {{--Girls: 7th</a></h6>--}}
 
                                     <!--          <h4>Great American XC Festival</h4>
                                                     <h6><a href="http://nc.milesplit.com/meets/286134/results/548976/formatted#.WeAMJmhSyUk">Championship Boys: 6th</a></h6>
@@ -183,10 +190,8 @@
                     <div class="content events">
                         <hr>
 
-                        <h4>Informational Meeting</h4>
-                        <h6>Thursday, April 26th</h6>
-                        <h6><span style="color:#73000a">@ </span>Lambert Cafeteria</h6>
-                        <h6><span style="color:#73000a">Time: </span>6:30 pm</h6>
+                        <h4>Summer Running Mileage Begins</h4>
+                        <h6>Sunday, April 13th</h6>
                         <hr>
                         <h4>Summer Practice Begins</h4>
                         <h6>Tuesday, June 5th</h6>
