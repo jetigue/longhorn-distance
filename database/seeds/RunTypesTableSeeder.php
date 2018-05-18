@@ -11,6 +11,6 @@ class RunTypesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\RunType', 5)->create();
+        factory(\App\Models\Admin\RunType::class, 5)->create();
     }
 }

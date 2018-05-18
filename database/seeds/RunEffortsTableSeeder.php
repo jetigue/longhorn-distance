@@ -11,6 +11,6 @@ class RunEffortsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\RunEffort', 5)->create();
+        factory(\App\Models\Admin\RunEffort::class, 5)->create();
     }
 }

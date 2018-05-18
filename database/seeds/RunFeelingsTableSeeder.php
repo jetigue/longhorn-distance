@@ -11,6 +11,6 @@ class RunFeelingsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\RunFeeling', 5)->create();
+        factory(\App\Models\Admin\RunFeeling::class, 5)->create();
     }
 }

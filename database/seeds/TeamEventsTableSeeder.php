@@ -11,6 +11,6 @@ class TeamEventsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\TeamEvent', 5)->create();
+        factory(\App\Models\Coach\TeamEvent::class, 5)->create();
     }
 }

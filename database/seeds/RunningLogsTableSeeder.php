@@ -11,6 +11,6 @@ class RunningLogsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\RunningLog', 50)->create();
+        factory(\App\Models\User\RunningLog::class, 50)->create();
     }
 }

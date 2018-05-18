@@ -11,6 +11,6 @@ class UserRolesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\UserRole', 4)->create();
+        factory(\App\Models\Admin\UserRole::class, 4)->create();
     }
 }

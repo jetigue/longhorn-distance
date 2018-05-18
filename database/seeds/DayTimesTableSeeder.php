@@ -11,6 +11,6 @@ class DayTimesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\DayTime', 5)->create();
+        factory(\App\Models\Admin\DayTime::class, 5)->create();
     }
 }

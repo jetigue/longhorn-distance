@@ -11,6 +11,6 @@ class TerrainTypesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Models\TerrainType', 5)->create();
+        factory(\App\Models\Admin\TerrainType::class, 5)->create();
     }
 }
