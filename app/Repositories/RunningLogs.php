@@ -42,7 +42,7 @@ class RunningLogs
     public function totalSummerMileagePerRunner()
     {
 
-        $totalSummerMileagePerRunner = RunningLog::select(DB::raw('user_id, sum(distance) as distance'))
+        $totalSummerMileagePerRunner = RunningLog::select(DB::raw('user_id, sum(distance) as distance, sum(total_seconds) as total_seconds'))
             ->groupBy('user_id')
             ->where('run_date', '>', '2018-05-13')
             ->where('run_date', '<', '2018-08-04')
