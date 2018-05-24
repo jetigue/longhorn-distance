@@ -15,7 +15,7 @@
                                 the 2018 season by completing the registration form below. Registering will ensure that
                                 you are added to the roster and that you are added to the email distribution list.</p>
                             <p><a href="https://drive.google.com/open?id=1vt4fsS3plVWc6dW3XkcBxWP256HVVQc8A9PTsamQDQU">2018
-                                    Team Registration Form Form</a></p>
+                                    Team Registration Form</a></p>
 
                             <h4>2018 Team Camp Information</h4>
                             <p>Hope you can join us for this year's team camp, which will be from Monday, July 16th to
