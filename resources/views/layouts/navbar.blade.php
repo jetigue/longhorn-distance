@@ -19,7 +19,7 @@
 
 	@if (Auth::guest())
 
-    <a class="navbar-item is-hidden-tablet" href="{{ url('/login') }}">Login</a>
+  <a class="navbar-item is-hidden-tablet" href="{{ url('/login') }}">Login</a>
 	<a class="navbar-item is-hidden-tablet" href="{{ url('/register') }}">Register</a>
 @else
 
