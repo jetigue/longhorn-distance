@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="content">
+    <div class="content dashboard">
         <div class="tabs is-medium is-boxed">
             <ul>
                 <li class="is-active"><a>Pictures</a></li>
@@ -33,6 +33,26 @@
                     </div>
                 @endforeach
             </div>
+            <div class="column is-3">
+                @foreach($runnersWeeklySummerMileage as $weeklyMileage)
+                    <div class="box">
+                        <p class="has-text-centered is-marginless">
+                            <strong>{{$weeklyMileage->user->first_name}} {{$weeklyMileage->user->last_name}}</strong>
+                        <p>{{ $weeklyMileage->week->value }}</p>
+                    </div>
+
+
+                <bar-graph
+                        :labels="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
+                        :values="{{$runnersWeeklySummerMileage->values()}}"
+                        :color="'#333'"
+                        :title="'Summer Mileage per Week'">
+                </bar-graph>
+                @endforeach
+            </div>
+            </div>
+
+
         </div>
 
     </div>

@@ -101,7 +101,7 @@ Vue.component('stat-card', {
 			<div class="card-content">
 				<div class="content has-text-centered">
 					<h1>{{stat}}</h1>
-				</div
+				</div>
 			<div>
 		</div>
 		`

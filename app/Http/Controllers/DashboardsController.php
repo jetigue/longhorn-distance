@@ -80,8 +80,9 @@ class DashboardsController extends Controller
     {
         // $teamLogs = $teamLogs->all();
         $totalSummerMileagePerRunner = $runningLogs->totalSummerMileagePerRunner();
+        $runnersWeeklySummerMileage = $runningLogs->runnersWeeklySummerMileage();
 
-        return view('coach.dashboard', compact('teamLogs', 'totalSummerMileagePerRunner'));
+        return view('coach.dashboard', compact('teamLogs', 'totalSummerMileagePerRunner', 'runnersWeeklySummerMileage'));
     }
 
     public function user(RunningLogs $runningLogs)

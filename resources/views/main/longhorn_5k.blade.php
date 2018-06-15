@@ -8,9 +8,15 @@ Longhorn 5k
 
 <div class="columns">
   <div class="column is-6 content">
-	<h3 class="has-text-centered">Saturday, August 12th @ Lambert High School Stadium</h3>
+	<h3 class="has-text-centered">Saturday, August 11th @ Chattahoochee Pointe Park</h3>
 	<hr>
-	<p>Thank you to everyone that made the 9th Annual Longhorn 5k a success!</p>
+	  <p>The 10th annual Longhorn 5k will take place on Saturday, August 11. The 5k will start at 8:00
+		  am and the 1-mile fun run will take place at 9:15 am.</p>
+	  <p>This year's race will take place at Chattahoochee Pointe Park due to the construction going
+		  on at the school.</p>
+	  <p class="has-text-centered has-text-weight-bold"><a
+				  href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">2018 Longhorn 5k Registration</a>
+	  </p>
 	<hr>
 	<div class="flex content">
                 
