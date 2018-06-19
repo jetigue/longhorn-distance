@@ -15,6 +15,10 @@ Longhorn 5k
 	  <p>This year's race will take place at Chattahoochee Pointe Park due to the construction going
 		  on at the school.</p>
 	  <p class="has-text-centered has-text-weight-bold"><a
+				  href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
+			  Longhorn 5k Online Registration</a>
+	  </p>
+	  <p class="has-text-centered has-text-weight-bold"><a
 				  href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">2018 Longhorn 5k Registration</a>
 	  </p>
 	<hr>

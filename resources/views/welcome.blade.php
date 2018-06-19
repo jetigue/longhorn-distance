@@ -46,8 +46,12 @@
                         <p>This year's race will take place at Chattahoochee Pointe Park due to the construction going
                             on at the school.</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">2018
-                                Longhorn 5k Registration</a>
+                                    href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
+                                Longhorn 5k Online Registration</a>
+                        </p>
+                        <p class="has-text-centered has-text-weight-bold"><a
+                                    href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">
+                                Longhorn 5k Registration Form</a>
                         </p>
                     </div>
                 </div>
@@ -130,7 +134,10 @@
                         <h6>Sat, Aug 11th</h6>
                         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
                         <h6><span style="color:#73000a">Time: </span>6:00 am</h6>
-                        <h6><a href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">Registration</a>
+                        <h6><a href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
+                                Online Registration</a>
+                        </h6>
+                        <h6><a href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">Registration Form</a>
                         </h6>
 
 
