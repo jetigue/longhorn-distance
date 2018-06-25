@@ -16,7 +16,7 @@
                                     Team Registration Form</a></p>
 
                             <h4>Summer Practices have Begun!</h4>
-                            <p>Summer practices on the 19th, 20th, and 21st, will again be at Chattahoochee Pointe Park.
+                            <p>Summer practices on the 26th, 27th, and 28th, will again be at Chattahoochee Pointe Park.
                                 Practice will begin at 6:30 am and conclude around 8:00 am each day. Please make sure
                                 you have proper running shoes, a watch, and your own water bottle.</p>
                             <p>See you then!</p>
@@ -68,28 +68,57 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box content">
-                        <h4 class="has-text-centered">Forms and Handouts</h4>
+                        <h4 class="has-text-centered">2018 Spirit Wear</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and
-                                Information</a></p>
-                        <p><a href="https://drive.google.com/open?id=1dQTYcAtR5ruuPmqStV3Fv4tKEwlEmmAn">Information
-                                Meeting Quick Sheet</a></p>
-                        <p><a href="https://drive.google.com/open?id=1hJUE8Alc8j8YVE_4kycH9STHW1qRVkUc">2018
-                                Information Packet</a></p>
-                        <p><a href="https://drive.google.com/open?id=10_fwMsHXwNrAyDrgXlcCAdMuG6nADJ2H">2018
-                                Meet Schedule (Draft)</a></p>
+                        <p>The 2018 Spirit Wear Flyer is ready for viewing! Please take note that per the order form,
+                            all Spirit Wear orders will need to be turned in by Thursday, August 2nd.</p>
+                        <p class="has-text-centered has-text-weight-bold"><a
+                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018
+                                Spirit Wear Flyer</a></p>
+                        <p class="has-text-centered has-text-weight-bold"><a
+                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                                Spirit Wear Order Form</a></p>
+                        <p>Also, athletes have an opportunity to earn a Boathouse Jacket by getting team sponsors:</p>
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                                Boathouse Jacket Flyer</a></p>
                     </div>
                 </div>
             </div>
             <div class="tile">
                 <div class="tile is-parent">
-                    <div class="tile is-child box">
-
+                    <div class="tile is-child box content">
+                        <h4 class="has-text-centered">Sponsors Program</h4>
+                        <hr class="my-2" style="border-top: 2px solid #73000A">
+                        <p>The Lambert Cross Country Program is heading into our 10th successful season! We are seeking
+                            great organizations to have a partnership with our state ranked Cross Country team. The
+                            Longhorn
+                            Cross Country team believes that the best way to have community involvement is through
+                            companies
+                            such as yours. As a self funded team, we would like to invite you to become a sponsor for
+                            our team. Click on the link below for more information: </p>
+                        <p class="has-text-centered has-text-weight-bold"><a
+                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
+                                Sponsorship Form</a></p>
                     </div>
                 </div>
                 <div class="tile is-parent">
-                    <div class="tile is-child box">
-
+                    <div class="tile is-child box content">
+                        <h4 class="has-text-centered">Forms and Handouts</h4>
+                        <hr class="my-2" style="border-top: 2px solid #73000A">
+                        <p><a href="https://www.forsyth.k12.ga.us/page/24881">Physical Form and
+                                Information</a></p>
+                        <p><a href="https://drive.google.com/open?id=1hJUE8Alc8j8YVE_4kycH9STHW1qRVkUc">2018
+                                Information Packet</a></p>
+                        <p><a href="https://drive.google.com/open?id=10_fwMsHXwNrAyDrgXlcCAdMuG6nADJ2H">2018
+                                Meet Schedule</a></p>
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018
+                                Spirit Wear Flyer</a></p>
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                                Spirit Wear Order Form</a></p>
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
+                                Sponsorship Form</a></p>
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                                Boathouse Jacket Flyer</a></p>
                     </div>
                 </div>
                 <div class="tile is-parent">
@@ -112,7 +141,6 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-
                         <h5>Summer Practice Begins</h5>
                         <h6>Tuesday, June 12th</h6>
                         <h6><span style="color:#73000a">@ </span>Lambert Track</h6>
@@ -137,10 +165,9 @@
                         <h6><a href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
                                 Online Registration</a>
                         </h6>
-                        <h6><a href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">Registration Form</a>
+                        <h6><a href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">Registration
+                                Form</a>
                         </h6>
-
-
                     </div>
                 </div>
             </div>
