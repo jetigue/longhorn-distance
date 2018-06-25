@@ -76,10 +76,10 @@
                                     href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018
                                 Spirit Wear Flyer</a></p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018
                                 Spirit Wear Order Form</a></p>
                         <p>Also, athletes have an opportunity to earn a Boathouse Jacket by getting team sponsors:</p>
-                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018
                                 Boathouse Jacket Flyer</a></p>
                     </div>
                 </div>
@@ -113,11 +113,11 @@
                                 Meet Schedule</a></p>
                         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018
                                 Spirit Wear Flyer</a></p>
-                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018
                                 Spirit Wear Order Form</a></p>
                         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
                                 Sponsorship Form</a></p>
-                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8Hc2VIYnNhUEZmOHZNb2EzXzZWNzFuQ25NREJB">2018
+                        <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018
                                 Boathouse Jacket Flyer</a></p>
                     </div>
                 </div>
