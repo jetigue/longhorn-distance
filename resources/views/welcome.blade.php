@@ -16,7 +16,7 @@
                                     Team Registration Form</a></p>
 
                             <h4>Summer Practices have Begun!</h4>
-                            <p>Summer practices on the 26th, 27th, and 28th, will again be at Chattahoochee Pointe Park.
+                            <p>Summer practices on July 10th, 11th, and 12th, will again be at Chattahoochee Pointe Park.
                                 Practice will begin at 6:30 am and conclude around 8:00 am each day. Please make sure
                                 you have proper running shoes, a watch, and your own water bottle.</p>
                             <p>See you then!</p>
