@@ -16,23 +16,28 @@
                                     Team Registration Form</a></p>
 
                             <h4>Summer Practices have Begun!</h4>
-                            <p>Summer practices on July 10th, 11th, and 12th, will again be at Chattahoochee Pointe Park.
+                            <p>Summer practices on July 24th and 25th will again be at Chattahoochee Pointe Park.
                                 Practice will begin at 6:30 am and conclude around 8:00 am each day. Please make sure
                                 you have proper running shoes, a watch, and your own water bottle.</p>
+
+                            <p><strong>This Thursday, July 26th is Spike Day!</strong> The team will meet at the
+                                Bethelview Road Entrance of the Big Creek Greenway at 6:30 am. After our run, North
+                                Georgia Running Company will open their doors exclusively for our runners and provide a
+                                discount on training and racing shoes!</p>
                             <p>See you then!</p>
                         </div>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box content">
-                        <h4 class="has-text-centered">2018 Team Camp</h4>
+                        <h4 class="has-text-centered">Practice This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>Hope you can join us for this year's team camp, which will be from Monday, July 16th to
-                            Friday July 20th! This year we will be providing transportation to and from camp! Click on
-                            the link for more information and to sign up:</p>
-                        <p class="has-text-centered has-text-weight-bold"><a
-                                    href="{{url('https://longhorndistance.com/team_camp')}}">2018 Team Camp</a>
-                        </p>
+                        <p><strong>July 24th and 25th: </strong></p>
+                        <p>Chattahoochee Pointe Park from 6:30 am to 8:00 am.</p>
+                        <p><strong>This Thursday, July 26th is Spike Day!</strong> The team will meet at the
+                        Bethelview Road Entrance of the Big Creek Greenway at 6:30 am. After our run, North
+                        Georgia Running Company will open their doors exclusively for our runners and provide a
+                        discount on training and racing shoes!</p>
                     </article>
                 </div>
             </div>
@@ -46,7 +51,7 @@
                         <p>This year's race will take place at Chattahoochee Pointe Park due to the construction going
                             on at the school.</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
+                                    href="{{url('The ')}}">
                                 Longhorn 5k Online Registration</a>
                         </p>
                         <p class="has-text-centered has-text-weight-bold"><a
@@ -79,7 +84,8 @@
                                     href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018
                                 Spirit Wear Order Form</a></p>
                         <p>Also, athletes have an opportunity to earn a Boathouse Jacket by getting team sponsors:</p>
-                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018
+                        <p class="has-text-centered has-text-weight-bold"><a
+                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018
                                 Boathouse Jacket Flyer</a></p>
                     </div>
                 </div>
