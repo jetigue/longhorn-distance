@@ -7,24 +7,21 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Sign-Up for the 2018 Cross Country Season!</h4>
-                            <p>All <strong>new</strong> and <strong>returning</strong> runners will need to sign up for
-                                the 2018 season by completing the registration form below. Registering will ensure that
-                                you are added to the roster and that you are added to the email distribution list.</p>
-                            <p class="has-text-centered has-text-weight-bold"><a
-                                        href="https://drive.google.com/open?id=1vt4fsS3plVWc6dW3XkcBxWP256HVVQc8A9PTsamQDQU">2018
-                                    Team Registration Form</a></p>
+                            <h4>Official Practice Begins This Week!</h4>
+                            <p>The last day of summer paractice will be Tuesday, July 31st. We will meet at the Lambert Stadium at 6:30 am and practice will last until 8:00 am.</p>
 
-                            <h4>Summer Practices have Begun!</h4>
-                            <p>Summer practices on July 24th and 25th will again be at Chattahoochee Pointe Park.
-                                Practice will begin at 6:30 am and conclude around 8:00 am each day. Please make sure
-                                you have proper running shoes, a watch, and your own water bottle.</p>
+                            <p><strong>The first day of official practice is Wednesday, August 1st.</strong> Just like the day before, we will meet at the Lambert Stadium and practice from 6:30 am to 8:00 am
 
-                            <p><strong>This Thursday, July 26th is Spike Day!</strong> The team will meet at the
-                                Bethelview Road Entrance of the Big Creek Greenway at 6:30 am. After our run, North
-                                Georgia Running Company will open their doors exclusively for our runners and provide a
-                                discount on training and racing shoes!</p>
+                            <p><strong>First Day of School: </strong>We will practice after school from 3:55 pm to 5:30 pm. Be sure to stay hydrated throughout the day. Bring your running clothes and shoes with you to school and have a watch and water bottle for practice.</p> 
+
+                            <p>Regular practices will be every day before school until Labor Day Weekend. We will meet in the gymnasium at 6:20 am for those morning practices. After Labor Day Weekend, we will shift to afternoon practices which will last from 3:55 pm top 5:30 pm.</p>
                             <p>See you then!</p>
+
+                            <h4>Longhorn 5k Volunteers</h4>
+                            <p>In order to make this event a success, we need ALL HANDS ON DECK!  As hosts of this event, every athlete on the Longhorn team is expected to be on hand all morning, and it is our hope that all parents will chip in and help too!  In addition to helping out on the day of the event, all athletes will be registered by the booster club to run the 5K as it counts as their time trial this year.  All parents are requested to check out the signupgenius and volunteer for a slot.</p>
+                            <p class="has-text-centered has-text-weight-bold">
+                            <a href="https://www.signupgenius.com/go/10c0548aaa92aa2fc1-longhorn3">Volunteer Sign-Up</a>
+                        </p>
                         </div>
                     </article>
                 </div>
@@ -32,12 +29,12 @@
                     <article class="tile is-child box content">
                         <h4 class="has-text-centered">Practice This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>July 24th and 25th: </strong></p>
-                        <p>Chattahoochee Pointe Park from 6:30 am to 8:00 am.</p>
-                        <p><strong>This Thursday, July 26th is Spike Day!</strong> The team will meet at the
-                        Bethelview Road Entrance of the Big Creek Greenway at 6:30 am. After our run, North
-                        Georgia Running Company will open their doors exclusively for our runners and provide a
-                        discount on training and racing shoes!</p>
+                        <p><strong>July 31st and August 1st: </strong></p>
+                        <p>Lambert Stadium from 6:30 am to 8:00 am.</p>
+                        <p><strong>August 2nd - First Day of School:</strong></p>
+                        <p>Afternoon practice from 3:55 to 5:30</p>
+                        <p><strong>Friday, August 3rd:</strong></p>
+                        <p>Morning practice. Meet in the gym at 6:20 am.</p>
                     </article>
                 </div>
             </div>
@@ -57,6 +54,11 @@
                         <p class="has-text-centered has-text-weight-bold"><a
                                     href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">
                                 Longhorn 5k Registration Form</a>
+                        </p>
+
+                        <p>All parents are requested to check out the signupgenius and volunteer for a slot.</p>
+                        <p class="has-text-centered has-text-weight-bold">
+                            <a href="https://www.signupgenius.com/go/10c0548aaa92aa2fc1-longhorn3">Volunteer Sign-Up</a>
                         </p>
                     </div>
                 </div>
@@ -147,24 +149,10 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Summer Practice Begins</h5>
-                        <h6>Tuesday, June 12th</h6>
-                        <h6><span style="color:#73000a">@ </span>Lambert Track</h6>
-                        <h6><span style="color:#73000a">Time: </span>6:30 am</h6>
-                        <hr>
-                        <h5>Dead Week</h5>
-                        <h6>July 1 - July 7</h6>
-                        <h6>No Summer Practice</h6>
-                        <hr>
-                        <h5>Team Camp</h5>
-                        <h6>July 16 - July 20</h6>
-                        <h6><span style="color:#73000a">@ </span>Berry College</h6>
-                        <h6><a href="{{url('https://longhorndistance.com/team_camp')}}">Camp Information</a></h6>
-                        <hr>
                         <h5>Official Practice Begins</h5>
                         <h6>Wed, Aug 1st</h6>
                         <hr>
-                        <h5>Longhorn 5k/ Time Trial</h5>
+                        <h5>Longhorn 5k/Time Trial</h5>
                         <h6>Sat, Aug 11th</h6>
                         <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
                         <h6><span style="color:#73000a">Time: </span>6:00 am</h6>
@@ -174,6 +162,22 @@
                         <h6><a href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">Registration
                                 Form</a>
                         </h6>
+                        <hr>
+                        <h5>Lambert River Run</h5>
+                        <h6>Sat, August 25th</h6>
+                        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+                        <hr>
+                        <h5>Berry College Invitational</h5>
+                        <h6>Sat, September 1st</h6>
+                        <h6><span style="color:#73000a">@ </span>Berry College</h6>
+                        <hr>
+                        <h5>Milton Invitational</h5>
+                        <h6>Sat, September 15th</h6>
+                        <h6><span style="color:#73000a">@ </span>Milton High School</h6>
+                        <hr>
+                        <h5>Wingfoot XC Classic</h5>
+                        <h6>Sat, September 22nd</h6>
+                        <h6><span style="color:#73000a">@ </span>Carrollton, GA</h6>
                     </div>
                 </div>
             </div>
