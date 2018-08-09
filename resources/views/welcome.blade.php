@@ -7,16 +7,6 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Official Practice Begins This Week!</h4>
-                            <p>The last day of summer paractice will be Tuesday, July 31st. We will meet at the Lambert Stadium at 6:30 am and practice will last until 8:00 am.</p>
-
-                            <p><strong>The first day of official practice is Wednesday, August 1st.</strong> Just like the day before, we will meet at the Lambert Stadium and practice from 6:30 am to 8:00 am
-
-                            <p><strong>First Day of School: </strong>We will practice after school from 3:55 pm to 5:30 pm. Be sure to stay hydrated throughout the day. Bring your running clothes and shoes with you to school and have a watch and water bottle for practice.</p> 
-
-                            <p>Regular practices will be every day before school until Labor Day Weekend. We will meet in the gymnasium at 6:20 am for those morning practices. After Labor Day Weekend, we will shift to afternoon practices which will last from 3:55 pm top 5:30 pm.</p>
-                            <p>See you then!</p>
-
                             <h4>Longhorn 5k Volunteers</h4>
                             <p>In order to make this event a success, we need ALL HANDS ON DECK!  As hosts of this event, every athlete on the Longhorn team is expected to be on hand all morning, and it is our hope that all parents will chip in and help too!  In addition to helping out on the day of the event, all athletes will be registered by the booster club to run the 5K as it counts as their time trial this year.  All parents are requested to check out the signupgenius and volunteer for a slot.</p>
                             <p class="has-text-centered has-text-weight-bold">
@@ -29,11 +19,9 @@
                     <article class="tile is-child box content">
                         <h4 class="has-text-centered">Practice This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>July 31st and August 1st: </strong></p>
-                        <p>Lambert Stadium from 6:30 am to 8:00 am.</p>
-                        <p><strong>August 2nd - First Day of School:</strong></p>
-                        <p>Afternoon practice from 3:55 to 5:30</p>
-                        <p><strong>Friday, August 3rd:</strong></p>
+                        <p><strong>Saturday, August 11: </strong></p>
+                        <p>Longhorn 5k at Chattahoochee Pointe Park</p>
+                        <p><strong>August 13 - August 17:</strong></p>
                         <p>Morning practice. Meet in the gym at 6:20 am.</p>
                     </article>
                 </div>
@@ -177,7 +165,7 @@
                         <hr>
                         <h5>Wingfoot XC Classic</h5>
                         <h6>Sat, September 22nd</h6>
-                        <h6><span style="color:#73000a">@ </span>Carrollton, GA</h6>
+                        <h6><span style="color:#73000a">@ </span>Cartersville, GA</h6>
                     </div>
                 </div>
             </div>
