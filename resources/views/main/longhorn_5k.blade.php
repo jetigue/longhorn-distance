@@ -10,16 +10,11 @@ Longhorn 5k
   <div class="column is-6 content">
 	<h3 class="has-text-centered">Saturday, August 11th @ Chattahoochee Pointe Park</h3>
 	<hr>
-	  <p>The 10th annual Longhorn 5k will take place on Saturday, August 11. The 5k will start at 8:00
-		  am and the 1-mile fun run will take place at 9:15 am.</p>
-	  <p>This year's race will take place at Chattahoochee Pointe Park due to the construction going
-		  on at the school.</p>
+	  <p>Thank you for making the 10th annual Longhorn 5k a success! We had over 250 participants including our runners, parents, brothers and sisters, members of the Lambert swim team, Lambert faculty, and supporters from the community!</p>
+	  <p>Thank you for supporting our program!</p>
 	  <p class="has-text-centered has-text-weight-bold"><a
-				  href="{{url('https://runsignup.com/Race/GA/Suwanee/Longhorn5K')}}">
-			  Longhorn 5k Online Registration</a>
-	  </p>
-	  <p class="has-text-centered has-text-weight-bold"><a
-				  href="{{url('https://drive.google.com/open?id=1vdxY6OMp8YRLTLprdzApXo5hrRuehrnl')}}">2018 Longhorn 5k Registration</a>
+				  href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
+			  2018 Longhorn 5k Results</a>
 	  </p>
 	<hr>
 	<div class="flex content">
