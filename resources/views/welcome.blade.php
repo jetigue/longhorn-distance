@@ -7,12 +7,16 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Longhorn 5k</h4>
-                            <p>Thank you for making the 10th annual Longhorn 5k a success! We had over 250 participants including our runners, parents, brothers and sisters, members of the Lambert swim team, Lambert faculty, and supporters from the community!</p>
-                            <p>Thank you for supporting our program!</p>
+                            <h4>2018 Lambert River Run</h4>
+                            <p>The 6th edition of the Lambert River run is this Saturday, August 25th!</p>
+                            <p><strong>Lambert Community:</strong> We are still in need of volunteers to ensure that the
+                                meet run smoothly. Please sign up to volunteer by clicking on the link below: </p>
                             <p class="has-text-centered has-text-weight-bold">
-                                <a href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">Longhorn 5k Results</a>
+                                <a href="https://www.signupgenius.com/go/10c0548aaa92aa2fc1-2018">SignUp Genius</a>
                             </p>
+                            <p>There will be an informative meeting for all volunteers at the pasta dinner at
+                                Chattahoochee Pointe Park Friday evening. The dinner will begin at 6:00 pm and will be
+                                sponsored by <a href="https://alessiosrestaurant.com/">Alessio's Restaurant.</a></p>
                         </div>
                     </article>
                 </div>
@@ -20,8 +24,9 @@
                     <article class="tile is-child box content">
                         <h4 class="has-text-centered">Practice This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>August 13 - August 17:</strong></p>
+                        <p><strong>August 20 - August 24:</strong></p>
                         <p>Morning practice. Meet in the gym at 6:20 am.</p>
+                        <p>Pasta Dinners at Chattahoochee Pointe Par at 6:00 pm on Friday, August 24</p>
                     </article>
                 </div>
             </div>
@@ -30,7 +35,9 @@
                     <div class="tile is-child box content">
                         <h4 class="has-text-centered">2018 Longhorn 5k</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>Thank you for making the 10th annual Longhorn 5k a success! We had over 250 participants including our runners, parents, brothers and sisters, members of the Lambert swim team, Lambert faculty, and supporters from the community!</p>
+                        <p>Thank you for making the 10th annual Longhorn 5k a success! We had over 250 participants
+                            including our runners, parents, brothers and sisters, members of the Lambert swim team,
+                            Lambert faculty, and supporters from the community!</p>
                         <p>Thank you for supporting our program!</p>
                         <p class="has-text-centered has-text-weight-bold"><a
                                     href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
@@ -55,17 +62,17 @@
                         <hr class="my-2" style="border-top: 2px solid #73000A">
                         <p>Spirit wear orders have been placed. They should arrive in the next few weeks.</p>
                         {{--<p>The 2018 Spirit Wear Flyer is ready for viewing! Please take note that per the order form,--}}
-                            {{--all Spirit Wear orders will need to be turned in by Thursday, August 2nd.</p>--}}
+                        {{--all Spirit Wear orders will need to be turned in by Thursday, August 2nd.</p>--}}
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
-                                    {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018--}}
-                                {{--Spirit Wear Flyer</a></p>--}}
+                        {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018--}}
+                        {{--Spirit Wear Flyer</a></p>--}}
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
-                                    {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
-                                {{--Spirit Wear Order Form</a></p>--}}
+                        {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
+                        {{--Spirit Wear Order Form</a></p>--}}
                         {{--<p>Also, athletes have an opportunity to earn a Boathouse Jacket by getting team sponsors:</p>--}}
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
-                                    {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018--}}
-                                {{--Boathouse Jacket Flyer</a></p>--}}
+                        {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018--}}
+                        {{--Boathouse Jacket Flyer</a></p>--}}
                     </div>
                 </div>
             </div>
@@ -97,24 +104,24 @@
                         <p><a href="https://drive.google.com/open?id=10_fwMsHXwNrAyDrgXlcCAdMuG6nADJ2H">2018
                                 Meet Schedule</a></p>
                         {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018--}}
-                                {{--Spirit Wear Flyer</a></p>--}}
+                        {{--Spirit Wear Flyer</a></p>--}}
                         {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
-                                {{--Spirit Wear Order Form</a></p>--}}
+                        {{--Spirit Wear Order Form</a></p>--}}
                         <p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
                                 Sponsorship Form</a></p>
                         {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018--}}
-                                {{--Boathouse Jacket Flyer</a></p>--}}
+                        {{--Boathouse Jacket Flyer</a></p>--}}
                     </div>
                 </div>
                 <div class="tile is-parent">
                     {{--<div class="tile is-child box content">--}}
-                        {{--<h4 class="has-text-centered">Stay Connected</h4>--}}
-                        {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
-                        {{--<p>Not receiving emails? Please be sure to register for the 2018 season by completing the form--}}
-                            {{--below:</p>--}}
-                        {{--<p class="has-text-centered has-text-weight-bold"><a--}}
-                                    {{--href="https://drive.google.com/open?id=1vt4fsS3plVWc6dW3XkcBxWP256HVVQc8A9PTsamQDQU">2018--}}
-                                {{--Team Registration Form</a></p>--}}
+                    {{--<h4 class="has-text-centered">Stay Connected</h4>--}}
+                    {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
+                    {{--<p>Not receiving emails? Please be sure to register for the 2018 season by completing the form--}}
+                    {{--below:</p>--}}
+                    {{--<p class="has-text-centered has-text-weight-bold"><a--}}
+                    {{--href="https://drive.google.com/open?id=1vt4fsS3plVWc6dW3XkcBxWP256HVVQc8A9PTsamQDQU">2018--}}
+                    {{--Team Registration Form</a></p>--}}
                     {{--</div>--}}
                 </div>
             </div>

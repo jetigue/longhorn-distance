@@ -17116,7 +17116,7 @@ __WEBPACK_IMPORTED_MODULE_2_vue___default.a.component('stat-card', {
 
 	props: ['title', 'stat'],
 
-	template: '\n\t\t<div class="card">\n\t\t\t<div class="card-header">\n\t\t\t\t<div>\n\t\t\t\t\t<h6>{{title}}</h6>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="card-content">\n\t\t\t\t<div class="content has-text-centered">\n\t\t\t\t\t<h1>{{stat}}</h1>\n\t\t\t\t</div\n\t\t\t<div>\n\t\t</div>\n\t\t'
+	template: '\n\t\t<div class="card">\n\t\t\t<div class="card-header">\n\t\t\t\t<div>\n\t\t\t\t\t<h6>{{title}}</h6>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="card-content">\n\t\t\t\t<div class="content has-text-centered">\n\t\t\t\t\t<h1>{{stat}}</h1>\n\t\t\t\t</div>\n\t\t\t<div>\n\t\t</div>\n\t\t'
 });
 
 new __WEBPACK_IMPORTED_MODULE_2_vue___default.a({
