@@ -8,25 +8,40 @@
                     <article class="tile is-child box">
                         <div class="content announcements">
                             <h4>2018 Lambert River Run</h4>
-                            <p>The 6th edition of the Lambert River run is this Saturday, August 25th!</p>
-                            <p><strong>Lambert Community:</strong> We are still in need of volunteers to ensure that the
-                                meet run smoothly. Please sign up to volunteer by clicking on the link below: </p>
-                            <p class="has-text-centered has-text-weight-bold">
-                                <a href="https://www.signupgenius.com/go/10c0548aaa92aa2fc1-2018">SignUp Genius</a>
+                            <p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>
+                            <p>It was also a great start to the season for our runners. The boys varsity finished 2nd
+                                and were led by sophomore, <strong>Cooper Bocko </strong> (3rd overall, 16:18), junior
+                                <strong>Kyle Parker</strong> (9th, (16:43) and sophomore <strong>Colin Chapman</strong>
+                                (10th, 16:43) who all finished in the top 10. Sophomore <strong>Adam Nicholason</strong>
+                                (14th, 16:53) and junior <strong>Nick White</strong> (22nd, 17:05) round out the scoring
+                                for the Longhorns.</p>
+                            <p>The girls varsity team finished 3rd out of 13 teams and were led by sophomore <strong>Caroline
+                                    Gaharan</strong> (3rd, 19:21), sophomore <strong>Emily Chapman </strong>(7th,
+                                19:45), and freshman <strong>Caroline Harris </strong>(8th, 19:49) who also all finished
+                                in the top 10. Junior <strong>Hannah Lee </strong> (20th, 20:48) and senior <strong>Brianna
+                                    O'Neal </strong>(28th, 21:02) secured the 3rd place finish for the Lady longhorns.
                             </p>
-                            <p>There will be an informative meeting for all volunteers at the pasta dinner at
-                                Chattahoochee Pointe Park Friday evening. The dinner will begin at 6:00 pm and will be
-                                sponsored by <a href="https://alessiosrestaurant.com/">Alessio's Restaurant.</a></p>
+                            <p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>
+                            <h4>Berry College Clara Bowl invitational</h4>
+                            <p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl
+                                Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being
+                                there at least ten minutes prior to that. We should return to the stadium around 1:00
+                                pm</p>
+                            <p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>
                         </div>
                     </article>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box content">
-                        <h4 class="has-text-centered">Practice This Week</h4>
+                        <h4 class="has-text-centered">This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>August 20 - August 24:</strong></p>
+                        <p><strong>August 27 - August 31:</strong></p>
                         <p>Morning practice. Meet in the gym at 6:20 am.</p>
-                        <p>Pasta Dinners at Chattahoochee Pointe Par at 6:00 pm on Friday, August 24</p>
+                        <p><strong>Saturday, September 1st</strong></p>
+                        <p>Berry College Clara Bowl Invitational</p>
+                        <p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>
+                        <p>We should return to the stadium lot around 1:00 pm.</p>
+                        <p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>
                     </article>
                 </div>
             </div>
@@ -133,10 +148,6 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Lambert River Run</h5>
-                        <h6>Sat, August 25th</h6>
-                        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
-                        <hr>
                         <h5>Berry College Invitational</h5>
                         <h6>Sat, September 1st</h6>
                         <h6><span style="color:#73000a">@ </span>Berry College</h6>
