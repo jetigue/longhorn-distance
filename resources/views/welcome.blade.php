@@ -7,27 +7,40 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>2018 Lambert River Run</h4>
-                            <p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>
-                            <p>It was also a great start to the season for our runners. The boys varsity finished 2nd
-                                and were led by sophomore, <strong>Cooper Bocko </strong> (3rd overall, 16:18), junior
-                                <strong>Kyle Parker</strong> (9th, (16:43) and sophomore <strong>Colin Chapman</strong>
-                                (10th, 16:43) who all finished in the top 10. Sophomore <strong>Adam Nicholason</strong>
-                                (14th, 16:53) and junior <strong>Nick White</strong> (22nd, 17:05) round out the scoring
-                                for the Longhorns.</p>
-                            <p>The girls varsity team finished 3rd out of 13 teams and were led by sophomore <strong>Caroline
-                                    Gaharan</strong> (3rd, 19:21), sophomore <strong>Emily Chapman </strong>(7th,
-                                19:45), and freshman <strong>Caroline Harris </strong>(8th, 19:49) who also all finished
-                                in the top 10. Junior <strong>Hannah Lee </strong> (20th, 20:48) and senior <strong>Brianna
-                                    O'Neal </strong>(28th, 21:02) secured the 3rd place finish for the Lady longhorns.
-                            </p>
-                            <p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>
-                            <h4>Berry College Clara Bowl invitational</h4>
-                            <p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl
-                                Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being
-                                there at least ten minutes prior to that. We should return to the stadium around 1:00
-                                pm</p>
-                            <p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>
+                            <h4>Milton Invitation</h4>
+                            <p>The entire team will be competing at the Milton Invitational on Saturday, September 15th. The bus will depart from the stadium parking lot at 6:00 am.</p>
+                            <p><a href="http://ga.milesplit.com/meets/292284/info#.W4_0ROhKjic">Milton Invitational Meet Page</a></p>
+                            <h4>Berry Clara Bowl Invitational</h4>
+                            <p>The team competed at the Berry College Clara Bowl Invitational this past Saturday. The
+                                girls varsity finished 5th out of 28 teams and were once again led by sophomores,
+                                <strong>Caroline Gaharan </strong>(6th overall) and <strong>Emily Chapman </strong>
+                                (17th overall). Both girls were recognized for placing in the top 20. Pacing the varsity
+                                boys to a 6th place finish (out of 30 teams) and also being recognized for his top 20
+                                finish was sophomore <strong> Cooper Bocko </strong> (7th overall).</p>
+                            <p>In the combined JV race, sophomores <strong>Charlotte Lawson </strong>(7th) and <strong>Chloe Franklin </strong> (10th) were recognized for their top ten finishes!</p>
+                            <p><a href="http://ga.milesplit.com/meets/319610/results#.W4_y-ehKjic">Berry College Clara Bowl Results</a></p>
+                            {{--<h4>2018 Lambert River Run</h4>--}}
+                            {{--<p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>--}}
+                            {{--<p>It was also a great start to the season for our runners. The boys varsity finished 2nd--}}
+                            {{--and were led by sophomore, <strong>Cooper Bocko </strong> (3rd overall, 16:18), junior--}}
+                            {{--<strong>Kyle Parker</strong> (9th, (16:43) and sophomore <strong>Colin Chapman</strong>--}}
+                            {{--(10th, 16:43) who all finished in the top 10. Sophomore <strong>Adam Nicholason</strong>--}}
+                            {{--(14th, 16:53) and junior <strong>Nick White</strong> (22nd, 17:05) round out the scoring--}}
+                            {{--for the Longhorns.</p>--}}
+                            {{--<p>The girls varsity team finished 3rd out of 13 teams and were led by sophomore <strong>Caroline--}}
+                            {{--Gaharan</strong> (3rd, 19:21), sophomore <strong>Emily Chapman </strong>(7th,--}}
+                            {{--19:45), and freshman <strong>Caroline Harris </strong>(8th, 19:49) who also all finished--}}
+                            {{--in the top 10. Junior <strong>Hannah Lee </strong> (20th, 20:48) and senior <strong>Brianna--}}
+                            {{--O'Neal </strong>(28th, 21:02) secured the 3rd place finish for the Lady longhorns.--}}
+                            {{--</p>--}}
+                            {{--<p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>--}}
+                            {{--<h4>Berry College Clara Bowl invitational</h4>--}}
+                            {{--<p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl--}}
+                                {{--Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being--}}
+                                {{--there at least ten minutes prior to that. We should return to the stadium around 1:--}}
+                                {{--pm</p>--}}
+                            {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a>--}}
+                            {{--</p>--}}
                         </div>
                     </article>
                 </div>
@@ -35,13 +48,13 @@
                     <article class="tile is-child box content">
                         <h4 class="has-text-centered">This Week</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>August 27 - August 31:</strong></p>
-                        <p>Morning practice. Meet in the gym at 6:20 am.</p>
-                        <p><strong>Saturday, September 1st</strong></p>
-                        <p>Berry College Clara Bowl Invitational</p>
-                        <p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>
-                        <p>We should return to the stadium lot around 1:00 pm.</p>
-                        <p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>
+                        <p><strong>September 4 - September 7:</strong></p>
+                        <p>Afternoon practices begin: 3:55 to 5:30 pm.</p>
+                        {{--<p><strong>Saturday, September 1st</strong></p>--}}
+                        {{--<p>Berry College Clara Bowl Invitational</p>--}}
+                        {{--<p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>--}}
+                        {{--<p>We should return to the stadium lot around 1:00 pm.</p>--}}
+                        {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>--}}
                     </article>
                 </div>
             </div>
@@ -55,7 +68,7 @@
                             Lambert faculty, and supporters from the community!</p>
                         <p>Thank you for supporting our program!</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
+                                href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
                                 Longhorn 5k Results</a>
                         </p>
                     </div>
@@ -68,7 +81,7 @@
                         <p>Last year was a huge success and we are looking forward to some great competition again this
                             year!</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="http://ga.milesplit.com/meets/311292/info#.WwtxpUgvyHs">Meet Page</a></p>
+                                href="http://ga.milesplit.com/meets/311292/info#.WwtxpUgvyHs">Meet Page</a></p>
                     </div>
                 </div>
                 <div class="tile is-parent">
@@ -104,7 +117,7 @@
                             such as yours. As a self funded team, we would like to invite you to become a sponsor for
                             our team. Click on the link below for more information: </p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                    href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
+                                href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
                                 Sponsorship Form</a></p>
                     </div>
                 </div>
@@ -148,17 +161,34 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Berry College Invitational</h5>
-                        <h6>Sat, September 1st</h6>
-                        <h6><span style="color:#73000a">@ </span>Berry College</h6>
-                        <hr>
                         <h5>Milton Invitational</h5>
                         <h6>Sat, September 15th</h6>
                         <h6><span style="color:#73000a">@ </span>Milton High School</h6>
+                        <h6><a href="http://ga.milesplit.com/meets/292284/info#.W4_0ROhKjic">Meet Page</a></h6>
+
                         <hr>
                         <h5>Wingfoot XC Classic</h5>
                         <h6>Sat, September 22nd</h6>
-                        <h6><span style="color:#73000a">@ </span>Cartersville, GA</h6>
+                        <h6><span style="color:#73000a">@ </span>Sam Smith Park</h6>
+                        <h6>Cartersville, GA</h6>
+                        <h6><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Meet Page</a></h6>
+                        <hr>
+                        <h5>Great American</h5>
+                        <h6>Sat, October 6</h6>
+                        <h6><span style="color:#73000a">@ </span>Cary, NC</h6>
+                        <h6><span style="color:#73000a">Top 21 Only</span></h6>
+                        <h6><a href="http://www.nationalscholastic.org/gacc">Meet Page</a></h6>
+                        <hr>
+                        <h5>Coach Wood Invitational</h5>
+                        <h6>Sat, October 13</h6>
+                        <h6><span style="color:#73000a">@ </span>McIntosh Nature Preserve</h6>
+                        <h6>Whitesburg, GA</h6>
+                        <h6><a href="http://ga.milesplit.com/meets/321184/info#.W4_3K-hKjic">Meet Page</a></h6>
+                        <hr>
+                        <h5>Area Championship</h5>
+                        <h6>Sat, October 20</h6>
+                        <h6><span style="color:#73000a">@ </span>Boling Park</h6>
+                        <h6>Canton, GA</h6>
                     </div>
                 </div>
             </div>
