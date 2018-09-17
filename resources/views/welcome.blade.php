@@ -7,18 +7,32 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Milton Invitation</h4>
-                            <p>The entire team will be competing at the Milton Invitational on Saturday, September 15th. The bus will depart from the stadium parking lot at 6:00 am.</p>
-                            <p><a href="http://ga.milesplit.com/meets/292284/info#.W4_0ROhKjic">Milton Invitational Meet Page</a></p>
-                            <h4>Berry Clara Bowl Invitational</h4>
-                            <p>The team competed at the Berry College Clara Bowl Invitational this past Saturday. The
-                                girls varsity finished 5th out of 28 teams and were once again led by sophomores,
-                                <strong>Caroline Gaharan </strong>(6th overall) and <strong>Emily Chapman </strong>
-                                (17th overall). Both girls were recognized for placing in the top 20. Pacing the varsity
-                                boys to a 6th place finish (out of 30 teams) and also being recognized for his top 20
-                                finish was sophomore <strong> Cooper Bocko </strong> (7th overall).</p>
-                            <p>In the combined JV race, sophomores <strong>Charlotte Lawson </strong>(7th) and <strong>Chloe Franklin </strong> (10th) were recognized for their top ten finishes!</p>
-                            <p><a href="http://ga.milesplit.com/meets/319610/results#.W4_y-ehKjic">Berry College Clara Bowl Results</a></p>
+                            <h4>Wingfoot Classic</h4>
+                            <p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The
+                                course is located at Sam Smith Park in Cartersville. The buses will depart from the
+                                stadium parking lot at 5:30
+                                am and we should return around 12:00 pm.</p>
+                            <p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet
+                                    Page</a></p>
+                            <p>
+                                <a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet
+                                    Schedule</a></p>
+                            <h4>Milton Invitational</h4>
+                            <p>The team competed at the Milton Invitational for the first time this past Saturday. The
+                                girls varsity, ranked 6th in 7A,
+                                finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore
+                                standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily
+                                    Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline
+                                    Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the
+                                scoring for the team.</p>
+
+                            <p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin
+                                    Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>
+                                (12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),
+                                <strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded
+                                out the scoring for the team.</p>
+                            <p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>
+                            <p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>
                             {{--<h4>2018 Lambert River Run</h4>--}}
                             {{--<p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>--}}
                             {{--<p>It was also a great start to the season for our runners. The boys varsity finished 2nd--}}
@@ -36,20 +50,38 @@
                             {{--<p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>--}}
                             {{--<h4>Berry College Clara Bowl invitational</h4>--}}
                             {{--<p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl--}}
-                                {{--Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being--}}
-                                {{--there at least ten minutes prior to that. We should return to the stadium around 1:--}}
-                                {{--pm</p>--}}
+                            {{--Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being--}}
+                            {{--there at least ten minutes prior to that. We should return to the stadium around 1:--}}
+                            {{--pm</p>--}}
                             {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a>--}}
                             {{--</p>--}}
                         </div>
                     </article>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child box content">
-                        <h4 class="has-text-centered">This Week</h4>
+                    <article class="tile is-child box content events">
+                        <h4 class="has-text-centered">Team Results</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p><strong>September 4 - September 7:</strong></p>
-                        <p>Afternoon practices begin: 3:55 to 5:30 pm.</p>
+                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>
+                        <h6>Varsity Boys: 2nd</h6>
+                        <h6>Varsity Girls: 3rd</h6>
+                        <h6>JV Boys: 3rd</h6>
+                        <h6>JV Girls: 7th</h6>
+
+                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/319610/results#.W5_Y1-hKjic">Berry Clara Bowl Invite</a></strong></p>
+                        <h6>Varsity Boys: 6th</h6>
+                        <h6>Varsity Girls: 5th</h6>
+                        <h6>JV Boys: 5th</h6>
+                        <h6>JV Girls: 5th</h6>
+
+                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/292284/results#.W5_ZgOhKjic">Milton Invitational</a></strong></p>
+                        <h6>Varsity Boys: 6th</h6>
+                        <h6>Varsity Girls: 4th</h6>
+                        <h6>JV Boys: 3rd</h6>
+                        <h6>JV Girls: 4th</h6>
+                        <h6>Open Boys: 3rd</h6>
+                        <h6>Open Girls: 5th</h6>
+
                         {{--<p><strong>Saturday, September 1st</strong></p>--}}
                         {{--<p>Berry College Clara Bowl Invitational</p>--}}
                         {{--<p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>--}}
@@ -161,12 +193,6 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Milton Invitational</h5>
-                        <h6>Sat, September 15th</h6>
-                        <h6><span style="color:#73000a">@ </span>Milton High School</h6>
-                        <h6><a href="http://ga.milesplit.com/meets/292284/info#.W4_0ROhKjic">Meet Page</a></h6>
-
-                        <hr>
                         <h5>Wingfoot XC Classic</h5>
                         <h6>Sat, September 22nd</h6>
                         <h6><span style="color:#73000a">@ </span>Sam Smith Park</h6>
