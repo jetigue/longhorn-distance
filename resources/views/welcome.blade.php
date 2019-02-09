@@ -7,32 +7,35 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Wingfoot Classic</h4>
-                            <p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The
-                                course is located at Sam Smith Park in Cartersville. The buses will depart from the
-                                stadium parking lot at 5:30
-                                am and we should return around 12:00 pm.</p>
-                            <p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet
-                                    Page</a></p>
-                            <p>
-                                <a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet
-                                    Schedule</a></p>
-                            <h4>Milton Invitational</h4>
-                            <p>The team competed at the Milton Invitational for the first time this past Saturday. The
-                                girls varsity, ranked 6th in 7A,
-                                finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore
-                                standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily
-                                    Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline
-                                    Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the
-                                scoring for the team.</p>
+                            <h4>Run for the Longhorns!</h4>
+                            <p>Are you interested in running cross country for the Longhorns next fall? Please sign up to receive emails about the upcoming informational meeting.</p>
+                            <p><a href="https://goo.gl/forms/5ZAavPpXLGVZvQIm1">2019 Lambert Cross Country Interest Form</a></p>
+                            {{--<h4>Wingfoot Classic</h4>--}}
+                            {{--<p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The--}}
+                                {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
+                                {{--stadium parking lot at 5:30--}}
+                                {{--am and we should return around 12:00 pm.</p>--}}
+                            {{--<p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet--}}
+                                    {{--Page</a></p>--}}
+                            {{--<p>--}}
+                                {{--<a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet--}}
+                                    {{--Schedule</a></p>--}}
+                            {{--<h4>Milton Invitational</h4>--}}
+                            {{--<p>The team competed at the Milton Invitational for the first time this past Saturday. The--}}
+                                {{--girls varsity, ranked 6th in 7A,--}}
+                                {{--finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore--}}
+                                {{--standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily--}}
+                                    {{--Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline--}}
+                                    {{--Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the--}}
+                                {{--scoring for the team.</p>--}}
 
-                            <p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin
-                                    Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>
-                                (12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),
-                                <strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded
-                                out the scoring for the team.</p>
-                            <p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>
-                            <p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>
+                            {{--<p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin--}}
+                                    {{--Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>--}}
+                                {{--(12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),--}}
+                                {{--<strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded--}}
+                                {{--out the scoring for the team.</p>--}}
+                            {{--<p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>--}}
+                            {{--<p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>--}}
                             {{--<h4>2018 Lambert River Run</h4>--}}
                             {{--<p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>--}}
                             {{--<p>It was also a great start to the season for our runners. The boys varsity finished 2nd--}}
