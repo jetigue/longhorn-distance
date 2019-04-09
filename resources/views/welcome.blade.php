@@ -7,9 +7,15 @@
                 <div class="tile is-parent is-8">
                     <article class="tile is-child box">
                         <div class="content announcements">
-                            <h4>Run for the Longhorns!</h4>
-                            <p>Are you interested in running cross country for the Longhorns next fall? Please sign up to receive emails about the upcoming informational meeting.</p>
-                            <p><a href="https://goo.gl/forms/5ZAavPpXLGVZvQIm1">2019 Lambert Cross Country Interest Form</a></p>
+                            <h4>Informational Meeting</h4>
+                            <p>There will be an informational meeting for anyone interested in running cross country for the Longhorns in the fall. All new and returning runners and their parents should plan on attending as important changes for the 2019 season will be discussed.</p>
+                            <p><strong>The meeting will take place on Thursday, April 25th, at 6:30 pm in the Lambert Cafeteria.</strong></p>
+
+                            <h4>Lambert Physical Day</h4>
+                            <p>Lambert's Physical Day will be Wednesday, April 24th. The pre-registration deadline is April 19th and will allow the students to have an expedited check-in process. The student just needs to turn in the packet completed with all the relevant parents sections and payment of $20 to the main office by April 19th.</p>
+                            <div class="box">
+                                <img src="{{url('images/physicalday19.png')}}" alt="Berry Camp Volleyball">
+                            </div>
                             {{--<h4>Wingfoot Classic</h4>--}}
                             {{--<p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The--}}
                                 {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
@@ -63,27 +69,31 @@
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child box content events">
-                        <h4 class="has-text-centered">Team Results</h4>
+                        <h4>Sign-Up for the 2019 Season</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>
-                        <h6>Varsity Boys: 2nd</h6>
-                        <h6>Varsity Girls: 3rd</h6>
-                        <h6>JV Boys: 3rd</h6>
-                        <h6>JV Girls: 7th</h6>
+                        <p>All new and returning runners will need to officially sign-up for the 2019 season. Signing up will ensure you are on the email distribution list so you stay informed of team announcements and events.</p>
+                        <p><strong><a href="https://forms.gle/pMik1h9orLqtaXrX6">2019 Sign-Up Form</a></strong></p>
+                        {{--<h4 class="has-text-centered">Team Results</h4>--}}
+                        {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
+                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>--}}
+                        {{--<h6>Varsity Boys: 2nd</h6>--}}
+                        {{--<h6>Varsity Girls: 3rd</h6>--}}
+                        {{--<h6>JV Boys: 3rd</h6>--}}
+                        {{--<h6>JV Girls: 7th</h6>--}}
 
-                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/319610/results#.W5_Y1-hKjic">Berry Clara Bowl Invite</a></strong></p>
-                        <h6>Varsity Boys: 6th</h6>
-                        <h6>Varsity Girls: 5th</h6>
-                        <h6>JV Boys: 5th</h6>
-                        <h6>JV Girls: 5th</h6>
+                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/319610/results#.W5_Y1-hKjic">Berry Clara Bowl Invite</a></strong></p>--}}
+                        {{--<h6>Varsity Boys: 6th</h6>--}}
+                        {{--<h6>Varsity Girls: 5th</h6>--}}
+                        {{--<h6>JV Boys: 5th</h6>--}}
+                        {{--<h6>JV Girls: 5th</h6>--}}
 
-                        <p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/292284/results#.W5_ZgOhKjic">Milton Invitational</a></strong></p>
-                        <h6>Varsity Boys: 6th</h6>
-                        <h6>Varsity Girls: 4th</h6>
-                        <h6>JV Boys: 3rd</h6>
-                        <h6>JV Girls: 4th</h6>
-                        <h6>Open Boys: 3rd</h6>
-                        <h6>Open Girls: 5th</h6>
+                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/292284/results#.W5_ZgOhKjic">Milton Invitational</a></strong></p>--}}
+                        {{--<h6>Varsity Boys: 6th</h6>--}}
+                        {{--<h6>Varsity Girls: 4th</h6>--}}
+                        {{--<h6>JV Boys: 3rd</h6>--}}
+                        {{--<h6>JV Girls: 4th</h6>--}}
+                        {{--<h6>Open Boys: 3rd</h6>--}}
+                        {{--<h6>Open Girls: 5th</h6>--}}
 
                         {{--<p><strong>Saturday, September 1st</strong></p>--}}
                         {{--<p>Berry College Clara Bowl Invitational</p>--}}
@@ -196,28 +206,26 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Wingfoot XC Classic</h5>
-                        <h6>Sat, September 22nd</h6>
-                        <h6><span style="color:#73000a">@ </span>Sam Smith Park</h6>
-                        <h6>Cartersville, GA</h6>
-                        <h6><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Meet Page</a></h6>
+                        <h5>Physical Day</h5>
+                        <h6>Wed, April 24</h6>
+                        <h6>Lambert Cafeteria</h6>
+                        <h6>4:00 - 5:45 pm</h6>
+                        <h6>$20 due by April 19th</h6>
                         <hr>
-                        <h5>Great American</h5>
-                        <h6>Sat, October 6</h6>
-                        <h6><span style="color:#73000a">@ </span>Cary, NC</h6>
-                        <h6><span style="color:#73000a">Top 21 Only</span></h6>
-                        <h6><a href="http://www.nationalscholastic.org/gacc">Meet Page</a></h6>
+                        <h5>Informational Meeting</h5>
+                        <h6>Thur, April 25th</h6>
+                        <h6>Lambert Cafeteria</h6>
+                        <h6>6:30 pm</h6>
+                        <h6>Anyone interested in running in the fall should attend.</h6>
                         <hr>
-                        <h5>Coach Wood Invitational</h5>
-                        <h6>Sat, October 13</h6>
-                        <h6><span style="color:#73000a">@ </span>McIntosh Nature Preserve</h6>
-                        <h6>Whitesburg, GA</h6>
-                        <h6><a href="http://ga.milesplit.com/meets/321184/info#.W4_3K-hKjic">Meet Page</a></h6>
+                        <h5>Summer Mileage Begins</h5>
+                        <h6>Sun, May 12th</h6>
+                        <h6>All mileage must be logged.</h6>
                         <hr>
-                        <h5>Area Championship</h5>
-                        <h6>Sat, October 20</h6>
-                        <h6><span style="color:#73000a">@ </span>Boling Park</h6>
-                        <h6>Canton, GA</h6>
+                        <h5>Summer Practice Begins</h5>
+                        <h6>Tues, June 4th</h6>
+                        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+                        <h6>6:30 - 8:00 am</h6>
                     </div>
                 </div>
             </div>
