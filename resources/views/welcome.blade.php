@@ -9,7 +9,7 @@
                         <div class="content announcements">
                             <h4>Informational Meeting</h4>
                             <p>There will be an informational meeting for anyone interested in running cross country for the Longhorns in the fall. All new and returning runners and their parents should plan on attending as important changes for the 2019 season will be discussed.</p>
-                            <p><strong>The meeting will take place on Thursday, April 25th, at 6:30 pm in the Lambert Cafeteria.</strong></p>
+                            <p><strong>Due to the region track date being moved to the 25th, the meeting will now take place on Thursday, May 2nd, at 6:30 pm in the Lambert Cafeteria.</strong></p>
 
                             <h4>Lambert Physical Day</h4>
                             <p>Lambert's Physical Day will be Wednesday, April 24th. The pre-registration deadline is April 19th and will allow the students to have an expedited check-in process. The student just needs to turn in the packet completed with all the relevant parents sections and payment of $20 to the main office by April 19th.</p>
@@ -213,7 +213,7 @@
                         <h6>$20 due by April 19th</h6>
                         <hr>
                         <h5>Informational Meeting</h5>
-                        <h6>Thur, April 25th</h6>
+                        <h6>Thur, May 2nd</h6>
                         <h6>Lambert Cafeteria</h6>
                         <h6>6:30 pm</h6>
                         <h6>Anyone interested in running in the fall should attend.</h6>
