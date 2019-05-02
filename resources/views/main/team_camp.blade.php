@@ -8,7 +8,7 @@
     <div class="columns content">
         <div class="column is-7">
             <h4 class="has-text-weight-semibold">
-                Come help us kick off another great season by joining us for our 4th annual team camp! The goal of the
+                Come help us kick off another great season by joining us for our 5th annual team camp! The goal of the
                 camp
                 is to make us a better team -- by making everyone a better distance runner through training and
                 education,
@@ -24,7 +24,7 @@
                 Like other running camps, each day will consist of some training runs, informational sessions, team
                 activities and some free time. Unlike other running camps, however, our camp will be designed with only
                 our
-                team in mind which means we can be as flexible as we want while preparing for the upcoming 2018 cross
+                team in mind which means we can be as flexible as we want while preparing for the upcoming 2019 cross
                 country season. It promises to be a lot of fun!
             </h4>
         </div>
@@ -38,12 +38,12 @@
                 </header>
                 <div class="card-content">
                     <div class="content">
-                        <p><strong>Dates: </strong>Monday, July 16 - Friday, July 20</p>
+                        <p><strong>Dates: </strong>Monday, July 15 - Friday, July 19</p>
                         <p><strong>Transportation: </strong>Bus will depart from Lambert Stadium Lot at 8:00 am Monday
                             morning and return Friday at Noon.</p>
-                        <p><strong>Cost: </strong>$325 per runner. Please make checks out to LHSXC Booster Club and turn
-                            in to Coach Tigue by Thursday, July 12.</p>
-                        <p><strong>Sign Up: </strong><a href="https://goo.gl/forms/MOMGkHAvnxn1gF3Q2">2018 Team Camp
+                        <p><strong>Cost: </strong>$360 per runner. Please make checks out to LHSXC Booster Club and turn
+                            in to Coach Tigue by Thursday, July 11th.</p>
+                        <p><strong>Sign Up: </strong><a href="https://goo.gl/forms/MOMGkHAvnxn1gF3Q2">2019 Team Camp
                                 Registration</a></p>
                     </div>
                 </div>
@@ -60,12 +60,12 @@
 
         <div class="column is-8">
             <h4></h4>
-            <h4>The team camp will begin on the morning of Monday, July 16th and conclude on the morning of Friday, July
-                20th. This year we will be providing bus transportation to and from the camp. While on campus, the
+            <h4>The team camp will begin on the morning of Monday, July 15th and conclude on the morning of Friday, July
+                19th. This year we will be providing bus transportation to and from the camp. While on campus, the
                 runners and coaches (and any parents who wish to join us) will be staying at the Dana Residence Hall.
                 Each dorm room is equipped with two twin beds and dressers. Linens are not provided.
             </h4>
-            <h4>The cost of the camp will be $325 for each athlete which includes 4 nights lodging, 12 meals, limited
+            <h4>The cost of the camp will be $360 for each athlete which includes 4 nights lodging, 12 meals, limited
                 accidental insurance, camp t-shirt, transportation in and around campus, and transportation to and from camp.</h4>
         </div>
     </div>
