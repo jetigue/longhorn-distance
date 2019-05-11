@@ -223,18 +223,6 @@
                     <h4 class="has-text-centered">Calendar</h4>
                     <hr class="my-2" style="border-top: 2px solid #73000A">
                     <div class="events">
-                        <h5>Physical Day</h5>
-                        <h6>Wed, April 24</h6>
-                        <h6>Lambert Cafeteria</h6>
-                        <h6>4:00 - 5:45 pm</h6>
-                        <h6>$20 due by April 19th</h6>
-                        <hr>
-                        <h5>Informational Meeting</h5>
-                        <h6>Thur, May 2nd</h6>
-                        <h6>Lambert Cafeteria</h6>
-                        <h6>6:30 pm</h6>
-                        <h6>Anyone interested in running in the fall should attend.</h6>
-                        <hr>
                         <h5>Summer Mileage Begins</h5>
                         <h6>Sun, May 12th</h6>
                         <h6>All mileage must be logged.</h6>
