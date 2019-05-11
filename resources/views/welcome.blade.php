@@ -8,38 +8,53 @@
                     <article class="tile is-child box">
                         <div class="content announcements">
                             <h4>Informational Meeting</h4>
-                            <p>There will be an informational meeting for anyone interested in running cross country for the Longhorns in the fall. All new and returning runners and their parents should plan on attending as important changes for the 2019 season will be discussed.</p>
-                            <p><strong>Due to the region track date being moved to the 25th, the meeting will now take place on Thursday, May 2nd, at 6:30 pm in the Lambert Cafeteria.</strong></p>
+                            <p>If you were unable to make the informational meeting on the 2nd, you can find the forms
+                                here:</p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/1Tw17HSMjf869xdzlm7QDPQ-G4mwW9QOP/view?usp=sharing">Meeting
+                                    Highlights</a></p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/1gGHo-cZkj-k9IfJa3BWX8H7Fw6xNwzhY/view?usp=sharing">Informational
+                                    Packet 2019</a></p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/1AHhM5ewFE4DUCLK5L9yDZZoB4sxhmemr/view?usp=sharing">Summer
+                                    Running Plan</a></p>
 
-                            <h4>Lambert Physical Day</h4>
-                            <p>Lambert's Physical Day will be Wednesday, April 24th. The pre-registration deadline is April 19th and will allow the students to have an expedited check-in process. The student just needs to turn in the packet completed with all the relevant parents sections and payment of $20 to the main office by April 19th.</p>
-                            <div class="box">
-                                <img src="{{url('images/physicalday19.png')}}" alt="Berry Camp Volleyball">
-                            </div>
+                            <h4>Sponsor Program</h4>
+                            <p>The Lambert Cross Country Program is heading into our 10th successful season! We are seeking
+                                great organizations to have a partnership with our state ranked Cross Country team. The
+                                Longhorn
+                                Cross Country team believes that the best way to have community involvement is through
+                                companies
+                                such as yours. As a self funded team, we would like to invite you to become a sponsor for
+                                our team. Click on the link below for more information: </p>
+                            <p class="has-text-centered has-text-weight-bold"><a
+                                        href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
+                                    Sponsorship Form</a></p>
                             {{--<h4>Wingfoot Classic</h4>--}}
                             {{--<p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The--}}
-                                {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
-                                {{--stadium parking lot at 5:30--}}
-                                {{--am and we should return around 12:00 pm.</p>--}}
+                            {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
+                            {{--stadium parking lot at 5:30--}}
+                            {{--am and we should return around 12:00 pm.</p>--}}
                             {{--<p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet--}}
-                                    {{--Page</a></p>--}}
+                            {{--Page</a></p>--}}
                             {{--<p>--}}
-                                {{--<a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet--}}
-                                    {{--Schedule</a></p>--}}
+                            {{--<a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet--}}
+                            {{--Schedule</a></p>--}}
                             {{--<h4>Milton Invitational</h4>--}}
                             {{--<p>The team competed at the Milton Invitational for the first time this past Saturday. The--}}
-                                {{--girls varsity, ranked 6th in 7A,--}}
-                                {{--finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore--}}
-                                {{--standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily--}}
-                                    {{--Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline--}}
-                                    {{--Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the--}}
-                                {{--scoring for the team.</p>--}}
+                            {{--girls varsity, ranked 6th in 7A,--}}
+                            {{--finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore--}}
+                            {{--standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily--}}
+                            {{--Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline--}}
+                            {{--Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the--}}
+                            {{--scoring for the team.</p>--}}
 
                             {{--<p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin--}}
-                                    {{--Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>--}}
-                                {{--(12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),--}}
-                                {{--<strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded--}}
-                                {{--out the scoring for the team.</p>--}}
+                            {{--Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>--}}
+                            {{--(12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),--}}
+                            {{--<strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded--}}
+                            {{--out the scoring for the team.</p>--}}
                             {{--<p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>--}}
                             {{--<p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>--}}
                             {{--<h4>2018 Lambert River Run</h4>--}}
@@ -71,8 +86,10 @@
                     <article class="tile is-child box content events">
                         <h4>Sign-Up for the 2019 Season</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>All new and returning runners will need to officially sign-up for the 2019 season. Signing up will ensure you are on the email distribution list so you stay informed of team announcements and events.</p>
-                        <p><strong><a href="https://forms.gle/pMik1h9orLqtaXrX6">2019 Sign-Up Form</a></strong></p>
+                        <p>All new and returning runners will need to officially sign-up for the 2019 season. Signing up
+                            will ensure you are on the email distribution list so you stay informed of team
+                            announcements and events.</p>
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://forms.gle/pMik1h9orLqtaXrX6">2019 Sign-Up Form</a></p>
                         {{--<h4 class="has-text-centered">Team Results</h4>--}}
                         {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
                         {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>--}}
@@ -113,7 +130,7 @@
                             Lambert faculty, and supporters from the community!</p>
                         <p>Thank you for supporting our program!</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
+                                    href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
                                 Longhorn 5k Results</a>
                         </p>
                     </div>
@@ -126,7 +143,7 @@
                         <p>Last year was a huge success and we are looking forward to some great competition again this
                             year!</p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                href="http://ga.milesplit.com/meets/311292/info#.WwtxpUgvyHs">Meet Page</a></p>
+                                    href="http://ga.milesplit.com/meets/311292/info#.WwtxpUgvyHs">Meet Page</a></p>
                     </div>
                 </div>
                 <div class="tile is-parent">
@@ -162,7 +179,7 @@
                             such as yours. As a self funded team, we would like to invite you to become a sponsor for
                             our team. Click on the link below for more information: </p>
                         <p class="has-text-centered has-text-weight-bold"><a
-                                href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdEc1NTd5bXVsYTVob0poZkU2NzVMVGJqdjFJ">2018
+                                    href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
                                 Sponsorship Form</a></p>
                     </div>
                 </div>
