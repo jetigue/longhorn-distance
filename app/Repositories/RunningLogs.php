@@ -44,8 +44,8 @@ class RunningLogs
 
         $totalSummerMileagePerRunner = RunningLog::select(DB::raw('user_id, sum(distance) as distance, sum(total_seconds) as total_seconds'))
             ->groupBy('user_id')
-            ->where('run_date', '>', '2018-05-13')
-            ->where('run_date', '<', '2018-08-04')
+            ->where('run_date', '>', '2019-05-12')
+            ->where('run_date', '<', '2019-08-03')
             ->orderBy('distance', 'desc')
             ->limit(50)
             ->get();
@@ -91,7 +91,7 @@ class RunningLogs
                 $join->on('run_date', '=', 'calendar.calendar_date')
                     ->where('user_id', Auth::user()->id);
             })
-            ->whereBetween('calendar.calendar_date', ['2018-05-13', '2018-08-04'])
+            ->whereBetween('calendar.calendar_date', ['2019-05-12', '2019-08-03'])
             ->pluck('distance', 'week');
 
         return $weeklySummerMileage;
@@ -105,7 +105,7 @@ class RunningLogs
                 $join->on('run_date', '=', 'calendar.calendar_date')
                     ->where('user_id', Auth::user()->id);
             })
-            ->whereBetween('calendar.calendar_date', ['2018-05-13', '2018-08-04'])
+            ->whereBetween('calendar.calendar_date', ['2019-05-12', '2019-08-03'])
             ->pluck('distance', 'week');
 
         return $runnersWeeklySummerMileage;
