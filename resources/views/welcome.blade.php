@@ -1,150 +1,141 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="tile is-ancestor">
-        <div class="tile is-vertical is-10">
-            <div class="tile">
-                <div class="tile is-parent is-8">
-                    <article class="tile is-child box">
-                        <div class="content announcements">
-                            <h4>Informational Meeting</h4>
-                            <p>If you were unable to make the informational meeting on the 2nd, you can find the forms
-                                here:</p>
-                            <p>
-                                <a href="https://drive.google.com/file/d/1Tw17HSMjf869xdzlm7QDPQ-G4mwW9QOP/view?usp=sharing">Meeting
-                                    Highlights</a></p>
-                            <p>
-                                <a href="https://drive.google.com/file/d/1gGHo-cZkj-k9IfJa3BWX8H7Fw6xNwzhY/view?usp=sharing">Informational
-                                    Packet 2019</a></p>
-                            <p>
-                                <a href="https://drive.google.com/file/d/1AHhM5ewFE4DUCLK5L9yDZZoB4sxhmemr/view?usp=sharing">Summer
-                                    Running Plan</a></p>
+<div class="tile is-ancestor">
+    <div class="tile is-vertical is-10">
+        <div class="tile">
+            <div class="tile is-parent is-8">
+                <article class="tile is-child box">
+                    <div class="content announcements">
+                        <h4>Informational Meeting</h4>
+                        <p>If you were unable to make the informational meeting on the 2nd, you can find the forms
+                            here:</p>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1Tw17HSMjf869xdzlm7QDPQ-G4mwW9QOP/view?usp=sharing">Meeting
+                                Highlights</a></p>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1gGHo-cZkj-k9IfJa3BWX8H7Fw6xNwzhY/view?usp=sharing">Informational
+                                Packet 2019</a></p>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1AHhM5ewFE4DUCLK5L9yDZZoB4sxhmemr/view?usp=sharing">Summer
+                                Running Plan</a></p>
 
-                            <h4>Sponsor Program</h4>
-                            <p>The Lambert Cross Country Program is heading into our 10th successful season! We are seeking
-                                great organizations to have a partnership with our state ranked Cross Country team. The
-                                Longhorn
-                                Cross Country team believes that the best way to have community involvement is through
-                                companies
-                                such as yours. As a self funded team, we would like to invite you to become a sponsor for
-                                our team. Click on the link below for more information: </p>
-                            <p class="has-text-centered has-text-weight-bold"><a
-                                        href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
-                                    Sponsorship Form</a></p>
-                            {{--<h4>Wingfoot Classic</h4>--}}
-                            {{--<p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The--}}
-                            {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
-                            {{--stadium parking lot at 5:30--}}
-                            {{--am and we should return around 12:00 pm.</p>--}}
-                            {{--<p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet--}}
-                            {{--Page</a></p>--}}
-                            {{--<p>--}}
-                            {{--<a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet--}}
-                            {{--Schedule</a></p>--}}
-                            {{--<h4>Milton Invitational</h4>--}}
-                            {{--<p>The team competed at the Milton Invitational for the first time this past Saturday. The--}}
-                            {{--girls varsity, ranked 6th in 7A,--}}
-                            {{--finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore--}}
-                            {{--standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily--}}
-                            {{--Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline--}}
-                            {{--Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the--}}
-                            {{--scoring for the team.</p>--}}
+                        <h4>Sponsor Program</h4>
+                        <p>The Lambert Cross Country Program is heading into our 10th successful season! We are seeking
+                            great organizations to have a partnership with our state ranked Cross Country team. The
+                            Longhorn
+                            Cross Country team believes that the best way to have community involvement is through
+                            companies
+                            such as yours. As a self funded team, we would like to invite you to become a sponsor for
+                            our team. Click on the link below for more information: </p>
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
+                                Sponsorship Form</a></p>
+                        {{--<h4>Wingfoot Classic</h4>--}}
+                        {{--<p>The entire team will be competing at the Wingfoot Classic on Saturday, September 22nd The--}}
+                        {{--course is located at Sam Smith Park in Cartersville. The buses will depart from the--}}
+                        {{--stadium parking lot at 5:30--}}
+                        {{--am and we should return around 12:00 pm.</p>--}}
+                        {{--<p><a href="https://www.atlantatrackclub.org/2018-wingfoot-xc-classic">Wingfoot Classic Meet--}}
+                        {{--Page</a></p>--}}
+                        {{--<p>--}}
+                        {{--<a href="https://dynamix-cdn.s3.amazonaws.com/atlantatrackcluborg/atlantatrackcluborg_558490322.pdf">Meet--}}
+                        {{--Schedule</a></p>--}}
+                        {{--<h4>Milton Invitational</h4>--}}
+                        {{--<p>The team competed at the Milton Invitational for the first time this past Saturday. The--}}
+                        {{--girls varsity, ranked 6th in 7A,--}}
+                        {{--finished 4th out of 14 teams. The Lady Longhorns were once again led by sophomore--}}
+                        {{--standout, <strong>Caroline Gaharan</strong>, who finished 6th overall. <strong>Emily--}}
+                        {{--Chapman</strong> (15th), <strong>Reilly Stevens</strong> (21st), <strong>Caroline--}}
+                        {{--Harris </strong>(25th), and <strong>Brianna O'Neal </strong>(40th) rounded out the--}}
+                        {{--scoring for the team.</p>--}}
 
-                            {{--<p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin--}}
-                            {{--Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>--}}
-                            {{--(12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),--}}
-                            {{--<strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded--}}
-                            {{--out the scoring for the team.</p>--}}
-                            {{--<p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>--}}
-                            {{--<p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>--}}
-                            {{--<h4>2018 Lambert River Run</h4>--}}
-                            {{--<p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>--}}
-                            {{--<p>It was also a great start to the season for our runners. The boys varsity finished 2nd--}}
-                            {{--and were led by sophomore, <strong>Cooper Bocko </strong> (3rd overall, 16:18), junior--}}
-                            {{--<strong>Kyle Parker</strong> (9th, (16:43) and sophomore <strong>Colin Chapman</strong>--}}
-                            {{--(10th, 16:43) who all finished in the top 10. Sophomore <strong>Adam Nicholason</strong>--}}
-                            {{--(14th, 16:53) and junior <strong>Nick White</strong> (22nd, 17:05) round out the scoring--}}
-                            {{--for the Longhorns.</p>--}}
-                            {{--<p>The girls varsity team finished 3rd out of 13 teams and were led by sophomore <strong>Caroline--}}
-                            {{--Gaharan</strong> (3rd, 19:21), sophomore <strong>Emily Chapman </strong>(7th,--}}
-                            {{--19:45), and freshman <strong>Caroline Harris </strong>(8th, 19:49) who also all finished--}}
-                            {{--in the top 10. Junior <strong>Hannah Lee </strong> (20th, 20:48) and senior <strong>Brianna--}}
-                            {{--O'Neal </strong>(28th, 21:02) secured the 3rd place finish for the Lady longhorns.--}}
-                            {{--</p>--}}
-                            {{--<p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>--}}
-                            {{--<h4>Berry College Clara Bowl invitational</h4>--}}
-                            {{--<p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl--}}
-                            {{--Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being--}}
-                            {{--there at least ten minutes prior to that. We should return to the stadium around 1:--}}
-                            {{--pm</p>--}}
-                            {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a>--}}
-                            {{--</p>--}}
-                        </div>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box content events">
-                        <h4>Sign-Up for the 2019 Season</h4>
-                        <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>All new and returning runners will need to officially sign-up for the 2019 season. Signing up
-                            will ensure you are on the email distribution list so you stay informed of team
-                            announcements and events.</p>
-                        <p class="has-text-centered has-text-weight-bold"><a href="https://forms.gle/pMik1h9orLqtaXrX6">2019 Sign-Up Form</a></p>
-                        {{--<h4 class="has-text-centered">Team Results</h4>--}}
-                        {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
-                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>--}}
-                        {{--<h6>Varsity Boys: 2nd</h6>--}}
-                        {{--<h6>Varsity Girls: 3rd</h6>--}}
-                        {{--<h6>JV Boys: 3rd</h6>--}}
-                        {{--<h6>JV Girls: 7th</h6>--}}
+                        {{--<p>The 8th ranked boys varsity finished 6th out 17 teams. Sophomores, <strong>Colin--}}
+                        {{--Chapman </strong>(11h overall) and <strong>Cooper Bocko </strong>--}}
+                        {{--(12th overall) led the way for the Longhorns. <strong>Adam Nicholason</strong> (29th),--}}
+                        {{--<strong>Nick White</strong> (39th), and <strong>Alex Kleckley</strong> (50th) rounded--}}
+                        {{--out the scoring for the team.</p>--}}
+                        {{--<p>In the JV races, <strong>Lindsay Allan</strong>, and <strong>Jack Frager</strong> both easily won the respective races!</p>--}}
+                        {{--<p><a href="http://ga.milesplit.com/meets/292284/results#.W5_PnOhKjic">Milton Invite Results</a></p>--}}
+                        {{--<h4>2018 Lambert River Run</h4>--}}
+                        {{--<p>Thank you to all of the parents that made the 6th annual Lambert River Run a success!</p>--}}
+                        {{--<p>It was also a great start to the season for our runners. The boys varsity finished 2nd--}}
+                        {{--and were led by sophomore, <strong>Cooper Bocko </strong> (3rd overall, 16:18), junior--}}
+                        {{--<strong>Kyle Parker</strong> (9th, (16:43) and sophomore <strong>Colin Chapman</strong>--}}
+                        {{--(10th, 16:43) who all finished in the top 10. Sophomore <strong>Adam Nicholason</strong>--}}
+                        {{--(14th, 16:53) and junior <strong>Nick White</strong> (22nd, 17:05) round out the scoring--}}
+                        {{--for the Longhorns.</p>--}}
+                        {{--<p>The girls varsity team finished 3rd out of 13 teams and were led by sophomore <strong>Caroline--}}
+                        {{--Gaharan</strong> (3rd, 19:21), sophomore <strong>Emily Chapman </strong>(7th,--}}
+                        {{--19:45), and freshman <strong>Caroline Harris </strong>(8th, 19:49) who also all finished--}}
+                        {{--in the top 10. Junior <strong>Hannah Lee </strong> (20th, 20:48) and senior <strong>Brianna--}}
+                        {{--O'Neal </strong>(28th, 21:02) secured the 3rd place finish for the Lady longhorns.--}}
+                        {{--</p>--}}
+                        {{--<p><a href="http://ga.milesplit.com/meets/311292/results#.W4NOCOhKiHs">Meet Results</a></p>--}}
+                        {{--<h4>Berry College Clara Bowl invitational</h4>--}}
+                        {{--<p>Saturday, September 1st, the team will be competing in the Berry College Clara Bowl--}}
+                        {{--Invitational. The bus will depart from the stadium lot at 5:30 am. Please plan on being--}}
+                        {{--there at least ten minutes prior to that. We should return to the stadium around 1:--}}
+                        {{--pm</p>--}}
+                        {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a>--}}
+                        {{--</p>--}}
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box content events">
+                    <h4>Sign-Up for the 2019 Season</h4>
+                    <hr class="my-2" style="border-top: 2px solid #73000A">
+                    <p>All new and returning runners will need to officially sign-up for the 2019 season. Signing up
+                        will ensure you are on the email distribution list so you stay informed of team
+                        announcements and events.</p>
+                    <p class="has-text-centered has-text-weight-bold"><a href="https://forms.gle/pMik1h9orLqtaXrX6">2019 Sign-Up Form</a></p>
+                    {{--<h4 class="has-text-centered">Team Results</h4>--}}
+                    {{--<hr class="my-2" style="border-top: 2px solid #73000A">--}}
+                    {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/311292/results#.W5_YRehKjic">Lambert River Run</a></strong></p>--}}
+                    {{--<h6>Varsity Boys: 2nd</h6>--}}
+                    {{--<h6>Varsity Girls: 3rd</h6>--}}
+                    {{--<h6>JV Boys: 3rd</h6>--}}
+                    {{--<h6>JV Girls: 7th</h6>--}}
 
-                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/319610/results#.W5_Y1-hKjic">Berry Clara Bowl Invite</a></strong></p>--}}
-                        {{--<h6>Varsity Boys: 6th</h6>--}}
-                        {{--<h6>Varsity Girls: 5th</h6>--}}
-                        {{--<h6>JV Boys: 5th</h6>--}}
-                        {{--<h6>JV Girls: 5th</h6>--}}
+                    {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/319610/results#.W5_Y1-hKjic">Berry Clara Bowl Invite</a></strong></p>--}}
+                    {{--<h6>Varsity Boys: 6th</h6>--}}
+                    {{--<h6>Varsity Girls: 5th</h6>--}}
+                    {{--<h6>JV Boys: 5th</h6>--}}
+                    {{--<h6>JV Girls: 5th</h6>--}}
 
-                        {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/292284/results#.W5_ZgOhKjic">Milton Invitational</a></strong></p>--}}
-                        {{--<h6>Varsity Boys: 6th</h6>--}}
-                        {{--<h6>Varsity Girls: 4th</h6>--}}
-                        {{--<h6>JV Boys: 3rd</h6>--}}
-                        {{--<h6>JV Girls: 4th</h6>--}}
-                        {{--<h6>Open Boys: 3rd</h6>--}}
-                        {{--<h6>Open Girls: 5th</h6>--}}
+                    {{--<p class="mb-0"><strong><a href="http://ga.milesplit.com/meets/292284/results#.W5_ZgOhKjic">Milton Invitational</a></strong></p>--}}
+                    {{--<h6>Varsity Boys: 6th</h6>--}}
+                    {{--<h6>Varsity Girls: 4th</h6>--}}
+                    {{--<h6>JV Boys: 3rd</h6>--}}
+                    {{--<h6>JV Girls: 4th</h6>--}}
+                    {{--<h6>Open Boys: 3rd</h6>--}}
+                    {{--<h6>Open Girls: 5th</h6>--}}
 
-                        {{--<p><strong>Saturday, September 1st</strong></p>--}}
-                        {{--<p>Berry College Clara Bowl Invitational</p>--}}
-                        {{--<p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>--}}
-                        {{--<p>We should return to the stadium lot around 1:00 pm.</p>--}}
-                        {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>--}}
-                    </article>
+                    {{--<p><strong>Saturday, September 1st</strong></p>--}}
+                    {{--<p>Berry College Clara Bowl Invitational</p>--}}
+                    {{--<p>The bus will depart from the stadium parking lot at <strong>5:30 am.</strong></p>--}}
+                    {{--<p>We should return to the stadium lot around 1:00 pm.</p>--}}
+                    {{--<p><a href="http://ga.milesplit.com/meets/319610/info#.W4NNKuhKiHs">Clara Bowl Meet Page</a></p>--}}
+                </article>
+            </div>
+        </div>
+        <div class="tile">
+            <div class="tile is-parent">
+                <div class="tile is-child box content">
+                    <h4 class="has-text-centered">2019 Longhorn 5k</h4>
+                    <hr class="my-2" style="border-top: 2px solid #73000A">
+                    <p>Join us for the 11th Annual Longhorn 5K with proceeds benefiting the Longhorn Cross Country team! This year's race will be held along the banks of the Chattahoochee River at Chattahoochee Pointe Park. Packet Pickup will be held on Friday August 9th from 11:00 am - 3:00 pm at North Georgia Running Co. in Cumming, GA, and at race day registration which will begin at 7:00am. Awards to be given include Overall Male/Female and Masters Male/Female, and Age group awards. T-shirts are guaranteed to all runners registering by August 2nd. </p>
+                    <p class="has-text-centered has-text-weight-bold"><a href="https://runsignup.com/Race/GA/Suwanee/Longhorn5K">Online Registration Page</p>
+                    <!-- <p class=" has-text-centered has-text-weight-bold"><a href="https://runsignup.com/Race/Results/47756/#resultSetId-126278"> -->
+                    <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HdUdQQzQ2bEFXZGRKZHZiVno1VkpaSldkYk9F">Registration Form</a></p>            
                 </div>
             </div>
-            <div class="tile">
-                <div class="tile is-parent">
-                    <div class="tile is-child box content">
-                        <h4 class="has-text-centered">2018 Longhorn 5k</h4>
-                        <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>Thank you for making the 10th annual Longhorn 5k a success! We had over 250 participants
-                            including our runners, parents, brothers and sisters, members of the Lambert swim team,
-                            Lambert faculty, and supporters from the community!</p>
-                        <p>Thank you for supporting our program!</p>
-                        <p class="has-text-centered has-text-weight-bold"><a
-                                    href="https://runsignup.com/Race/Results/47756/#resultSetId-126278">
-                                Longhorn 5k Results</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child box content">
-                        <h4 class="has-text-centered">Lambert River Run</h4>
-                        <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>This year's Lambert River Run will take place on Saturday, August 25th.</p>
-                        <p>Last year was a huge success and we are looking forward to some great competition again this
-                            year!</p>
-                        <p class="has-text-centered has-text-weight-bold"><a
-                                    href="http://ga.milesplit.com/meets/311292/info#.WwtxpUgvyHs">Meet Page</a></p>
-                    </div>
+            <div class=" tile is-parent">
+                            <div class="tile is-child box content">
+                                <h4 class="has-text-centered">Lambert River Run</h4>
+                                <hr class="my-2" style="border-top: 2px solid #73000A">
+                                <p>Unfortunately, there will be no Lambert River Run this year because we not longer have access to the park. Thank you to all the teams that have participated in the past.</p>
+                            </div>
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box content">
@@ -178,8 +169,7 @@
                             companies
                             such as yours. As a self funded team, we would like to invite you to become a sponsor for
                             our team. Click on the link below for more information: </p>
-                        <p class="has-text-centered has-text-weight-bold"><a
-                                    href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/file/d/0B8Ca2oFHpw8HY2xXXzlkaW5OMEc1cnAxa3BfSGxScGVFUXZJ/view?usp=sharing">2019
                                 Sponsorship Form</a></p>
                     </div>
                 </div>
@@ -440,7 +430,4 @@
 
 
 
-@endsection
-
-
-
+    @endsection
