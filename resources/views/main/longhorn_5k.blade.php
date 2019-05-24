@@ -8,8 +8,6 @@
 
 <div class="columns">
 	<div class="column is-6 content">
-		<h3 class="has-text-centered">Saturday, August 11th @ Chattahoochee Pointe Park</h3>
-		<hr>
 		<h4 class="has-text-centered">2019 Longhorn 5k</h4>
 		<hr class="my-2" style="border-top: 2px solid #73000A">
 		<p>Join us for the 11th Annual Longhorn 5K with proceeds benefiting the Longhorn Cross Country team! This year's race will be held along the banks of the Chattahoochee River at Chattahoochee Pointe Park. Packet Pickup will be held on Friday August 9th from 11:00 am - 3:00 pm at North Georgia Running Co. in Cumming, GA, and at race day registration which will begin at 7:00am. Awards to be given include Overall Male/Female and Masters Male/Female, and Age group awards. T-shirts are guaranteed to all runners registering by August 2nd. </p>
