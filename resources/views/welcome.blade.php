@@ -139,14 +139,12 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box content">
-                        <h4 class="has-text-centered">2018 Spirit Wear</h4>
+                        <h4 class="has-text-centered">2019 Spirit Wear</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
-                        <p>Spirit wear orders have been placed. They should arrive in the next few weeks.</p>
-                        {{--<p>The 2018 Spirit Wear Flyer is ready for viewing! Please take note that per the order form,--}}
-                        {{--all Spirit Wear orders will need to be turned in by Thursday, August 2nd.</p>--}}
-                        {{--<p class="has-text-centered has-text-weight-bold"><a--}}
-                        {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HWDFZcjhvWW1iS2hWUnV0TVo1UktIeWpVcDBv">2018--}}
-                        {{--Spirit Wear Flyer</a></p>--}}
+                        <p>The 2019 Spirit Wear Flyer is here! Click on the link below to preview the spirit wear items for this season. The order form will be coming soon. </p>                
+                        <p class="has-text-centered has-text-weight-bold"><a
+                        {{--href="https://drive.google.com/file/d/0B8Ca2oFHpw8HWWZhMFBJNmw4aFhTd3dQR2RyT2VjVW9HTlZ3/view?usp=sharing">
+                        Spirit Wear Flyer</a></p>
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
                         {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
                         {{--Spirit Wear Order Form</a></p>--}}
@@ -217,9 +215,10 @@
                         <h6>Sun, May 12th</h6>
                         <h6>All mileage must be logged.</h6>
                         <hr>
-                        <h5>Summer Practice Begins</h5>
-                        <h6>Tues, June 4th</h6>
-                        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
+                        <h5>Summer Practice</h5>
+                        <h6> June 25th - 27th</h6>
+                        <h6><span style="color:#73000a">@ </span>Lambert High School</h6>
+                        <h6><span style="color:#73000a">@ </span>Practice Field</h6>
                         <h6>6:30 - 8:00 am</h6>
                     </div>
                 </div>
