@@ -143,7 +143,7 @@
                         <hr class="my-2" style="border-top: 2px solid #73000A">
                         <p>The 2019 Spirit Wear Flyer is here! Click on the link below to preview the spirit wear items for this season. The order form will be coming soon. </p>                
                         <p class="has-text-centered has-text-weight-bold"><a
-                        {{--href="https://drive.google.com/file/d/0B8Ca2oFHpw8HWWZhMFBJNmw4aFhTd3dQR2RyT2VjVW9HTlZ3/view?usp=sharing">
+                        href="https://drive.google.com/file/d/0B8Ca2oFHpw8HWWZhMFBJNmw4aFhTd3dQR2RyT2VjVW9HTlZ3/view?usp=sharing">
                         Spirit Wear Flyer</a></p>
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
                         {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
