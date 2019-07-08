@@ -145,6 +145,7 @@
                         <p class="has-text-centered has-text-weight-bold"><a
                         href="https://drive.google.com/file/d/0B8Ca2oFHpw8HWWZhMFBJNmw4aFhTd3dQR2RyT2VjVW9HTlZ3/view?usp=sharing">
                         Spirit Wear Flyer</a></p>
+                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMy11YWpBX3RLemZNRDNUWmx6dnJhU2RxcXFN"></a>Order Form</p>
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
                         {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
                         {{--Spirit Wear Order Form</a></p>--}}
@@ -171,7 +172,7 @@
                                 Sponsorship Form</a></p>
                     </div>
                 </div>
-                <div class="tile is-parent">
+                <!-- <div class="tile is-parent">
                     <div class="tile is-child box content">
                         <h4 class="has-text-centered">Forms and Handouts</h4>
                         <hr class="my-2" style="border-top: 2px solid #73000A">
@@ -190,7 +191,7 @@
                         {{--<p><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HSEZXa2puOUQyRTNEVEJqM0dnNmlZb05iVGtj">2018--}}
                         {{--Boathouse Jacket Flyer</a></p>--}}
                     </div>
-                </div>
+                </div> -->
                 <div class="tile is-parent">
                     {{--<div class="tile is-child box content">--}}
                     {{--<h4 class="has-text-centered">Stay Connected</h4>--}}
@@ -216,10 +217,14 @@
                         <h6>All mileage must be logged.</h6>
                         <hr>
                         <h5>Summer Practice</h5>
-                        <h6> June 25th - 27th</h6>
-                        <h6><span style="color:#73000a">@ </span>Lambert High School</h6>
-                        <h6><span style="color:#73000a">@ </span>Practice Field</h6>
+                        <h6> July 9th - 11th</h6>
+                        <h6><span style="color:#73000a">@ </span>Chattahoochee Pointe Park</h6>
                         <h6>6:30 - 8:00 am</h6>
+                        <hr>
+                        <h5>Running Camp</h5>
+                        <h6> July 15th - 19th</h6>
+                        <h6><span style="color:#73000a">@ </span>Berry College</h6>
+                        <h6>No summer practice this week.</h6>
                     </div>
                 </div>
             </div>
