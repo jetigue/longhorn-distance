@@ -145,7 +145,8 @@
                         <p class="has-text-centered has-text-weight-bold"><a
                         href="https://drive.google.com/file/d/0B8Ca2oFHpw8HWWZhMFBJNmw4aFhTd3dQR2RyT2VjVW9HTlZ3/view?usp=sharing">
                         Spirit Wear Flyer</a></p>
-                        <p class="has-text-centered has-text-weight-bold"><a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMy11YWpBX3RLemZNRDNUWmx6dnJhU2RxcXFN"></a>Order Form</p>
+                        <p class="has-text-centered has-text-weight-bold">
+                        <a href="https://drive.google.com/open?id=0B8Ca2oFHpw8HMy11YWpBX3RLemZNRDNUWmx6dnJhU2RxcXFN">Order Form</a></p>
                         {{--<p class="has-text-centered has-text-weight-bold"><a--}}
                         {{--href="https://drive.google.com/open?id=0B8Ca2oFHpw8HR3Q0aDN5czFqeXJwYWZvcHM2dzZIN1RpUERV">2018--}}
                         {{--Spirit Wear Order Form</a></p>--}}
